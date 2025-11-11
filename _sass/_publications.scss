@@ -1,0 +1,26 @@
+// 내 이름 강조
+.publications {
+  em.me {
+    color: #7b27d8 !important; // 보라색
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  // 저널 정보 스타일
+  .note {
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 0.85em;
+    color: #666;
+    background: #f0f0f0;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-weight: 500;
+  }
+  
+  // Q1 배지 특별 스타일
+  .note:contains("Q1") {
+    background: #e3f2fd;
+    color: #1565c0;
+  }
+}
