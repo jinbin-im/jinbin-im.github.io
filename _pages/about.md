@@ -37,7 +37,7 @@ latest_posts: false
 - Human responses
 - Extended Reality, such as virtual reality (VR) and mixed reality (MR)
 - Spatial design automation
-- 
+
 **Skills**
 **Programming**: Python, R
 **ML/AI**: PyTorch, TensorFlow, BERT, RoBERTa, Transformer  
@@ -45,19 +45,35 @@ latest_posts: false
 
 **Current Under Review Papers**
 
-**Im, J. B.†**, Ahn, C.†, Lee, S. Y., Yoo, Y., & Kim, J. H.* (2025). Techno-Economic Feasibility of e-Methanol System fueled by CO2 and Green Hydrogen with Policy Pathways to Competitiveness. Energy Policy, Elsevier, (Co-First Author) (Under Review). 
+<div style="font-size: 0.85em; line-height: 1.5;">
 
-Lee, K. T., **Im, J. B.**, Hong, R. L., & Kim, J. H.* (2025). Enhancing Retrieval-Augmented Generation Performance through Network Analysis of Question Types in Public Procurement Law. Journal of Management in Engineering, ASCE, (Under Review).
+**Im, J. B.†**, Ahn, C.†, Lee, S. Y., Yoo, Y., & Kim, J. H.* (2025). Techno-Economic Feasibility of e-Methanol System fueled by CO2 and Green Hydrogen with Policy Pathways to Competitiveness. *Energy Policy*, Elsevier, (Co-First Author) (Under Review).
 
-**Im, J. B.**, Lee, K. T. & Kim, J. H.* (2025). Effects of Visualization Quality on Occupant Responses in Immersive Design Review Environments. Developments in the Built Environment, Elsevier, (Under Review).
+<br>
 
-Ochirsuren, N., Kye, Y. S., **Im, J. B.**, Zhang, E., & Lee, K. T., Kim, J. H.* (2025). Effect of Changing Sequence in Semi-Top-Down Construction Works to Optimize Time and Cost: A Case Study on Korean Apartment Projects, Engineering, Construction and Architectural Management, Emerald, (Under Review).
+Lee, K. T., **Im, J. B.**, Hong, R. L., & Kim, J. H.* (2025). Enhancing Retrieval-Augmented Generation Performance through Network Analysis of Question Types in Public Procurement Law. *Journal of Management in Engineering*, ASCE, (Under Review).
 
-Shin, S. H., **Im, J. B.**, Choi, H., Kim, J. H., & Lee, K. T.* (2025). AI-Based Approach to International Market Selection Models Considering Construction Factors: A Case Study of Indian Firms, Journal of Civil Engineering and Management, Vilnius Tech. Press, (Under Review).
+<br>
 
-Hong, R. L., **Im, J. B.**, Kang, H. G., & Kim, J. H.* (2025). Prediction of structural frame works safety and health management expenses in apartment construction projects by introducing interpretable machine learning, Engineering, Construction, and Architectural Management, Emerald, (Under Review).
+**Im, J. B.**, Lee, K. T. & Kim, J. H.* (2025). Effects of Visualization Quality on Occupant Responses in Immersive Design Review Environments. *Developments in the Built Environment*, Elsevier, (Under Review).
 
-Hong, R. L., Yoon, J. H., **Im, J. B.**, & Kim, J. H.* (2025). Prediction of Actual Safety and Health Management Expenses for Water Supply System Construction Projects in Korea through Machine Learning. Journal of Civil Engineering and Management, Vilnius Tech. Press, (Under Review).
+<br>
+
+Ochirsuren, N., Kye, Y. S., **Im, J. B.**, Zhang, E., & Lee, K. T., Kim, J. H.* (2025). Effect of Changing Sequence in Semi-Top-Down Construction Works to Optimize Time and Cost: A Case Study on Korean Apartment Projects, *Engineering, Construction and Architectural Management*, Emerald, (Under Review).
+
+<br>
+
+Shin, S. H., **Im, J. B.**, Choi, H., Kim, J. H., & Lee, K. T.* (2025). AI-Based Approach to International Market Selection Models Considering Construction Factors: A Case Study of Indian Firms, *Journal of Civil Engineering and Management*, Vilnius Tech. Press, (Under Review).
+
+<br>
+
+Hong, R. L., **Im, J. B.**, Kang, H. G., & Kim, J. H.* (2025). Prediction of structural frame works safety and health management expenses in apartment construction projects by introducing interpretable machine learning, *Engineering, Construction, and Architectural Management*, Emerald, (Under Review).
+
+<br>
+
+Hong, R. L., Yoon, J. H., **Im, J. B.**, & Kim, J. H.* (2025). Prediction of Actual Safety and Health Management Expenses for Water Supply System Construction Projects in Korea through Machine Learning. *Journal of Civil Engineering and Management*, Vilnius Tech. Press, (Under Review).
+
+</div>
 
 
 ## Education
