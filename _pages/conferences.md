@@ -11,10 +11,6 @@ nav_order: 3
 
 <!-- Bibsearch Feature -->
 
-{% include bib_search.liquid %}
-
-<div class="conferences">
-
-{% bibliography %}
-
+<div class="publications">
+  {% bibliography --file conferences --template bib_conference %}
 </div>
