@@ -16,7 +16,7 @@ profile:
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
-## Education
+Education 
 
 **Ph.D. in Construction Management**  
 Hanyang University, South Korea | 2026
@@ -27,7 +27,7 @@ Hanyang University, South Korea | 2022
 **B.S.E. in Interior Architecture Design**  
 Hanyang University, South Korea | 2020
 
-## Research Experience
+Research Experience
 
 **Research Manager**  
 Client Briefing and Program Management Lab | extended reality and occupant behavior
