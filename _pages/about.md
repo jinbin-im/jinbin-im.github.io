@@ -122,6 +122,7 @@ I am a Ph.D. candidate in Architectural Engineering at Hanyang University, where
   padding: 4px 10px;
   border-radius: 12px;
   white-space: nowrap;
+  font-weight: 600;
 }
 
 /* 역할별 색상 */
@@ -131,10 +132,12 @@ I am a Ph.D. candidate in Architectural Engineering at Hanyang University, where
 
 .role-participant {
   background: #d9b7f2; /* 청록색 */
+  color: #333;
 }
 
 .role-student {
   background: #efe7fb; /* 회색 */
+  color: #333;
 }
 
 .research-year {
