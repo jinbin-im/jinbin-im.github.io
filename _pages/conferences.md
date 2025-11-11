@@ -8,60 +8,24 @@ nav_order: 3
 ---
 
 <style>
-.year-group {
-  margin-bottom: 3rem;
+.conf-location {
+  display: inline-block;
+  background: #7b27d8;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-left: 10px;
 }
 
-.year-title {
-  font-size: 2rem;
-  font-weight: 300;
-  color: #ccc;
-  text-align: right;
-  margin-bottom: 2rem;
+.conf-title a {
+  color: inherit;
+  text-decoration: none;
 }
 
-.conf-group {
-  display: flex;
-  margin-bottom: 2rem;
-  padding: 1.5rem;
-  background: #f8f9fa;
-  border-left: 4px solid #7b27d8;
-  border-radius: 8px;
-  gap: 1.5rem;
-  align-items: flex-start;
-}
-
-.conf-group-logo {
-  flex-shrink: 0;
-  width: 120px;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.conf-group-content {
-  flex: 1;
-}
-
-.conf-group-title {
-  font-size: 1.2rem;
-  font-weight: 600;
+.conf-title a:hover {
   color: #7b27d8;
-  margin-bottom: 1.5rem;
-}
-
-@media (max-width: 768px) {
-  .conf-group {
-    flex-direction: column;
-  }
-  
-  .conf-group-logo {
-    width: 100%;
-    height: 100px;
-  }
 }
 </style>
 
