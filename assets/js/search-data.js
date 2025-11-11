@@ -417,13 +417,13 @@ ninja.data = [{
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-development-of-decision-making-framework-to-support-personalized-spatial-composition-based-on-temperament-perception-and-bio-markers-applying-digital-twin",
+          title: 'Development of Decision-making Framework to Support Personalized Spatial Composition based on Temperament, Perception...',
+          description: "another without an image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
+            },},{id: "projects-study-on-quality-control-of-educational-facilities-using-virtual-environments",
+          title: 'Study on Quality Control of Educational Facilities using Virtual Environments.',
           description: "a project with a background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
