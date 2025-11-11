@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Department of Architectural Engineering.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: portrait.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>611-2, Science and Technology Bd.</p>
@@ -14,13 +14,23 @@ profile:
     <p>Seoul, South Korea 04763</p>
 ---
 
-**Jin-Bin Im is a Ph.D.** candidate at Hanyang University, Architectural Engineering . He is a graduate research assistant at the Client Briefing and Program Management (CB&PM) Lab. He earned a Master's degree in Architectural Engineering (2022) from the same institution, and B.S. in Interior Architecture Design (2020) from Hanyang University, South Korea.
+**Jin-Bin Im** is a Ph.D. candidate at Hanyang University, Architectural Engineering . He is a graduate research assistant at the Client Briefing and Program Management (CB&PM) Lab. He earned a Master's degree in Architectural Engineering (2022) from the same institution, and B.S. in Interior Architecture Design (2020) from Hanyang University, South Korea.
 
 **Research Interest**
 - User-centered design
 - Human responses
 - Extended Reality, such as virtual reality (VR) and mixed reality (MR)
 - Spatial design automation
+
+**Current Under Review Papers**
+**Im, J. B.†**, Ahn, C.†, Lee, S. Y., Yoo, Y., & Kim, J. H.* (2025). Techno-Economic Feasibility of e-Methanol System fueled by CO2 and Green Hydrogen with Policy Pathways to Competitiveness. Energy Policy, Elsevier, (Co-First Author) (Under Review). 
+Lee, K. T., **Im, J. B.**, Hong, R. L., & Kim, J. H.* (2025). Enhancing Retrieval-Augmented Generation Performance through Network Analysis of Question Types in Public Procurement Law. Journal of Management in Engineering, ASCE, (Under Review).
+**Im, J. B.**, Lee, K. T. & Kim, J. H.* (2025). Effects of Visualization Quality on Occupant Responses in Immersive Design Review Environments. Developments in the Built Environment, Elsevier, (Under Review).
+Ochirsuren, N., Kye, Y. S., **Im, J. B.**, Zhang, E., & Lee, K. T., Kim, J. H.* (2025). Effect of Changing Sequence in Semi-Top-Down Construction Works to Optimize Time and Cost: A Case Study on Korean Apartment Projects, Engineering, Construction and Architectural Management, Emerald, (Under Review).
+Shin, S. H., **Im, J. B.**, Choi, H., Kim, J. H., & Lee, K. T.* (2025). AI-Based Approach to International Market Selection Models Considering Construction Factors: A Case Study of Indian Firms, Journal of Civil Engineering and Management, Vilnius Tech. Press, (Under Review).
+Hong, R. L., **Im, J. B.**, Kang, H. G., & Kim, J. H.* (2025). Prediction of structural frame works safety and health management expenses in apartment construction projects by introducing interpretable machine learning, Engineering, Construction, and Architectural Management, Emerald, (Under Review).
+Hong, R. L., Yoon, J. H., **Im, J. B.**, & Kim, J. H.* (2025). Prediction of Actual Safety and Health Management Expenses for Water Supply System Construction Projects in Korea through Machine Learning. Journal of Civil Engineering and Management, Vilnius Tech. Press, (Under Review).
+
 
 ## Education
 
@@ -82,20 +92,26 @@ Hanyang University, South Korea | 2020
     </tr>
   </table>
 </div>
-- 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
 
 ## Teaching
 
 **Teaching Fellow**  
-- Computer Engineering (2024--2026)
-- Architectural Engineering Capstone PBL (Fall 2025)
+<div style="margin-left: 20px;">
+  <table style="width: 100%; border: none;">
+    <tr>
+      <td style="border: none; padding: 5px 10px 5px 0;">Computer Engineering</td>
+      <td style="border: none; padding: 5px 0; text-align: right; white-space: nowrap;">Spring 2024, 2025, 2026</td>
+    </tr>
+    <tr>
+      <td style="border: none; padding: 5px 10px 5px 0;">Architectural Engineering Capstone PBL</td>
+      <td style="border: none; padding: 5px 0; text-align: right; white-space: nowrap;">Fall 2025</td>
+    </tr>
+  </table>
+</div>
+
 
 ## Skills
 
-**Programming**: Python, R, JavaScript  
-**ML/AI**: PyTorch, TensorFlow, BERT, RoBERTa  
-**Tools**: QGIS, Revit, AutoCAD, PostGIS
-
-
+**Programming**: Python, R
+**ML/AI**: PyTorch, TensorFlow, BERT, RoBERTa, Transformer  
+**Tools**: QGIS, Revit, AutoCAD, PostGIS, enscape
