@@ -72,7 +72,7 @@
       <div class="title">{{entry.title}}</div>
       <div class="author">
         {% assign author_array_size = entry.author_array | size %}
-        {% assign author_array_limit = author_array_size | minus: 1 %}
+        {% assign author_array_limit = author_array_size %}
         
         {%- for author in entry.author_array limit: author_array_limit -%}
           {%- assign author_is_self = false -%}
