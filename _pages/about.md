@@ -19,12 +19,12 @@ profile:
       <a href="https://www.linkedin.com/in/jin-bin-im-5aa3b2343/" target="_blank" style="margin: 0 10px;">
         <i class="fab fa-linkedin ai-2x"></i>
       </a>
-      <a href="/assets/pdf/CV.pdf" target="_blank" style="margin: 0 10px;">
+      <a href="/assets/pdf/jinbin_im_CV.pdf" target="_blank" style="margin: 0 10px;">
         <i class="ai ai-cv ai-2x"></i>
       </a>
     </div>
 
-selected_papers: true
+selected_papers: false
 social: false  # 위에서 직접 추가했으므로 false
 news: false
 latest_posts: false
@@ -32,21 +32,21 @@ latest_posts: false
 
 **Jin-Bin Im** is a Ph.D. candidate at Hanyang University, Architectural Engineering . He is a graduate research assistant at the Client Briefing and Program Management (CB&PM) Lab. He earned a Master's degree in Architectural Engineering (2022) from the same institution, and B.S. in Interior Architecture Design (2020) from Hanyang University, South Korea.
 
-## Research Interest
+**Research Interest**
 
 - User-centered design
 - Human responses
 - Extended Reality, such as virtual reality (VR) and mixed reality (MR)
 - Spatial design automation
 
-## Skills
+**Skills**
 
 **Programming**: Python, R, JavaScript  
 **ML/AI**: PyTorch, TensorFlow, BERT, RoBERTa  
 **Tools**: QGIS, Revit, AutoCAD, PostGIS, enscape
 ---
 
-## Current Under Review Papers
+**Current Under Review Papers**
 
 <div style="font-size: 0.88em; line-height: 1.6; margin-bottom: 30px;">
 
@@ -98,7 +98,7 @@ Hong, R. L., Yoon, J. H., **Im, J. B.**, & Kim, J. H.* (2025). Prediction of Act
 
 ## Research Experience
 
-### Research Manager
+**Research Manager**
 *Client Briefing and Program Management Lab | extended reality and occupant behavior*
 
 <div style="margin-left: 20px; margin-top: 15px; margin-bottom: 25px;">
@@ -112,7 +112,7 @@ Hong, R. L., Yoon, J. H., **Im, J. B.**, & Kim, J. H.* (2025). Prediction of Act
   </div>
 </div>
 
-### Research Participant
+**Research Participant**
 *Client Briefing and Program Management Lab | construction management and on-site quality control*
 
 <div style="margin-left: 20px; margin-top: 15px; margin-bottom: 25px;">
@@ -130,7 +130,7 @@ Hong, R. L., Yoon, J. H., **Im, J. B.**, & Kim, J. H.* (2025). Prediction of Act
   </div>
 </div>
 
-### Research Student
+**Research Student**
 *Department of Interior Architecture Design | data collection and analysis*
 
 <div style="margin-left: 20px; margin-top: 15px; margin-bottom: 25px;">
@@ -144,7 +144,7 @@ Hong, R. L., Yoon, J. H., **Im, J. B.**, & Kim, J. H.* (2025). Prediction of Act
 
 ## Teaching
 
-### Teaching Fellow
+**Teaching Fellow**
 
 <div style="margin-left: 20px; margin-top: 15px;">
   <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
