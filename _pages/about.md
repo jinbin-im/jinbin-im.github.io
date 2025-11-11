@@ -32,123 +32,129 @@ latest_posts: false
 
 **Jin-Bin Im** is a Ph.D. candidate at Hanyang University, Architectural Engineering . He is a graduate research assistant at the Client Briefing and Program Management (CB&PM) Lab. He earned a Master's degree in Architectural Engineering (2022) from the same institution, and B.S. in Interior Architecture Design (2020) from Hanyang University, South Korea.
 
-**Research Interest**
+## Research Interest
+
 - User-centered design
 - Human responses
 - Extended Reality, such as virtual reality (VR) and mixed reality (MR)
 - Spatial design automation
 
-**Skills**
-**Programming**: Python, R
-**ML/AI**: PyTorch, TensorFlow, BERT, RoBERTa, Transformer  
-**Tools**: QGIS, Revit, AutoCAD, PostGIS, enscape
+## Skills
 
-**Current Under Review Papers**
+**Programming**: Python, R, JavaScript  
+**ML/AI**: PyTorch, TensorFlow, BERT, RoBERTa  
+**Tools**: QGIS, Revit, AutoCAD, PostGIS
+---
 
-<div style="font-size: 0.85em; line-height: 1.5;">
+## Current Under Review Papers
+
+<div style="font-size: 0.88em; line-height: 1.6; margin-bottom: 30px;">
 
 **Im, J. B.†**, Ahn, C.†, Lee, S. Y., Yoo, Y., & Kim, J. H.* (2025). Techno-Economic Feasibility of e-Methanol System fueled by CO2 and Green Hydrogen with Policy Pathways to Competitiveness. *Energy Policy*, Elsevier, (Co-First Author) (Under Review).
 
-<br>
-
 Lee, K. T., **Im, J. B.**, Hong, R. L., & Kim, J. H.* (2025). Enhancing Retrieval-Augmented Generation Performance through Network Analysis of Question Types in Public Procurement Law. *Journal of Management in Engineering*, ASCE, (Under Review).
-
-<br>
 
 **Im, J. B.**, Lee, K. T. & Kim, J. H.* (2025). Effects of Visualization Quality on Occupant Responses in Immersive Design Review Environments. *Developments in the Built Environment*, Elsevier, (Under Review).
 
-<br>
+Ochirsuren, N., Kye, Y. S., **Im, J. B.**, Zhang, E., & Lee, K. T., Kim, J. H.* (2025). Effect of Changing Sequence in Semi-Top-Down Construction Works to Optimize Time and Cost: A Case Study on Korean Apartment Projects. *Engineering, Construction and Architectural Management*, Emerald, (Under Review).
 
-Ochirsuren, N., Kye, Y. S., **Im, J. B.**, Zhang, E., & Lee, K. T., Kim, J. H.* (2025). Effect of Changing Sequence in Semi-Top-Down Construction Works to Optimize Time and Cost: A Case Study on Korean Apartment Projects, *Engineering, Construction and Architectural Management*, Emerald, (Under Review).
+Shin, S. H., **Im, J. B.**, Choi, H., Kim, J. H., & Lee, K. T.* (2025). AI-Based Approach to International Market Selection Models Considering Construction Factors: A Case Study of Indian Firms. *Journal of Civil Engineering and Management*, Vilnius Tech. Press, (Under Review).
 
-<br>
-
-Shin, S. H., **Im, J. B.**, Choi, H., Kim, J. H., & Lee, K. T.* (2025). AI-Based Approach to International Market Selection Models Considering Construction Factors: A Case Study of Indian Firms, *Journal of Civil Engineering and Management*, Vilnius Tech. Press, (Under Review).
-
-<br>
-
-Hong, R. L., **Im, J. B.**, Kang, H. G., & Kim, J. H.* (2025). Prediction of structural frame works safety and health management expenses in apartment construction projects by introducing interpretable machine learning, *Engineering, Construction, and Architectural Management*, Emerald, (Under Review).
-
-<br>
+Hong, R. L., **Im, J. B.**, Kang, H. G., & Kim, J. H.* (2025). Prediction of structural frame works safety and health management expenses in apartment construction projects by introducing interpretable machine learning. *Engineering, Construction, and Architectural Management*, Emerald, (Under Review).
 
 Hong, R. L., Yoon, J. H., **Im, J. B.**, & Kim, J. H.* (2025). Prediction of Actual Safety and Health Management Expenses for Water Supply System Construction Projects in Korea through Machine Learning. *Journal of Civil Engineering and Management*, Vilnius Tech. Press, (Under Review).
 
 </div>
 
+---
 
 ## Education
 
-**Ph.D. in Construction Management**  
-Hanyang University, South Korea | 2026
+<div style="margin-bottom: 25px;">
+  <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+    <strong>Ph.D. in Construction Management</strong>
+    <span style="white-space: nowrap;">2026</span>
+  </div>
+  <div style="color: #666; margin-left: 0;">Hanyang University, South Korea</div>
+</div>
 
-**Master of Architectural Engineering**  
-Hanyang University, South Korea | 2022
+<div style="margin-bottom: 25px;">
+  <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+    <strong>Master of Architectural Engineering</strong>
+    <span style="white-space: nowrap;">2022</span>
+  </div>
+  <div style="color: #666; margin-left: 0;">Hanyang University, South Korea</div>
+</div>
 
-**B.S.E. in Interior Architecture Design**  
-Hanyang University, South Korea | 2020
+<div style="margin-bottom: 25px;">
+  <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+    <strong>B.S.E. in Interior Architecture Design</strong>
+    <span style="white-space: nowrap;">2020</span>
+  </div>
+  <div style="color: #666; margin-left: 0;">Hanyang University, South Korea</div>
+</div>
+
+---
 
 ## Research Experience
 
-**Research Manager**  
+### Research Manager
 *Client Briefing and Program Management Lab | extended reality and occupant behavior*
 
-<div style="margin-left: 20px;">
-  <table style="width: 100%; border: none;">
-    <tr>
-      <td style="border: none; padding: 5px 10px 5px 0;">Study on Quality Control of Educational Facilities using Virtual Environments</td>
-      <td style="border: none; padding: 5px 0; text-align: right; white-space: nowrap;">2023–2024</td>
-    </tr>
-    <tr>
-      <td style="border: none; padding: 5px 10px 5px 0;">Development of Decision-making Framework to Support Personalized Spatial Composition based on Temperament, Perception and Bio-markers Applying Digital Twin</td>
-      <td style="border: none; padding: 5px 0; text-align: right; white-space: nowrap;">2021–2024</td>
-    </tr>
-  </table>
+<div style="margin-left: 20px; margin-top: 15px; margin-bottom: 25px;">
+  <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
+    <span>Study on Quality Control of Educational Facilities using Virtual Environments</span>
+    <span style="margin-left: 20px; white-space: nowrap; color: #666;">2023–2024</span>
+  </div>
+  <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
+    <span>Development of Decision-making Framework to Support Personalized Spatial Composition based on Temperament, Perception and Bio-markers Applying Digital Twin</span>
+    <span style="margin-left: 20px; white-space: nowrap; color: #666;">2021–2024</span>
+  </div>
 </div>
 
-**Research Participant**  
+### Research Participant
 *Client Briefing and Program Management Lab | construction management and on-site quality control*
 
-<div style="margin-left: 20px;">
-  <table style="width: 100%; border: none;">
-    <tr>
-      <td style="border: none; padding: 5px 10px 5px 0;">Development of Artificial Intelligence-based Real-Time Construction Quality Management System</td>
-      <td style="border: none; padding: 5px 0; text-align: right; white-space: nowrap;">2024–2026</td>
-    </tr>
-    <tr>
-      <td style="border: none; padding: 5px 10px 5px 0;">Construction Quality Control using Digital Twin Technology</td>
-      <td style="border: none; padding: 5px 0; text-align: right; white-space: nowrap;">2021–2022</td>
-    </tr>
-    <tr>
-      <td style="border: none; padding: 5px 10px 5px 0;">Establishment of Standard Guidelines for Daycare Centers in Police Stations</td>
-      <td style="border: none; padding: 5px 0; text-align: right; white-space: nowrap;">2021</td>
-    </tr>
-  </table>
+<div style="margin-left: 20px; margin-top: 15px; margin-bottom: 25px;">
+  <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
+    <span>Development of Artificial Intelligence-based Real-Time Construction Quality Management System</span>
+    <span style="margin-left: 20px; white-space: nowrap; color: #666;">2024–2026</span>
+  </div>
+  <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
+    <span>Construction Quality Control using Digital Twin Technology</span>
+    <span style="margin-left: 20px; white-space: nowrap; color: #666;">2021–2022</span>
+  </div>
+  <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
+    <span>Establishment of Standard Guidelines for Daycare Centers in Police Stations</span>
+    <span style="margin-left: 20px; white-space: nowrap; color: #666;">2021</span>
+  </div>
 </div>
 
-**Research Student**  
+### Research Student
 *Department of Interior Architecture Design | data collection and analysis*
 
-<div style="margin-left: 20px;">
-  <table style="width: 100%; border: none;">
-    <tr>
-      <td style="border: none; padding: 5px 10px 5px 0;">Spatial Preference Modeling based on Immersive Virtual Environment and Choice Modeling Theory</td>
-      <td style="border: none; padding: 5px 0; text-align: right; white-space: nowrap;">2019</td>
-    </tr>
-  </table>
+<div style="margin-left: 20px; margin-top: 15px; margin-bottom: 25px;">
+  <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
+    <span>Spatial Preference Modeling based on Immersive Virtual Environment and Choice Modeling Theory</span>
+    <span style="margin-left: 20px; white-space: nowrap; color: #666;">2019</span>
+  </div>
 </div>
+
+---
 
 ## Teaching
 
-**Teaching Fellow**  
-<div style="margin-left: 20px;">
-  <table style="width: 100%; border: none;">
-    <tr>
-      <td style="border: none; padding: 5px 10px 5px 0;">Computer Engineering</td>
-      <td style="border: none; padding: 5px 0; text-align: right; white-space: nowrap;">Spring 2024, 2025, 2026</td>
-    </tr>
-    <tr>
-      <td style="border: none; padding: 5px 10px 5px 0;">Architectural Engineering Capstone PBL</td>
-      <td style="border: none; padding: 5px 0; text-align: right; white-space: nowrap;">Fall 2025</td>
-    </tr>
-  </table>
+### Teaching Fellow
+
+<div style="margin-left: 20px; margin-top: 15px;">
+  <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
+    <span>Computer Engineering</span>
+    <span style="margin-left: 20px; white-space: nowrap; color: #666;">Spring 2024, 2025, 2026</span>
+  </div>
+  <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
+    <span>Architectural Engineering Capstone PBL</span>
+    <span style="margin-left: 20px; white-space: nowrap; color: #666;">Fall 2025</span>
+  </div>
 </div>
+
+---
