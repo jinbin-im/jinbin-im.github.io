@@ -35,11 +35,11 @@ I am a Ph.D. candidate in Architectural Engineering at Hanyang University, where
 
 **Research Interests**
 
-<div>
-<p>- <strong>Human–Computer Interaction and Affective Computing:</strong> Natural Language Processing, Large Language Models, Multi-Agents, Emotion Recognition, and Cognitive Response Analysis.</p>
-<p>- <strong>Immersive Environments:</strong> Extended Reality (Virtual and Mixed Reality) for spatial experience and behavioral assessment.</p>
-<p>- <strong>Design Intelligence:</strong> User Requirements, Design Communication, Knowledge Asymmetry, Design Automation, and Occupant Satisfaction.</p>
-</div>
+
+- **Human–Computer Interaction:** Natural Language Processing, Large Language Models, Multi-Agents, Emotion Recognition, and Cognitive Response Analysis.
+- **Immersive Environments:** Extended Reality (Virtual and Mixed Reality) for spatial experience and behavioral assessment.
+- **Design Intelligence:** User Requirements, Design Communication, Knowledge Asymmetry, Design Automation, and Occupant Satisfaction.
+
 
 **Academic Services**
 - Reviewer, Building and Environment 
