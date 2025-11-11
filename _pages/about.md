@@ -209,7 +209,7 @@ latest_posts: false
   <div class="research-card">
     <div class="research-header">
       <span class="research-role role-participant">Research Participant</span>
-      <span class="research-year">2024–2026</span>
+      <span class="research-year">2024–On going</span>
     </div>
     <div class="research-title">
       Development of Artificial Intelligence-based Real-Time Construction Quality Management System
