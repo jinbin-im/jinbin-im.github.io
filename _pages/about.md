@@ -11,19 +11,19 @@ profile:
   more_info: >
     <div style="display: flex; justify-content: center; align-items: center; gap: 14px; margin-top: 15px; flex-wrap: nowrap;">
       <a href="https://scholar.google.com/citations?user=fBEZousAAAAJ" target="_blank" style="color: inherit;">
-        <i class="ai ai-google-scholar" style="font-size: 1.6em;"></i>
+        <i class="ai ai-google-scholar" style="margin: 0 10px;"></i>
       </a>
       <a href="https://www.researchgate.net/profile/Im-Jinbin?ev=hdr_xprf" target="_blank" style="color: inherit;">
-        <i class="ai ai-researchgate" style="font-size: 1.6em;"></i>
+        <i class="ai ai-researchgate" style="margin: 0 10px;"></i>
       </a>
       <a href="https://www.linkedin.com/in/jin-bin-im-5aa3b2343/" target="_blank" style="color: inherit;">
-        <i class="fab fa-linkedin" style="font-size: 1.6em;"></i>
+        <i class="fab fa-linkedin" style="margin: 0 10px;"></i>
       </a>
       <a href="/assets/pdf/jinbin_im_CV.pdf" target="_blank" style="color: inherit;">
-        <i class="ai ai-cv" style="font-size: 1.6em;"></i>
+        <i class="ai ai-cv" style="margin: 0 10px;"></i>
       </a>
       <a href="mailto:jbim0202@hanyang.ac.kr" target="_blank" style="color: inherit;">
-        <i class="fas fa-envelope" style="font-size: 1.6em;"></i>
+        <i class="fas fa-envelope" style="margin: 0 10px;"></i>
       </a>
     </div>
 
