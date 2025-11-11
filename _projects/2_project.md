@@ -5,6 +5,7 @@ description: a project with a background image and giscus comments
 img: assets/img/3.jpg
 importance: 2
 category: Construction Management
+tags: [Construction Management, Guideline, Stakeholders]
 giscus_comments: true
 ---
 
