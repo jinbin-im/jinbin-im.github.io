@@ -108,7 +108,7 @@ nav_order: 3
     <div class="conf-group-content">
       <div class="conf-group-title">International Conference on Construction Engineering and Project Management 2024</div>
       <div class="publications">
-        {% bibliography --file conferences --template bib_conference --query @*[year=2024 && booktitle ~= ISARC] %}
+        {% bibliography --file conferences --template bib_conference --query @*[year=2024 && booktitle ~= ICCEPM] %}
       </div>
     </div>
   </div>
