@@ -11,11 +11,11 @@ horizontal: true
 <!-- Tag filters -->
 <div class="project-tags" style="margin-bottom: 30px;">
   <button class="btn btn-sm btn-primary tag-btn active" data-tag="all">All</button>
-  <button class="btn btn-sm btn-outline-primary tag-btn" data-tag="Extended Reality">Climate-Displacement</button>
-  <button class="btn btn-sm btn-outline-primary tag-btn" data-tag="Human Centered Design">Computer-Vision</button>
-  <button class="btn btn-sm btn-outline-primary tag-btn" data-tag="Communication">Urban-Sensing</button>
-  <button class="btn btn-sm btn-outline-primary tag-btn" data-tag="Physiology">LLM</button>
-  <button class="btn btn-sm btn-outline-primary tag-btn" data-tag="ML/AI">Teleworking</button>
+  <button class="btn btn-sm btn-outline-primary tag-btn" data-tag="Extended Reality">Extended Reality</button>
+  <button class="btn btn-sm btn-outline-primary tag-btn" data-tag="Human Centered Design">Human Centered Design</button>
+  <button class="btn btn-sm btn-outline-primary tag-btn" data-tag="Communication">Communication</button>
+  <button class="btn btn-sm btn-outline-primary tag-btn" data-tag="Physiology">Physiology</button>
+  <button class="btn btn-sm btn-outline-primary tag-btn" data-tag="ML/AI">ML/AI</button>
   <!-- 나머지 태그들... -->
 </div>
 
