@@ -96,5 +96,5 @@ social: false # includes social icons at the bottom of the page
 **Programming**: Python, R, JavaScript  
 **ML/AI**: PyTorch, TensorFlow, BERT, RoBERTa  
 **Tools**: QGIS, Revit, AutoCAD, PostGIS
----
+
 
