@@ -5,6 +5,7 @@ description: a project with a background image
 img: assets/img/1.jpg
 importance: 3
 category: Built Environment
+tags: [Extended Reality, Human Centered Design, Visualization, Physiology]
 ---
 
 Every project has a beautiful feature showcase page.
