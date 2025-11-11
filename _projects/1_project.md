@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
+title: Spatial Preference Modeling based on Immersive Virtual Environment and Choice Modeling Theory. 
 description: with background image
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: Built Environment
 related_publications: true
 ---
 
