@@ -16,38 +16,81 @@
 .pub-year {
   color: #555 !important;
 }
+
+/* 컨퍼런스 그룹 스타일 */
+.conf-group {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.conf-group-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #ddd;
+}
+
+.conf-location {
+  display: inline-block;
+  background: #7b27d8;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+/* Abstract/Bibtex 토글 스타일 */
+.abstract.hidden,
+.bibtex.hidden {
+  display: none;
+}
+
+.abstract,
+.bibtex {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-left: 3px solid #7b27d8;
+  border-radius: 4px;
+}
 </style>
 
 <div class="conf-item mb-4 pb-3">
   {%- assign conf_name = entry.booktitle | default: entry.series | default: entry.journal -%}
   {%- assign conf_loc  = entry.location | default: entry.address -%}
-  {%- assign year_txt  = entry.year -%}
 
-  <!-- 상단 3분할: 연도 / 컨퍼런스 이름 / 지역 -->
+  <!-- 상단: 컨퍼런스 이름 + 지역 (연도 제거) -->
   <div class="conf-meta d-flex flex-wrap align-items-center mb-2">
-    <span class="conf-year badge mr-2">{{ year_txt }}</span>
     <span class="conf-name flex-grow-1 px-2 py-1">{{ conf_name }}</span>
-    {% if conf_loc %}<span class="conf-loc badge ml-2">{{ conf_loc }}</span>{% endif %}
+    {% if conf_loc %}
+      <span class="conf-location">📍 {{ conf_loc }}</span>
+    {% endif %}
   </div>
 
   <!-- 제목 -->
   <div class="conf-title h5 mb-1">{{ entry.title }}</div>
 
-  <!-- 저자 (al-folio 기본 규칙+윗첨자 대응) -->
+  <!-- 저자 -->
   <div class="conf-authors mb-2">
     {% assign author_array_size = entry.author_array | size %}
-    {% assign author_array_limit = author_array_size %}
-    {% for author in entry.author_array limit: author_array_limit %}
-      {% assign author_is_self = false %}
-      {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
-      {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
-
-      {% if site.scholar.last_name contains author_last_name and site.scholar.first_name contains author.first %}
-        {% assign author_is_self = true %}
-      {% endif %}
+    {% for author in entry.author_array %}
+      {%- assign author_is_self = false -%}
+      {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
+      
+      {%- if site.scholar.last_name contains author_last_name -%}
+        {%- if site.scholar.first_name contains author.first -%}
+          {%- assign author_is_self = true -%}
+        {%- endif -%}
+      {%- endif -%}
 
       {%- assign coauthor_url = nil -%}
-      {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
+      {%- assign clean_last_name = author_last_name | downcase | remove: "." -%}
       {% if site.data.coauthors[clean_last_name] %}
         {% for coauthor in site.data.coauthors[clean_last_name] %}
           {% if coauthor.firstname contains author.first %}
@@ -61,92 +104,96 @@
         {% endfor %}
       {% endif %}
 
-      {%- if forloop.first == false -%}{% if forloop.last %} and {% else %}, {% endif %}{%- endif -%}
-
       {% if author_is_self %}
-        {% if site.data.socials.scholar_userid %}
-          <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"><em>{{ author.first }} {{ author_last_html }}</em></a>
-        {% else %}
-          <em>{{ author.first }} {{ author_last_html }}</em>
-        {% endif %}
+        <span class="author-me">{{ author.first }} {{ author.last }}</span>
       {% else %}
         {% if coauthor_url %}
-          <a href="{{ coauthor_url }}">{{ author.first }} {{ author_last_html }}</a>
+          <a href="{{ coauthor_url }}">{{ author.first }} {{ author.last }}</a>
         {% else %}
-          {{ author.first }} {{ author_last_html }}
+          {{ author.first }} {{ author.last }}
         {% endif %}
       {% endif %}
+
+      {%- if forloop.last == false -%}
+        {%- if forloop.index == author_array_size | minus: 1 -%}
+          , and&nbsp;
+        {%- else -%}
+          ,&nbsp;
+        {%- endif -%}
+      {%- endif -%}
     {% endfor %}
   </div>
 
   <!-- 버튼들 -->
-     <div class="links">
-      {% if entry.abstract %}
-        <div class="abstract hidden mt-2"><p>{{ entry.abstract }}</p></div>
+  <div class="links">
+    {% if entry.abstract %}
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    {% endif %}
+    {% if entry.doi %}
+      <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
+    {% endif %}
+    {% if entry.url %}
+      <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">URL</a>
+    {% endif %}
+    {%- if entry.arxiv %}
+      <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+    {%- endif %}
+    {%- if entry.bibtex_show %}
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    {%- endif %}
+    {%- if entry.html %}
+      <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+    {%- endif %}
+    {%- if entry.pdf %}
+      {% if entry.pdf contains '://' %}
+        <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+      {% else %}
+        <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
       {% endif %}
-      {% if entry.doi %}
-        <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
+    {%- endif %}
+    {%- if entry.supp %}
+      {% if entry.supp contains '://' %}
+        <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
+      {% else %}
+        <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
       {% endif %}
-      {% if entry.url %}
-        <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">URL</a>
+    {%- endif %}
+    {%- if entry.blog %}
+      <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
+    {%- endif %}
+    {%- if entry.code %}
+      <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+    {%- endif %}
+    {%- if entry.poster %}
+      {% if entry.poster contains '://' %}
+        <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
+      {% else %}
+        <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
       {% endif %}
-      {%- if entry.arxiv %}
-        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
-      {%- endif %}
-      {%- if entry.bibtex_show %}
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      {%- endif %}
-      {%- if entry.html %}
-        <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
-      {%- endif %}
-      {%- if entry.pdf %}
-        {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        {% endif %}
-      {%- endif %}
-      {%- if entry.supp %}
-        {% if entry.supp contains '://' %}
-          <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
-        {% else %}
-          <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
-        {% endif %}
-      {%- endif %}
-      {%- if entry.blog %}
-        <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
-      {%- endif %}
-      {%- if entry.code %}
-        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
-      {%- endif %}
-      {%- if entry.poster %}
-        {% if entry.poster contains '://' %}
-          <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
-        {% else %}
-          <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
-        {% endif %}
-      {%- endif %}
-      {%- if entry.slides %}
-        {% if entry.slides contains '://' %}
-          <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
-        {% else %}
-          <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
-        {% endif %}
-      {%- endif %}
-      {%- if entry.website %}
-        <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
-      {%- endif %}
-    </div>
+    {%- endif %}
+    {%- if entry.slides %}
+      {% if entry.slides contains '://' %}
+        <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
+      {% else %}
+        <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
+      {% endif %}
+    {%- endif %}
+    {%- if entry.website %}
+      <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+    {%- endif %}
+  </div>
 
-
-  <!-- 숨김 영역: 초록 / BibTeX -->
+  <!-- 숨김 영역: 초록 -->
   {% if entry.abstract %}
-    <div class="conf-abs hidden mt-2"><p>{{ entry.abstract }}</p></div>
+    <div class="abstract hidden">
+      <p>{{ entry.abstract }}</p>
+    </div>
   {% endif %}
 
-  {% if entry.bibtex_show or entry.bibtex %}
-    <div class="conf-bib hidden mt-2">
-      {% highlight bibtex %}{{ entry.bibtex | default: entry | hideCustomBibtex }}{% endhighlight %}
+  <!-- 숨김 영역: BibTeX -->
+  {% if entry.bibtex_show %}
+    <div class="bibtex hidden">
+      {% highlight bibtex %}{{ entry.bibtex }}{% endhighlight %}
     </div>
   {% endif %}
 </div>
