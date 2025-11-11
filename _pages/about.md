@@ -23,7 +23,7 @@ profile:
         <i class="ai ai-cv ai-2x"></i>
       </a>
       <a href="mailto:jbim0202@hanyang.ac.kr" target="_blank" style="margin: 0 10px;">
-        <i class="ai ai-email ai-2x"></i>
+        <i class="fas fa-envelope ai-2x"></i>
       </a>
     </div>
 
