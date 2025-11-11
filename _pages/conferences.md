@@ -66,5 +66,5 @@ nav_order: 3
 </style>
 
 <div class="publications">
-  {% bibliography --file conferences --template bib_conference --group_by year,conference --group_order descending %}
+  {% bibliography --file conferences --template bib_conference %}
 </div>
