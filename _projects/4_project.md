@@ -6,6 +6,7 @@ img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
 category: Built Environment
+tags: [Extended Reality, Human Centered Design, Physiology]
 ---
 
 Every project has a beautiful feature showcase page.
