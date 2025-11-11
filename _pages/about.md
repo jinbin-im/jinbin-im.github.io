@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Affiliations. Department of Architectural Engineering. Hanyang University.
+subtitle: <p><strong style="color: #7b27d8;">Affiliations<sup>†</sup></strong>. Client Briefing and Program Management Lab., Department of Architectural Engineering, Hanyang University. </p>
 
 profile:
   align: right
@@ -42,8 +42,8 @@ latest_posts: false
 - Extended Reality (XR), including virtual reality (VR) and mixed reality (MR)
 - Automation and artificial intelligence in spatial design
 
-**Skills**
-
+**Acedemic Services**
+- Reviewer, Building and Environment 
 <div style="font-size: 0.88em; line-height: 1">
   <p><strong>Programming:</strong> Python, R </p>
   <p><strong>ML/AI:</strong> PyTorch, TensorFlow, BERT, RoBERTa, Transformer</p>  
