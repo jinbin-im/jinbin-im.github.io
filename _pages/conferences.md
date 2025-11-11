@@ -7,6 +7,18 @@ nav_order: 3
 ---
 
 <style>
+
+.conf-location {
+  display: inline-block;
+  background: #7b27d8;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-left: 10px;
+}
+  
 .year-title {
   font-size: 2rem;
   font-weight: 300;
@@ -53,6 +65,7 @@ nav_order: 3
   <div class="conf-group">
     <div class="conf-group-content">
       <div class="conf-group-title">International Conference on Construction Engineering and Project Management (ICCEPM)</div>
+        {%- assign conf_loc  = entry.location | default: entry.address -%}
       <div class="publications">
         {% bibliography --file conferences --template bib_conference --query @*[year=2025 && booktitle ~= ICCEPM] %}
       </div>
@@ -63,6 +76,7 @@ nav_order: 3
   <div class="conf-group">
     <div class="conf-group-content">
       <div class="conf-group-title">International Symposium on Automation and Robotics in Construction (ISARC)</div>
+        {%- assign conf_loc  = entry.location | default: entry.address -%}
       <div class="publications">
         {% bibliography --file conferences --template bib_conference --query @*[year=2025 && booktitle ~= ISARC] %}
       </div>
@@ -78,6 +92,7 @@ nav_order: 3
   <div class="conf-group">
     <div class="conf-group-content">
       <div class="conf-group-title">International Conference on Construction Engineering and Project Management (ICCEPM)</div>
+        {%- assign conf_loc  = entry.location | default: entry.address -%}
       <div class="publications">
         {% bibliography --file conferences --template bib_conference --query @*[year=2024 && booktitle ~= ICCEPM] %}
       </div>
