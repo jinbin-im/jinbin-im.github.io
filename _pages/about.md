@@ -300,11 +300,11 @@ I am a Ph.D. candidate in Architectural Engineering at Hanyang University, where
 
 <div style="margin-left: 20px; margin-top: 15px;">
   <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
-    <span>ENE4044 Computer Engineering</span>
+    <span>ENE4044 · Computer Engineering</span>
     <span style="margin-left: 20px; white-space: nowrap; color: #666;">Spring 2024, 2025, 2026</span>
   </div>
   <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
-    <span>PBL4004 Architectural Engineering Capstone PBL</span>
+    <span>PBL4004 · Architectural Engineering Capstone PBL</span>
     <span style="margin-left: 20px; white-space: nowrap; color: #666;">Fall 2025</span>
   </div>
 </div>
