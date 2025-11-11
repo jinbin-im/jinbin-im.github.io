@@ -4,14 +4,6 @@ title: about
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Department of Architectural Engineering. Faculty of Engineering. Hanyang University.
 
-**Jin-Bin Im is a Ph.D.** candidate at Hanyang University Architectural Engineering . He is a graduate research assistant at the Client Briefing and Program Management (CB&PM) Lab. He earned a Master's degree in Architectural Engineering (2022) from the same institution, and B.S. in Interior Architecture Design (2020) from Hanyang University, South Korea.
-
-**Research Interest**
-- User-centered design
-- Human responses
-- Extended Reality, such as virtual reality (VR) and mixed reality (MR)
-- Spatial design automation
-
 profile:
   align: right
   image: prof_pic.jpg
@@ -21,6 +13,15 @@ profile:
     <p>222 Wangsimniro, Seongdong-gu</p>
     <p>Seoul, South Korea 04763</p>
 ---
+
+**Jin-Bin Im is a Ph.D.** candidate at Hanyang University, Architectural Engineering . He is a graduate research assistant at the Client Briefing and Program Management (CB&PM) Lab. He earned a Master's degree in Architectural Engineering (2022) from the same institution, and B.S. in Interior Architecture Design (2020) from Hanyang University, South Korea.
+
+**Research Interest**
+- User-centered design
+- Human responses
+- Extended Reality, such as virtual reality (VR) and mixed reality (MR)
+- Spatial design automation
+
 ## Education
 
 **Ph.D. in Construction Management**  
