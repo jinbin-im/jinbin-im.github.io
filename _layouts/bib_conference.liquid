@@ -1,0 +1,94 @@
+<div class="conf-item mb-4 pb-3 border-bottom">
+  {%- assign conf_name = entry.booktitle | default: entry.series | default: entry.journal -%}
+  {%- assign conf_loc  = entry.location | default: entry.address -%}
+  {%- assign year_txt  = entry.year -%}
+
+  <!-- 상단 3분할: 연도 / 컨퍼런스 이름 / 지역 -->
+  <div class="conf-meta d-flex flex-wrap align-items-center mb-2">
+    <span class="conf-year badge mr-2">{{ year_txt }}</span>
+    <span class="conf-name flex-grow-1 px-2 py-1">{{ conf_name }}</span>
+    {% if conf_loc %}<span class="conf-loc badge ml-2">{{ conf_loc }}</span>{% endif %}
+  </div>
+
+  <!-- 제목 -->
+  <div class="conf-title h5 mb-1">{{ entry.title }}</div>
+
+  <!-- 저자 (al-folio 기본 규칙+윗첨자 대응) -->
+  <div class="conf-authors mb-2">
+    {% assign author_array_size = entry.author_array | size %}
+    {% assign author_array_limit = author_array_size %}
+    {% for author in entry.author_array limit: author_array_limit %}
+      {% assign author_is_self = false %}
+      {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
+      {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+
+      {% if site.scholar.last_name contains author_last_name and site.scholar.first_name contains author.first %}
+        {% assign author_is_self = true %}
+      {% endif %}
+
+      {%- assign coauthor_url = nil -%}
+      {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
+      {% if site.data.coauthors[clean_last_name] %}
+        {% for coauthor in site.data.coauthors[clean_last_name] %}
+          {% if coauthor.firstname contains author.first %}
+            {% if coauthor.scholar_id %}
+              {% assign coauthor_url = "https://scholar.google.com/citations?user=" | append: coauthor.scholar_id %}
+            {% elsif coauthor.url %}
+              {% assign coauthor_url = coauthor.url %}
+            {% endif %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      {%- if forloop.first == false -%}{% if forloop.last %} and {% else %}, {% endif %}{%- endif -%}
+
+      {% if author_is_self %}
+        {% if site.data.socials.scholar_userid %}
+          <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"><em>{{ author.first }} {{ author_last_html }}</em></a>
+        {% else %}
+          <em>{{ author.first }} {{ author_last_html }}</em>
+        {% endif %}
+      {% else %}
+        {% if coauthor_url %}
+          <a href="{{ coauthor_url }}">{{ author.first }} {{ author_last_html }}</a>
+        {% else %}
+          {{ author.first }} {{ author_last_html }}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <!-- 버튼들 -->
+  <div class="conf-links btn-group btn-group-sm mb-1" role="group">
+    {% if entry.abstract %}
+      <a class="btn btn-light conf-abs-toggle" role="button">ABS</a>
+    {% endif %}
+
+    {% comment %} LINK 우선순위: html/url > doi > eprint/arXiv {% endcomment %}
+    {% if entry.html %}
+      <a href="{{ entry.html }}" class="btn btn-light" role="button">LINK</a>
+    {% elsif entry.url %}
+      <a href="{{ entry.url }}" class="btn btn-light" role="button">LINK</a>
+    {% elsif entry.doi %}
+      <a href="https://doi.org/{{ entry.doi }}" class="btn btn-light" role="button">LINK</a>
+    {% elsif entry.arxiv %}
+      <a href="https://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-light" role="button">LINK</a>
+    {% endif %}
+
+    {% if entry.bibtex_show or entry.bibtex %}
+      <a class="btn btn-light conf-bib-toggle" role="button">BIB</a>
+    {% endif %}
+  </div>
+
+  <!-- 숨김 영역: 초록 / BibTeX -->
+  {% if entry.abstract %}
+    <div class="conf-abs hidden mt-2"><p>{{ entry.abstract }}</p></div>
+  {% endif %}
+
+  {% if entry.bibtex_show or entry.bibtex %}
+    <div class="conf-bib hidden mt-2">
+      {% highlight bibtex %}{{ entry.bibtex | default: entry | hideCustomBibtex }}{% endhighlight %}
+    </div>
+  {% endif %}
+</div>
