@@ -42,9 +42,9 @@ latest_posts: false
 **Skills**
 
 <div style="font-size: 0.88em; line-height: 1">
-  <p><strong>Programming:</strong> Python, R, JavaScript  
-  <p><strong>ML/AI:</strong> PyTorch, TensorFlow, BERT, RoBERTa  
-  <p><strong>Tools:</strong> Revit, AutoCAD, enscape
+  <p><strong>Programming:</strong> Python, R, JavaScript </p>
+  <p><strong>ML/AI:</strong> PyTorch, TensorFlow, BERT, RoBERTa</p>  
+  <p><strong>Tools:</strong> Revit, AutoCAD, enscape</p>
 </div>
 
 ## Education
