@@ -1,3 +1,23 @@
+<style>
+.author-me {
+  color: #7b27d8 !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+  text-decoration: none !important;
+}
+
+.journal-metrics {
+  font-size: 0.9em;
+  color: #666;
+  margin-left: 5px;
+  font-weight: 500;
+}
+
+.pub-year {
+  color: #555 !important;
+}
+</style>
+
 <div class="conf-item mb-4 pb-3 border-bottom">
   {%- assign conf_name = entry.booktitle | default: entry.series | default: entry.journal -%}
   {%- assign conf_loc  = entry.location | default: entry.address -%}
