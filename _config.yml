@@ -15,7 +15,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: Human Behavior, Design Automation, Extended Reality, Built Environment, Design Communication, Project Management
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: JBIM Icon.png
+icon: JBIMIcon.png
 
 url: https://jinbin-im.github.io
 baseurl: 
