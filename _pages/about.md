@@ -50,19 +50,19 @@ latest_posts: false
 
 <div style="font-size: 0.88em; line-height: 1.6; margin-bottom: 30px;">
 
-**Im, J. B.†**, Ahn, C.†, Lee, S. Y., Yoo, Y., & Kim, J. H.* (2025). Techno-Economic Feasibility of e-Methanol System fueled by CO2 and Green Hydrogen with Policy Pathways to Competitiveness. *Energy Policy*, Elsevier, (Co-First Author) (Under Review).
+<p><strong>Im, J. B.†</strong>, Ahn, C.†, Lee, S. Y., Yoo, Y., & Kim, J. H.* (2025). Techno-Economic Feasibility of e-Methanol System fueled by CO2 and Green Hydrogen with Policy Pathways to Competitiveness. <em>Energy Policy</em>, Elsevier, (Co-First Author) (Under Review).</p>
 
-Lee, K. T., **Im, J. B.**, Hong, R. L., & Kim, J. H.* (2025). Enhancing Retrieval-Augmented Generation Performance through Network Analysis of Question Types in Public Procurement Law. *Journal of Management in Engineering*, ASCE, (Under Review).
+<p>Lee, K. T., <strong>Im, J. B.</strong>, Hong, R. L., & Kim, J. H.* (2025). Enhancing Retrieval-Augmented Generation Performance through Network Analysis of Question Types in Public Procurement Law. <em>Journal of Management in Engineering</em>, ASCE, (Under Review).</p>
 
-**Im, J. B.**, Lee, K. T. & Kim, J. H.* (2025). Effects of Visualization Quality on Occupant Responses in Immersive Design Review Environments. *Developments in the Built Environment*, Elsevier, (Under Review).
+<p><strong>Im, J. B.</strong>, Lee, K. T. & Kim, J. H.* (2025). Effects of Visualization Quality on Occupant Responses in Immersive Design Review Environments. <em>Developments in the Built Environment</em>, Elsevier, (Under Review).</p>
 
-Ochirsuren, N., Kye, Y. S., **Im, J. B.**, Zhang, E., & Lee, K. T., Kim, J. H.* (2025). Effect of Changing Sequence in Semi-Top-Down Construction Works to Optimize Time and Cost: A Case Study on Korean Apartment Projects. *Engineering, Construction and Architectural Management*, Emerald, (Under Review).
+<p>Ochirsuren, N., Kye, Y. S., <strong>Im, J. B.</strong>, Zhang, E., & Lee, K. T., Kim, J. H.* (2025). Effect of Changing Sequence in Semi-Top-Down Construction Works to Optimize Time and Cost: A Case Study on Korean Apartment Projects. <em>Engineering, Construction and Architectural Management</em>, Emerald, (Under Review).</p>
 
-Shin, S. H., **Im, J. B.**, Choi, H., Kim, J. H., & Lee, K. T.* (2025). AI-Based Approach to International Market Selection Models Considering Construction Factors: A Case Study of Indian Firms. *Journal of Civil Engineering and Management*, Vilnius Tech. Press, (Under Review).
+<p>Shin, S. H., <strong>Im, J. B.</strong>, Choi, H., Kim, J. H., & Lee, K. T.* (2025). AI-Based Approach to International Market Selection Models Considering Construction Factors: A Case Study of Indian Firms. <em>Journal of Civil Engineering and Management</em>, Vilnius Tech. Press, (Under Review).</p>
 
-Hong, R. L., **Im, J. B.**, Kang, H. G., & Kim, J. H.* (2025). Prediction of structural frame works safety and health management expenses in apartment construction projects by introducing interpretable machine learning. *Engineering, Construction, and Architectural Management*, Emerald, (Under Review).
+<p>Hong, R. L., <strong>Im, J. B.</strong>, Kang, H. G., & Kim, J. H.* (2025). Prediction of structural frame works safety and health management expenses in apartment construction projects by introducing interpretable machine learning. <em>Engineering, Construction, and Architectural Management</em>, Emerald, (Under Review).</p>
 
-Hong, R. L., Yoon, J. H., **Im, J. B.**, & Kim, J. H.* (2025). Prediction of Actual Safety and Health Management Expenses for Water Supply System Construction Projects in Korea through Machine Learning. *Journal of Civil Engineering and Management*, Vilnius Tech. Press, (Under Review).
+<p>Hong, R. L., Yoon, J. H., <strong>Im, J. B.</strong>, & Kim, J. H.* (2025). Prediction of Actual Safety and Health Management Expenses for Water Supply System Construction Projects in Korea through Machine Learning. <em>Journal of Civil Engineering and Management</em>, Vilnius Tech. Press, (Under Review).</p>
 
 </div>
 
