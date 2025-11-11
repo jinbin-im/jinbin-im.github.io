@@ -37,8 +37,8 @@ latest_posts: false
 - Human responses
 - Extended Reality, such as virtual reality (VR) and mixed reality (MR)
 - Spatial design automation
-## Skills
-
+- 
+**Skills**
 **Programming**: Python, R
 **ML/AI**: PyTorch, TensorFlow, BERT, RoBERTa, Transformer  
 **Tools**: QGIS, Revit, AutoCAD, PostGIS, enscape
