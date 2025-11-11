@@ -18,7 +18,7 @@
 }
 </style>
 
-<div class="conf-item mb-4 pb-3 border-bottom">
+<div class="conf-item mb-4 pb-3">
   {%- assign conf_name = entry.booktitle | default: entry.series | default: entry.journal -%}
   {%- assign conf_loc  = entry.location | default: entry.address -%}
   {%- assign year_txt  = entry.year -%}
@@ -81,9 +81,9 @@
 
   <!-- 버튼들 -->
      <div class="links">
-      {%- if entry.abstract %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      {%- endif %}
+      {% if entry.abstract %}
+        <div class="abstract hidden mt-2"><p>{{ entry.abstract }}</p></div>
+      {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% endif %}
