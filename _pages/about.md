@@ -44,11 +44,6 @@ latest_posts: false
 
 **Acedemic Services**
 - Reviewer, Building and Environment 
-<div style="font-size: 0.88em; line-height: 1">
-  <p><strong>Programming:</strong> Python, R </p>
-  <p><strong>ML/AI:</strong> PyTorch, TensorFlow, BERT, RoBERTa, Transformer</p>  
-  <p><strong>Tools:</strong> Revit, AutoCAD, Enscape</p>
-</div>
 
 ---
 
