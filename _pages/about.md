@@ -58,7 +58,6 @@ latest_posts: false
   </div>
   <div style="color: #666; margin-left: 0;">Hanyang University, South Korea</div>
 </div>
-
 <div style="margin-bottom: 25px;">
   <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
     <strong>M.S. Architectural Engineering</strong>
@@ -66,7 +65,6 @@ latest_posts: false
   </div>
   <div style="color: #666; margin-left: 0;">Hanyang University, South Korea</div>
 </div>
-
 <div style="margin-bottom: 25px;">
   <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
     <strong>B.S. in Interior Architecture Design</strong>
@@ -75,48 +73,213 @@ latest_posts: false
   <div style="color: #666; margin-left: 0;">Hanyang University, South Korea</div>
 </div>
 
+---
+
 ## Research Experience
 
-**Research Manager**
-*Client Briefing and Program Management Lab | extended reality and occupant behavior*
+<style>
+.research-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
 
-<div style="margin-left: 20px; margin-top: 15px; margin-bottom: 25px;">
-  <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
-    <span>Study on Quality Control of Educational Facilities using Virtual Environments</span>
-    <span style="margin-left: 20px; white-space: nowrap; color: #666;">2023–2024</span>
-  </div>
-  <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
-    <span>Development of Decision-making Framework to Support Personalized Spatial Composition based on Temperament, Perception and Bio-markers Applying Digital Twin</span>
-    <span style="margin-left: 20px; white-space: nowrap; color: #666;">2021–2024</span>
-  </div>
-</div>
+.research-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 20px;
+  background: white;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
 
-**Research Participant**
-*Client Briefing and Program Management Lab | construction management and on-site quality control*
+.research-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
 
-<div style="margin-left: 20px; margin-top: 15px; margin-bottom: 25px;">
-  <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
-    <span>Development of Artificial Intelligence-based Real-Time Construction Quality Management System</span>
-    <span style="margin-left: 20px; white-space: nowrap; color: #666;">2024–2026</span>
-  </div>
-  <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
-    <span>Construction Quality Control using Digital Twin Technology</span>
-    <span style="margin-left: 20px; white-space: nowrap; color: #666;">2021–2022</span>
-  </div>
-  <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
-    <span>Establishment of Standard Guidelines for Daycare Centers in Police Stations</span>
-    <span style="margin-left: 20px; white-space: nowrap; color: #666;">2021</span>
-  </div>
-</div>
+.research-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
 
-**Research Student**
-*Department of Interior Architecture Design | data collection and analysis*
+.research-role {
+  font-size: 0.75rem;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 12px;
+  white-space: nowrap;
+}
 
-<div style="margin-left: 20px; margin-top: 15px; margin-bottom: 25px;">
-  <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
-    <span>Spatial Preference Modeling based on Immersive Virtual Environment and Choice Modeling Theory</span>
-    <span style="margin-left: 20px; white-space: nowrap; color: #666;">2019</span>
+/* 역할별 색상 */
+.role-manager {
+  background: #ff6b35; /* 주황색 */
+}
+
+.role-participant {
+  background: #4ecdc4; /* 청록색 */
+}
+
+.role-student {
+  background: #95a5a6; /* 회색 */
+}
+
+.research-year {
+  font-size: 0.85rem;
+  color: #666;
+  white-space: nowrap;
+  margin-left: 10px;
+}
+
+.research-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+.research-lab {
+  font-size: 0.85rem;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.research-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.research-tag {
+  font-size: 0.7rem;
+  background: #f0f0f0;
+  color: #555;
+  padding: 3px 8px;
+  border-radius: 10px;
+}
+</style>
+
+<div class="research-projects">
+  
+  <!-- Project 1 -->
+  <div class="research-card">
+    <div class="research-header">
+      <span class="research-role role-manager">Research Manager</span>
+      <span class="research-year">2023–2024</span>
+    </div>
+    <div class="research-title">
+      Study on Quality Control of Educational Facilities using Virtual Environments
+    </div>
+    <div class="research-lab">
+      Client Briefing and Program Management Lab
+    </div>
+    <div class="research-tags">
+      <span class="research-tag">Virtual Reality</span>
+      <span class="research-tag">Quality Control</span>
+      <span class="research-tag">Educational Facilities</span>
+    </div>
   </div>
+
+  <!-- Project 2 -->
+  <div class="research-card">
+    <div class="research-header">
+      <span class="research-role role-manager">Research Manager</span>
+      <span class="research-year">2021–2024</span>
+    </div>
+    <div class="research-title">
+      Development of Decision-making Framework to Support Personalized Spatial Composition based on Temperament, Perception and Bio-markers Applying Digital Twin
+    </div>
+    <div class="research-lab">
+      Client Briefing and Program Management Lab
+    </div>
+    <div class="research-tags">
+      <span class="research-tag">Digital Twin</span>
+      <span class="research-tag">Personalized Design</span>
+      <span class="research-tag">AI</span>
+    </div>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="research-card">
+    <div class="research-header">
+      <span class="research-role role-participant">Research Participant</span>
+      <span class="research-year">2024–2026</span>
+    </div>
+    <div class="research-title">
+      Development of Artificial Intelligence-based Real-Time Construction Quality Management System
+    </div>
+    <div class="research-lab">
+      Client Briefing and Program Management Lab
+    </div>
+    <div class="research-tags">
+      <span class="research-tag">AI</span>
+      <span class="research-tag">Quality Management</span>
+      <span class="research-tag">Real-Time</span>
+    </div>
+  </div>
+
+  <!-- Project 4 -->
+  <div class="research-card">
+    <div class="research-header">
+      <span class="research-role role-participant">Research Participant</span>
+      <span class="research-year">2021–2022</span>
+    </div>
+    <div class="research-title">
+      Construction Quality Control using Digital Twin Technology
+    </div>
+    <div class="research-lab">
+      Client Briefing and Program Management Lab
+    </div>
+    <div class="research-tags">
+      <span class="research-tag">Digital Twin</span>
+      <span class="research-tag">Construction</span>
+      <span class="research-tag">BIM</span>
+    </div>
+  </div>
+
+  <!-- Project 5 -->
+  <div class="research-card">
+    <div class="research-header">
+      <span class="research-role role-participant">Research Participant</span>
+      <span class="research-year">2021</span>
+    </div>
+    <div class="research-title">
+      Establishment of Standard Guidelines for Daycare Centers in Police Stations
+    </div>
+    <div class="research-lab">
+      Client Briefing and Program Management Lab
+    </div>
+    <div class="research-tags">
+      <span class="research-tag">Guidelines</span>
+      <span class="research-tag">Public Facilities</span>
+    </div>
+  </div>
+
+  <!-- Project 6 -->
+  <div class="research-card">
+    <div class="research-header">
+      <span class="research-role role-student">Research Student</span>
+      <span class="research-year">2019</span>
+    </div>
+    <div class="research-title">
+      Spatial Preference Modeling based on Immersive Virtual Environment and Choice Modeling Theory
+    </div>
+    <div class="research-lab">
+      Department of Interior Architecture Design
+    </div>
+    <div class="research-tags">
+      <span class="research-tag">VR</span>
+      <span class="research-tag">Choice Modeling</span>
+      <span class="research-tag">Preference</span>
+    </div>
+  </div>
+
 </div>
 
 ---
