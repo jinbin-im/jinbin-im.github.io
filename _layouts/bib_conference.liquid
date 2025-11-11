@@ -6,17 +6,6 @@
   text-decoration: none !important;
 }
 
-.conf-location {
-  display: inline-block;
-  background: #7b27d8;
-  color: white;
-  padding: 4px 12px;
-  border-radius: 15px;
-  font-size: 0.85rem;
-  font-weight: 500;
-  margin-left: 10px;
-}
-
 /* Abstract/Bibtex 토글 */
 .abstract.hidden,
 .bibtex.hidden {
@@ -44,7 +33,6 @@
 </style>
 
 <div class="conf-item mb-4 pb-3">
-  {%- assign conf_loc  = entry.location | default: entry.address -%}
 
   <!-- 제목 with 링크 (상단으로 이동) -->
   <div class="conf-title h5 mb-2">
