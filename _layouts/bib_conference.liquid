@@ -45,13 +45,11 @@
   margin-left: 10px;
 }
 
-/* Abstract/Bibtex 토글 스타일 */
-.abstract.hidden,
+/* Bibtex 토글 스타일 */
 .bibtex.hidden {
   display: none;
 }
 
-.abstract,
 .bibtex {
   margin-top: 1rem;
   padding: 1rem;
@@ -182,13 +180,6 @@
       <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
     {%- endif %}
   </div>
-
-  <!-- 숨김 영역: 초록 -->
-  {% if entry.abstract %}
-    <div class="abstract hidden">
-      <p>{{ entry.abstract }}</p>
-    </div>
-  {% endif %}
 
   <!-- 숨김 영역: BibTeX -->
   {% if entry.bibtex_show %}
