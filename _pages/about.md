@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: Affiliations. Client Briefing and Program Management Lab., Department of Architectural Engineering, Hanyang University.
 
 profile:
   align: right
