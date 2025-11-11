@@ -250,8 +250,8 @@ document.addEventListener('DOMContentLoaded', function() {
   document.querySelectorAll('.abstract-btn').forEach(function(btn) {
     btn.addEventListener('click', function(e) {
       e.preventDefault();
-      var row = this.closest('.row');
-      var abstractDiv = row.querySelector('.abstract');
+      var confItem = this.closest('.conf-item');
+      var abstractDiv = confItem.querySelector('.abstract');
       if (abstractDiv) {
         abstractDiv.classList.toggle('hidden');
       }
@@ -262,8 +262,8 @@ document.addEventListener('DOMContentLoaded', function() {
   document.querySelectorAll('.bibtex-btn').forEach(function(btn) {
     btn.addEventListener('click', function(e) {
       e.preventDefault();
-      var row = this.closest('.row');
-      var bibtexDiv = row.querySelector('.bibtex');
+      var confItem = this.closest('.conf-item');
+      var bibtexDiv = confItem.querySelector('.bibtex');
       if (bibtexDiv) {
         bibtexDiv.classList.toggle('hidden');
       }
