@@ -183,9 +183,15 @@
         {%- endfor -%}
       </div>
 
-      <!-- 저널 정보 with 배지 -->
+      <!-- 저널 정보 with Volume, Issue, Pages -->
       <div class="periodical">
         <em>{{entry.journal}}</em>
+        {% if entry.volume or entry.number or entry.pages %}
+          {% if entry.volume %}<strong>{{entry.volume}}</strong>{% endif %}
+          {% if entry.number %}({{entry.number}}){% endif %}
+          {% if entry.pages %}, {{entry.pages}}{% endif %}
+        {% endif %}
+        
         {% if entry.note %}
           {% assign note_text = entry.note %}
           <span class="journal-metrics">
@@ -211,13 +217,13 @@
     <!-- 버튼들 -->
     <div class="links">
       {%- if entry.abstract %}
-        <a class="abstract-btn btn btn-sm z-depth-0" role="button">Abs</a>
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {%- endif %}
       {%- if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
       {%- endif %}
       {%- if entry.bibtex_show %}
-        <a class="bibtex-btn btn btn-sm z-depth-0" role="button">Bib</a>
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
       {%- endif %}
       {%- if entry.pdf %}
         {% if entry.pdf contains '://' %}
@@ -245,34 +251,6 @@
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Abstract toggle
-  document.querySelectorAll('.abstract-btn').forEach(function(btn) {
-    btn.addEventListener('click', function(e) {
-      e.preventDefault();
-      var confItem = this.closest('.conf-item');
-      var abstractDiv = confItem.querySelector('.abstract');
-      if (abstractDiv) {
-        abstractDiv.classList.toggle('hidden');
-      }
-    });
-  });
-
-  // Bibtex toggle
-  document.querySelectorAll('.bibtex-btn').forEach(function(btn) {
-    btn.addEventListener('click', function(e) {
-      e.preventDefault();
-      var confItem = this.closest('.conf-item');
-      var bibtexDiv = confItem.querySelector('.bibtex');
-      if (bibtexDiv) {
-        bibtexDiv.classList.toggle('hidden');
-      }
-    });
-  });
-});
-</script>
-
-<script>
 (function bindPubToggles(){
   function on(event, selector, handler){
     document.addEventListener(event, function(e){
@@ -282,23 +260,20 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Abstract 버튼 토글 (버튼: a.abstract, 내용: div.abstract.hidden)
+  // Abstract 버튼 토글
   on('click', 'a.abstract', function(e){
     e.preventDefault();
-    const wrap = this.closest('.pub-item') || this.closest('.row') || document;
+    const wrap = this.closest('.row') || this.closest('.pub-item') || document;
     const box  = wrap.querySelector('div.abstract');
     if (box) box.classList.toggle('hidden');
   });
 
-  // BibTeX 버튼 토글 (버튼: a.bibtex, 내용: div.bibtex.hidden)
+  // BibTeX 버튼 토글
   on('click', 'a.bibtex', function(e){
     e.preventDefault();
-    const wrap = this.closest('.pub-item') || this.closest('.row') || document;
+    const wrap = this.closest('.row') || this.closest('.pub-item') || document;
     const box  = wrap.querySelector('div.bibtex');
     if (box) box.classList.toggle('hidden');
   });
-
-  // Turbolinks/PJAX 사용 시에도 다시 바인딩되도록
-  document.addEventListener('turbolinks:load', function(){ /* no-op, 위 위임 바인딩이면 재바인딩 불필요 */ });
 })();
 </script>
