@@ -5,6 +5,7 @@ description: a project with no image
 img:
 importance: 4
 category: Construction Management
+tags: [Extended Reality, Construction Management, Robotics, Image Processing, 3D scanning]
 ---
 
 Every project has a beautiful feature showcase page.
