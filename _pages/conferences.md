@@ -46,7 +46,6 @@ nav_order: 3
   font-size: 1.2rem;
   font-weight: 600;
   color: #333;
-  margin-bottom: 1.5rem;
 }
 
 @media (max-width: 768px) {
