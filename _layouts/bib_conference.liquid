@@ -70,30 +70,6 @@
       {% endif %}
     {% endif %}
 
-    <!-- 버튼들 -->
-    <div class="links">
-      {%- if entry.abstract %}
-        <a class="btn btn-sm z-depth-0" role="button" onclick="toggleAbstract(this)">ABS</a>
-      {%- endif %}
-      {%- if entry.bibtex_show %}
-        <a class="btn btn-sm z-depth-0" role="button" onclick="toggleBibtex(this)">BIB</a>
-      {%- endif %}
-      {%- if entry.pdf %}
-        {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
-        {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
-        {% endif %}
-      {%- endif %}
-    </div>
-
-    <!-- Abstract (토글 - 기본 숨김) -->
-    {% if entry.abstract %}
-      <div class="abstract hidden">
-        <p>{{ entry.abstract }}</p>
-      </div>
-    {% endif %}
-
     <!-- BibTeX (숨김, 필요시 버튼 추가) -->
     {% if entry.bibtex_show %}
       <div class="bibtex hidden">
@@ -148,28 +124,3 @@
   padding-left: 1rem;
 }
 </style>
-
-<script>
-// 토글 기능
-function toggleAbstract(btn) {
-  const row = btn.closest('.conference-row');
-  if (row) {
-    const abstractDiv = row.querySelector('.abstract');
-    if (abstractDiv) {
-      abstractDiv.classList.toggle('hidden');
-    }
-  }
-  return false;
-}
-
-function toggleBibtex(btn) {
-  const row = btn.closest('.conference-row');
-  if (row) {
-    const bibtexDiv = row.querySelector('.bibtex');
-    if (bibtexDiv) {
-      bibtexDiv.classList.toggle('hidden');
-    }
-  }
-  return false;
-}
-</script>
