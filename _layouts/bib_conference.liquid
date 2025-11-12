@@ -9,8 +9,9 @@
   text-decoration: none !important;
 }
 
+/* 왼쪽 중복 연도 숨김 */
 .pub-year {
-  color: #555 !important;
+  display: none !important;
 }
 
 /* 제목 링크 스타일 */
@@ -109,7 +110,7 @@
         {%- endfor -%}
       </div>
 
-      <!-- 컨퍼런스 정보 (booktitle에서 가져옴) -->
+      <!-- 컨퍼런스 정보 (booktitle만 표시, 페이지 정보 제외) -->
       {% if entry.booktitle %}
         <div class="periodical">
           <em>{{entry.booktitle}}</em>
