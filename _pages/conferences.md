@@ -17,11 +17,11 @@ nav_order: 3
 <style>
 /* 컨퍼런스 헤더 스타일 - 클릭 가능 */
 .conference-header {
-  margin-top: 1rem;  /* 2rem → 1rem으로 줄임 */
+  margin-top: 1rem;
   margin-bottom: 1.5rem;
   padding: 1.2rem;
   background: #f8f9fa;
-  border-left: 4px solid #7b27d8;  /* 기본 색상 */
+  border-left: 4px solid #7b27d8;
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
   cursor: pointer;
@@ -56,41 +56,61 @@ nav_order: 3
   box-shadow: 0 2px 4px rgba(0,0,0,0.08);
 }
 
+/* h3를 그리드 레이아웃으로 변경 */
 .conference-header h3 {
   margin: 0 0 0.5rem 0;
   font-size: 1.3rem;
   color: #222;
   font-weight: 600;
-  display: flex;
-  align-items: baseline;  /* center → baseline */
-  justify-content: space-between;
-  gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr auto auto auto;  /* 학회명 | month | address | 화살표 */
+  align-items: center;
+  gap: 1.5rem;  /* 각 요소 간 간격 */
 }
 
+/* 학회명 */
+.conference-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #222;
+}
+
+/* Month와 Address 공통 스타일 */
+.conference-location {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #888;
+  white-space: nowrap;  /* 한 줄로 유지 */
+}
+
+/* Month 전용 스타일 */
+.conference-month {
+  min-width: 60px;  /* 최소 너비 고정 */
+  text-align: right;
+}
+
+/* Address 전용 스타일 */
+.conference-address {
+  min-width: 150px;  /* 최소 너비 고정 */
+  text-align: right;
+}
+
+/* Month/Address 구분자 제거 */
+.conference-location::before {
+  display: none;
+}
+
+/* 화살표 */
 .conference-header h3::after {
   content: '▼';
   font-size: 0.8rem;
   color: #7b27d8;
   transition: transform 0.3s;
-  margin-left: auto;  /* 화살표를 오른쪽 끝으로 */
+  justify-self: end;  /* 오른쪽 정렬 */
 }
 
 .conference-header.collapsed h3::after {
   transform: rotate(-90deg);
-}
-
-/* Location/Date을 h3 안에 작은 글씨로 */
-.conference-location {
-  font-size: 0.75rem;
-  font-weight: 400;
-  color: #888;
-  margin-left: 0.8rem;
-}
-
-.conference-location::before {
-  content: '·';
-  margin-right: 0.8rem;
-  color: #ccc;
 }
 
 .conference-full-title {
@@ -192,31 +212,28 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // 컨퍼런스 헤더 생성
         const header = document.createElement('div');
-        header.className = 'conference-header collapsed';  // 기본 닫힌 상태
-        header.setAttribute('data-conference', conference);  // 컨퍼런스 이름 저장
+        header.className = 'conference-header collapsed';
+        header.setAttribute('data-conference', conference);
         
         const title = document.createElement('h3');
         
-        // 컨퍼런스 이름
+        // 1. 컨퍼런스 이름 (왼쪽)
         const confName = document.createElement('span');
+        confName.className = 'conference-name';
         confName.textContent = conference;
         title.appendChild(confName);
         
-        // Month (날짜)를 작은 글씨로 추가
-        if (group.month) {
-          const month = document.createElement('span');
-          month.className = 'conference-location';
-          month.textContent = group.month;
-          title.appendChild(month);
-        }
+        // 2. Month (고정 위치)
+        const month = document.createElement('span');
+        month.className = 'conference-location conference-month';
+        month.textContent = group.month || '';  // 빈 문자열로 공간 유지
+        title.appendChild(month);
         
-        // Location (address)을 작은 글씨로 추가
-        if (group.address) {
-          const location = document.createElement('span');
-          location.className = 'conference-location';
-          location.textContent = group.address;
-          title.appendChild(location);
-        }
+        // 3. Address (고정 위치)
+        const location = document.createElement('span');
+        location.className = 'conference-location conference-address';
+        location.textContent = group.address || '';  // 빈 문자열로 공간 유지
+        title.appendChild(location);
         
         header.appendChild(title);
         
@@ -232,7 +249,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // 논문 리스트를 감싸는 컨테이너 생성
         const papersContainer = document.createElement('div');
-        papersContainer.className = 'conference-papers hidden';  // 기본 숨김
+        papersContainer.className = 'conference-papers hidden';
         
         // 해당 컨퍼런스의 논문들 추가
         group.rows.forEach(function(row) {
