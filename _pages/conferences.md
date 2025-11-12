@@ -49,27 +49,6 @@ nav_order: 3
   display: none !important;
 }
 
-/* Abstract는 토글 (기본 숨김) */
-.abstract.hidden {
-  display: none;
-}
-
-.abstract {
-  margin-top: 1rem;
-  padding: 1rem;
-  background: #f8f9fa;
-  border-left: 3px solid #7b27d8;
-  border-radius: 4px;
-  font-size: 0.9rem;
-  line-height: 1.6;
-  color: #555;
-}
-
-/* Periodical 숨김 (컨퍼런스 헤더에 표시) */
-.conference-row .periodical {
-  display: none !important;
-}
-
 /* Conference row 스타일 */
 .conference-row {
   margin-bottom: 2rem;
