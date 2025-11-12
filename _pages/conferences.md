@@ -21,12 +21,34 @@ nav_order: 3
   margin-bottom: 1.5rem;
   padding: 1.2rem;
   background: #f8f9fa;
-  border-left: 4px solid #7b27d8;
+  border-left: 4px solid #7b27d8;  /* 기본 색상 */
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
   cursor: pointer;
   transition: all 0.2s;
   user-select: none;
+}
+
+/* 컨퍼런스별 고유 색상 */
+.conference-header[data-conference*="ICCEPM 2024"] {
+  border-left-color: #858f99;
+}
+
+.conference-header[data-conference*="ICCEPM 2025"] {
+  border-left-color: #164b9d;
+}
+
+.conference-header[data-conference*="ISARC 2025"] {
+  border-left-color: #8d2214;
+}
+
+.conference-header[data-conference*="i3CE 2026"],
+.conference-header[data-conference*="I3CE 2026"] {
+  border-left-color: #152d97;
+}
+
+.conference-header[data-conference*="IAQVEC 2026"] {
+  border-left-color: #b58c65;
 }
 
 .conference-header:hover {
@@ -155,6 +177,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // 컨퍼런스 헤더 생성
         const header = document.createElement('div');
         header.className = 'conference-header collapsed';  // 기본 닫힌 상태
+        header.setAttribute('data-conference', conference);  // 컨퍼런스 이름 저장
         
         const title = document.createElement('h3');
         title.textContent = conference;
