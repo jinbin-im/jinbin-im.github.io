@@ -81,7 +81,7 @@ nav_order: 3
   font-size: 0.75rem;
   font-weight: 400;
   color: #888;
-  width: 150px;
+  width: 200px;
 }
 
 /* Address - 나머지 공간 사용, 왼쪽 정렬 */
