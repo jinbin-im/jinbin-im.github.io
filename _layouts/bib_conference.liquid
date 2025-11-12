@@ -73,10 +73,10 @@
     <!-- 버튼들 -->
     <div class="links">
       {%- if entry.abstract %}
-        <a href="#" class="abstract-toggle btn btn-sm z-depth-0" role="button">ABS</a>
+        <a class="btn btn-sm z-depth-0" role="button" onclick="toggleAbstract(this)">ABS</a>
       {%- endif %}
       {%- if entry.bibtex_show %}
-        <a href="#" class="bibtex-toggle btn btn-sm z-depth-0" role="button">BIB</a>
+        <a class="btn btn-sm z-depth-0" role="button" onclick="toggleBibtex(this)">BIB</a>
       {%- endif %}
       {%- if entry.pdf %}
         {% if entry.pdf contains '://' %}
@@ -151,34 +151,25 @@
 
 <script>
 // 토글 기능
-(function() {
-  if (window.confTogglesInitialized) return;
-  window.confTogglesInitialized = true;
+function toggleAbstract(btn) {
+  const row = btn.closest('.conference-row');
+  if (row) {
+    const abstractDiv = row.querySelector('.abstract');
+    if (abstractDiv) {
+      abstractDiv.classList.toggle('hidden');
+    }
+  }
+  return false;
+}
 
-  document.addEventListener('click', function(e) {
-    // Abstract 토글
-    if (e.target.classList.contains('abstract-toggle')) {
-      e.preventDefault();
-      const row = e.target.closest('.conference-row');
-      if (row) {
-        const abstractDiv = row.querySelector('.abstract');
-        if (abstractDiv) {
-          abstractDiv.classList.toggle('hidden');
-        }
-      }
+function toggleBibtex(btn) {
+  const row = btn.closest('.conference-row');
+  if (row) {
+    const bibtexDiv = row.querySelector('.bibtex');
+    if (bibtexDiv) {
+      bibtexDiv.classList.toggle('hidden');
     }
-    
-    // BibTeX 토글
-    if (e.target.classList.contains('bibtex-toggle')) {
-      e.preventDefault();
-      const row = e.target.closest('.conference-row');
-      if (row) {
-        const bibtexDiv = row.querySelector('.bibtex');
-        if (bibtexDiv) {
-          bibtexDiv.classList.toggle('hidden');
-        }
-      }
-    }
-  });
-})();
+  }
+  return false;
+}
 </script>
