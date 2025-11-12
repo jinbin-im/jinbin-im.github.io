@@ -183,7 +183,7 @@ I am a Ph.D. candidate in Architectural Engineering at Hanyang University, where
   <!-- Project 1 -->
   <div class="research-card">
     <div class="research-header">
-      <span class="research-role role-manager">Research Manager</span>
+      <span class="research-role role-manager">Principal Contributor</span>
       <span class="research-year">2023–2024</span>
     </div>
     <div class="research-title">
@@ -202,7 +202,7 @@ I am a Ph.D. candidate in Architectural Engineering at Hanyang University, where
   <!-- Project 2 -->
   <div class="research-card">
     <div class="research-header">
-      <span class="research-role role-manager">Research Manager</span>
+      <span class="research-role role-manager">Principal Contributor</span>
       <span class="research-year">2021–2024</span>
     </div>
     <div class="research-title">
@@ -221,7 +221,7 @@ I am a Ph.D. candidate in Architectural Engineering at Hanyang University, where
   <!-- Project 3 -->
   <div class="research-card">
     <div class="research-header">
-      <span class="research-role role-participant">Research Participant</span>
+      <span class="research-role role-participant">Research Fellow</span>
       <span class="research-year">2024–On going</span>
     </div>
     <div class="research-title">
@@ -240,7 +240,7 @@ I am a Ph.D. candidate in Architectural Engineering at Hanyang University, where
   <!-- Project 4 -->
   <div class="research-card">
     <div class="research-header">
-      <span class="research-role role-participant">Research Participant</span>
+      <span class="research-role role-participant">Research Fellow</span>
       <span class="research-year">2021–2022</span>
     </div>
     <div class="research-title">
@@ -259,7 +259,7 @@ I am a Ph.D. candidate in Architectural Engineering at Hanyang University, where
   <!-- Project 5 -->
   <div class="research-card">
     <div class="research-header">
-      <span class="research-role role-participant">Research Participant</span>
+      <span class="research-role role-participant">Research Fellow</span>
       <span class="research-year">2021</span>
     </div>
     <div class="research-title">
@@ -277,7 +277,7 @@ I am a Ph.D. candidate in Architectural Engineering at Hanyang University, where
   <!-- Project 6 -->
   <div class="research-card">
     <div class="research-header">
-      <span class="research-role role-student">Research Student</span>
+      <span class="research-role role-student">Research Intern</span>
       <span class="research-year">2019</span>
     </div>
     <div class="research-title">
