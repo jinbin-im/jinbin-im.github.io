@@ -17,7 +17,7 @@ nav_order: 3
 <style>
 /* 컨퍼런스 헤더 스타일 - 클릭 가능 */
 .conference-header {
-  margin-top: 2rem;
+  margin-top: 1rem;  /* 2rem → 1rem으로 줄임 */
   margin-bottom: 1.5rem;
   padding: 1.2rem;
   background: #f8f9fa;
@@ -62,8 +62,9 @@ nav_order: 3
   color: #222;
   font-weight: 600;
   display: flex;
-  align-items: center;
+  align-items: baseline;  /* center → baseline */
   justify-content: space-between;
+  gap: 1rem;
 }
 
 .conference-header h3::after {
@@ -71,10 +72,25 @@ nav_order: 3
   font-size: 0.8rem;
   color: #7b27d8;
   transition: transform 0.3s;
+  margin-left: auto;  /* 화살표를 오른쪽 끝으로 */
 }
 
 .conference-header.collapsed h3::after {
   transform: rotate(-90deg);
+}
+
+/* Location/Date을 h3 안에 작은 글씨로 */
+.conference-location {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #888;
+  margin-left: 0.8rem;
+}
+
+.conference-location::before {
+  content: '·';
+  margin-right: 0.8rem;
+  color: #ccc;
 }
 
 .conference-full-title {
@@ -180,7 +196,28 @@ document.addEventListener('DOMContentLoaded', function() {
         header.setAttribute('data-conference', conference);  // 컨퍼런스 이름 저장
         
         const title = document.createElement('h3');
-        title.textContent = conference;
+        
+        // 컨퍼런스 이름
+        const confName = document.createElement('span');
+        confName.textContent = conference;
+        title.appendChild(confName);
+        
+        // Month (날짜)를 작은 글씨로 추가
+        if (group.month) {
+          const month = document.createElement('span');
+          month.className = 'conference-location';
+          month.textContent = group.month;
+          title.appendChild(month);
+        }
+        
+        // Location (address)을 작은 글씨로 추가
+        if (group.address) {
+          const location = document.createElement('span');
+          location.className = 'conference-location';
+          location.textContent = group.address;
+          title.appendChild(location);
+        }
+        
         header.appendChild(title);
         
         // Full title (booktitle)
@@ -189,15 +226,6 @@ document.addEventListener('DOMContentLoaded', function() {
           fullTitle.className = 'conference-full-title';
           fullTitle.textContent = group.booktitle;
           header.appendChild(fullTitle);
-        }
-        
-        // Meta info (address, month)
-        if (group.address || group.month) {
-          const meta = document.createElement('div');
-          meta.className = 'conference-meta';
-          const metaText = [group.address, group.month].filter(Boolean).join(', ');
-          meta.textContent = metaText;
-          header.appendChild(meta);
         }
         
         publications.appendChild(header);
