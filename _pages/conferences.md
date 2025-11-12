@@ -16,7 +16,7 @@ years: [2025, 2024, 2023, 2022, 2021]
   <div class="year-section" data-year="{{y}}">
     <h2 class="bibliography-year">{{y}}</h2>
     <div class="year-content">
-      {%- bibliography --file conferences --template conference_bib --query @*[year={{y}}]* %}
+      {%- bibliography --file conferences --template bib_conference --query @*[year={{y}}]* %}
     </div>
   </div>
 {%- endfor %}
