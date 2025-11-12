@@ -14,7 +14,7 @@ years: [2026, 2025, 2024, 2023, 2022, 2021]
 <div class="publications">
 {%- for y in page.years %}
   <h2 class="bibliography-year">{{y}}</h2>
-  {%- bibliography --file conference --query @*[year={{y}}]* %}
+  {%- bibliography --file conferences --query @*[year={{y}}]* %}
 {%- endfor %}
 </div>
 
