@@ -276,7 +276,7 @@ I am a Ph.D. candidate in Architectural Engineering at Hanyang University, where
   <!-- Project 6 -->
   <div class="research-card">
     <div class="research-header">
-      <span class="research-role role-student">Research Intern</span>
+      <span class="research-role role-student">Research Student</span>
       <span class="research-year">2019</span>
     </div>
     <div class="research-title">
