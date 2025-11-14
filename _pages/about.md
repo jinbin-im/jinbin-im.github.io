@@ -59,7 +59,9 @@ I am a Ph.D. candidate in Architectural Engineering at Hanyang University, where
 
 ---
 
-<h3 style="font-size: 1.3rem; margin-bottom: 15px; color: #333; font-weight: 700;">Education</h3>
+<h2>
+  <a style="color: inherit">Education</a>
+</h2>
 
 <div style="margin-bottom: 25px;">
   <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
@@ -85,7 +87,9 @@ I am a Ph.D. candidate in Architectural Engineering at Hanyang University, where
 
 ---
 
-<h3 style="font-size: 1.3rem; margin-bottom: 15px; color: #333; font-weight: 700;">Research Projects</h3>
+<h2>
+  <a style="color: inherit">Research Projects</a>
+</h2>
 
 <style>
 .research-projects {
@@ -302,8 +306,9 @@ I am a Ph.D. candidate in Architectural Engineering at Hanyang University, where
 {% include selected_papers.liquid %}
 
 ---
-
-<h3 style="font-size: 1.3rem; margin-bottom: 15px; color: #333; font-weight: 700;">Teaching</h3>
+<h2>
+  <a style="color: inherit">Teaching</a>
+</h2>
 
 **Teaching Fellow**
 
