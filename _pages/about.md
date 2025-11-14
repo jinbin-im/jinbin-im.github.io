@@ -60,7 +60,7 @@ I am a Ph.D. candidate in Architectural Engineering at Hanyang University, where
 ---
 
 <h2>
-  <a style="color: inherit">Education</a>
+  <a style="color: inherit">education</a>
 </h2>
 
 <div style="margin-bottom: 25px;">
@@ -88,7 +88,7 @@ I am a Ph.D. candidate in Architectural Engineering at Hanyang University, where
 ---
 
 <h2>
-  <a style="color: inherit">Research Projects</a>
+  <a style="color: inherit">research projects</a>
 </h2>
 
 <style>
@@ -307,7 +307,7 @@ I am a Ph.D. candidate in Architectural Engineering at Hanyang University, where
 
 ---
 <h2>
-  <a style="color: inherit">Teaching</a>
+  <a style="color: inherit">teaching</a>
 </h2>
 
 **Teaching Fellow**
