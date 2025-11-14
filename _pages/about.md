@@ -39,7 +39,7 @@ profile:
       </a>   
     </p>
     
-selected_papers: true
+selected_papers: false
 social: false 
 news: false
 latest_posts: false
@@ -294,6 +294,12 @@ I am a Ph.D. candidate in Architectural Engineering at Hanyang University, where
   </div>
 
 </div>
+
+---
+<h2>
+  <a href="/publications/" style="color: inherit">selected publications</a>
+</h2>
+{% include selected_papers.liquid %}
 
 ---
 
