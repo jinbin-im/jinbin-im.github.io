@@ -39,7 +39,7 @@ profile:
       </a>   
     </p>
     
-selected_papers: false
+selected_papers: true
 social: false 
 news: false
 latest_posts: false
