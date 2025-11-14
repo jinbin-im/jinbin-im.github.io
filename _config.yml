@@ -291,6 +291,13 @@ scholar:
     bold: true
     underline: false
 
+  bibtex_skip_fields:
+    - preview
+    - bibtex_show
+    - selected
+    - note
+    - abstract
+
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
 enable_publication_badges:
