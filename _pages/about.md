@@ -152,3 +152,23 @@ document.addEventListener('DOMContentLoaded', function() {
   }, 200);
 });
 </script>
+
+<style>
+/* 컨퍼런스별 고유 색상 */
+.conference-header[data-conference*="ICCEPM 2024"] {
+  border-left-color: #858f99;
+}
+.conference-header[data-conference*="ICCEPM 2025"] {
+  border-left-color: #164b9d;
+}
+.conference-header[data-conference*="ISARC 2025"] {
+  border-left-color: #8d2214;
+}
+.conference-header[data-conference*="ISARC 2026"] {
+  border-left-color: #152d97;
+}
+
+.conference-header[data-conference*="IAQVEC 2026"] {
+  border-left-color: #b58c65;
+}
+</style>
