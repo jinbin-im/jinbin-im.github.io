@@ -39,6 +39,9 @@ scholar:
   group_by: year
   group_order: descending
 
+  bibliography_list_tag: div
+  bibliography_item_tag: div
+
 # Collections
 collections:
   pages:
