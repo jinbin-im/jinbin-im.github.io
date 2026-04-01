@@ -372,3 +372,28 @@ body {
 .main-content::-webkit-scrollbar-thumb:hover {
   background: #999;
 }
+
+/* ==================== Profile Icons ==================== */
+.profile-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.profile-icons a {
+  color: var(--text-secondary);
+  font-size: 1.5rem;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.profile-icons a:hover {
+  color: var(--primary);
+  transform: translateY(-2px);
+}
+
+.profile-icons i {
+  display: block;
+}
