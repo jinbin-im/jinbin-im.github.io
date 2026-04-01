@@ -234,6 +234,11 @@ html, body {
   min-width: 0;
 }
 
+.bibliography {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 
 /* ==================== Profile Icons ==================== */
 .profile-icons {
