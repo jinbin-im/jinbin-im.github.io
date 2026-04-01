@@ -207,27 +207,27 @@
       {% endif %}
     </div>
 
-    <!-- 버튼들 (Abs와 Bib만) -->
+    <!-- 버튼들 -->
     <div class="links">
       {%- if entry.abstract %}
-        <a href="#" class="abstract-toggle btn btn-sm z-depth-0" role="button">Abs</a>
+        <a href="#" class="abstract-toggle btn" role="button">Abs</a>
       {%- endif %}
       {%- if entry.bibtex_show %}
-        <a href="#" class="bibtex-toggle btn btn-sm z-depth-0" role="button">Bib</a>
+        <a href="#" class="bibtex-toggle btn" role="button">Bib</a>
       {%- endif %}
     </div>
 
     <!-- 숨김 영역: 초록 -->
     {% if entry.abstract %}
-      <div class="abstract hidden">
+      <div id="abstract-{{entry.key}}" class="abstract hidden">
         <p>{{ entry.abstract }}</p>
       </div>
     {% endif %}
 
     <!-- 숨김 영역: BibTeX -->
     {% if entry.bibtex_show %}
-      <div class="bibtex hidden">
-        {% highlight bibtex %}{{ entry.bibtex }}{% endhighlight %}
+      <div id="bibtex-{{entry.key}}" class="bibtex hidden">
+        <pre><code>{{ entry.bibtex }}</code></pre>
       </div>
     {% endif %}
   </div>
