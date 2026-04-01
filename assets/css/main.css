@@ -13,7 +13,7 @@
   --text-tertiary: #999;
   --border: #e0e0e0;
   --bg-gray: #f8f9fa;
-  --sidebar-width: 280px;
+  --sidebar-width: 260px;
 }
 
 body {
@@ -37,7 +37,7 @@ body {
   height: 100vh;
 }
 
-/* ==================== Left Sidebar (Fixed) ==================== */
+/* ==================== Left Sidebar ==================== */
 .profile-sidebar {
   width: var(--sidebar-width);
   position: fixed;
@@ -46,115 +46,61 @@ body {
   height: 100vh;
   background: #fff;
   border-right: 1px solid var(--border);
-  padding: 3rem 2rem;
+  padding: 2.5rem 1.5rem;
   overflow-y: auto;
 }
 
-.profile-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
 .profile-image {
-  width: 160px;
-  height: 160px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   overflow: hidden;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
   border: 3px solid var(--border);
 }
 
-.profile-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .profile-name {
-  font-size: 1.5rem;
+  font-size: 1.375rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.375rem;
   color: var(--text-primary);
 }
 
-.profile-title {
-  font-size: 1rem;
-  color: var(--text-secondary);
-  margin-bottom: 0.25rem;
-}
-
 .profile-affiliation {
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   color: var(--text-tertiary);
   line-height: 1.5;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
-.profile-links {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
-.profile-link {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.75rem 1rem;
-  background: var(--bg-gray);
-  border-radius: 8px;
-  color: var(--text-secondary);
-  text-decoration: none;
-  font-size: 0.9rem;
-  transition: all 0.2s;
-}
-
-.profile-link:hover {
-  background: var(--primary);
-  color: white;
-  transform: translateX(4px);
-}
-
-.profile-link span {
-  font-size: 1.1rem;
-}
-
-/* ==================== Right Main Content (Scrollable) ==================== */
+/* ==================== Main Content ==================== */
 .main-content {
   margin-left: var(--sidebar-width);
   width: calc(100% - var(--sidebar-width));
   height: 100vh;
   overflow-y: auto;
-  padding: 3rem 4rem;
+  padding: 2.5rem 5rem;
+  max-width: 1200px;
 }
 
 /* ==================== Typography ==================== */
 .main-content h2 {
-  font-size: 1.875rem;
+  font-size: 1.75rem;
   font-weight: 600;
   color: var(--text-primary);
-  margin-bottom: 1.5rem;
-  padding-bottom: 0.75rem;
-  border-bottom: 2px solid var(--border);
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
 }
 
 .main-content section {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .main-content p {
   color: var(--text-secondary);
-  line-height: 1.8;
+  line-height: 1.75;
   margin-bottom: 1rem;
-}
-
-.section-description {
-  color: var(--text-tertiary);
-  font-size: 0.95rem;
-  margin-bottom: 2rem;
 }
 
 /* ==================== Research Interest ==================== */
@@ -182,100 +128,51 @@ body {
 .education-list {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .education-item {
-  padding: 1.5rem;
+  padding: 1.25rem;
   background: var(--bg-gray);
   border-radius: 8px;
   border-left: 4px solid var(--primary);
-}
-
-.education-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-bottom: 0.5rem;
-}
-
-.degree {
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: var(--text-primary);
-}
-
-.year {
-  font-size: 0.875rem;
-  color: var(--text-tertiary);
-  font-weight: 500;
-}
-
-.institution {
-  color: var(--text-secondary);
-  font-size: 0.95rem;
 }
 
 /* ==================== Publications ==================== */
 .bibliography {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 2rem;
 }
 
 .publication-item,
 .conference-item {
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem; 
   border-bottom: 1px solid var(--border);
-}
-
-.publication-item:last-child,
-.conference-item:last-child {
-  border-bottom: none;
 }
 
 .pub-title,
 .conf-title {
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
   font-weight: 600;
-  line-height: 1.5;
-  margin-bottom: 0.75rem;
+  line-height: 1.4;
+  margin-bottom: 0.625rem;
   color: var(--text-primary);
-}
-
-.pub-title a,
-.conf-title a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.pub-title a:hover,
-.conf-title a:hover {
-  color: var(--primary);
 }
 
 .pub-authors,
 .conf-authors {
-  font-size: 0.95rem;
+  font-size: 0.9375rem;
   color: var(--text-secondary);
-  margin-bottom: 0.5rem;
-}
-
-.author-me {
-  color: var(--primary);
-  font-weight: 600;
+  margin-bottom: 0.375rem;
+  line-height: 1.5;
 }
 
 .pub-venue,
 .conf-venue {
   font-size: 0.875rem;
   color: var(--text-tertiary);
-}
-
-.pub-venue em,
-.conf-venue em {
-  color: var(--text-secondary);
-  font-style: italic;
+  line-height: 1.5;
 }
 
 /* ==================== Badges ==================== */
