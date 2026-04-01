@@ -4,10 +4,80 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ site.title }}</title>
+  
+  <!-- Font Awesome & Academicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
 </head>
 <body class="about-page">
-  {{ content }}
+  <div class="about-container">
+    <!-- 왼쪽 고정 프로필 -->
+    <aside class="profile-sidebar">
+      <div class="profile-content">
+        <div class="profile-image">
+          <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem; font-weight: 600;">
+            JI
+          </div>
+        </div>
+        
+        <h1 class="profile-name">Jin-Bin Im</h1>
+        <p class="profile-title">Ph.D. Candidate</p>
+        <p class="profile-affiliation">Hanyang University<br>Architectural Engineering</p>
+        
+        <!-- 아이콘 링크 -->
+        <div class="profile-icons">
+          {% if site.google_scholar %}
+          <a href="{{ site.google_scholar }}" target="_blank" title="Google Scholar">
+            <i class="ai ai-google-scholar"></i>
+          </a>
+          {% endif %}
+          
+          {% if site.semantic_scholar %}
+          <a href="{{ site.semantic_scholar }}" target="_blank" title="Semantic Scholar">
+            <i class="ai ai-semantic-scholar"></i>
+          </a>
+          {% endif %}
+          
+          {% if site.researchgate %}
+          <a href="{{ site.researchgate }}" target="_blank" title="ResearchGate">
+            <i class="ai ai-researchgate"></i>
+          </a>
+          {% endif %}
+          
+          {% if site.cv_link %}
+          <a href="{{ site.cv_link }}" target="_blank" title="CV">
+            <i class="ai ai-cv"></i>
+          </a>
+          {% endif %}
+          
+          {% if site.linkedin %}
+          <a href="{{ site.linkedin }}" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          {% endif %}
+          
+          {% if site.github %}
+          <a href="{{ site.github }}" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          {% endif %}
+          
+          {% if site.email %}
+          <a href="mailto:{{ site.email }}" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          {% endif %}
+        </div>
+      </div>
+    </aside>
+
+    <!-- 오른쪽 스크롤 가능한 메인 콘텐츠 -->
+    <main class="main-content">
+      {{ content }}
+    </main>
+  </div>
   
   <script>
     function toggleAbstract(key) {
