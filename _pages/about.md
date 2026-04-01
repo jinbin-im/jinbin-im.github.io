@@ -9,7 +9,7 @@ permalink: /
   <aside class="profile-sidebar">
     <div class="profile-content">
       <div class="profile-image">
-        <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Jin-Bin Im">
+        <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem; font-weight: 600;">
       </div>
       
       <h1 class="profile-name">Jin-Bin Im</h1>
