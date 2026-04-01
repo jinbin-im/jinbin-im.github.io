@@ -419,6 +419,22 @@ html, body {
     gap: 0.25rem;
   }
 }
+  @media (max-width: 768px) {
+  .pub-row {
+    flex-direction: column;  /* 세로 배치 */
+  }
+  
+  .pub-preview {
+    width: 100% !important;  /* 가로 전체 */
+    height: auto !important;
+    aspect-ratio: 16 / 9;    /* 16:9 비율 */
+    margin-bottom: 1rem;
+  }
+  
+  .pub-content {
+    width: 100%;  /* 콘텐츠도 전체 너비 */
+  }
+}
 
 /* ==================== Scrollbar Styling ==================== */
 .main-content::-webkit-scrollbar {
