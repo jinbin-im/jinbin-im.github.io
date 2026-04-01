@@ -23,7 +23,7 @@ permalink: /
     </div>
    
     <div style="color: #666;">B.S. in Interior Architecture Design
-     <span style="color: #999;">2020 (Expected)</span>
+     <span style="color: #999;">2020</span>
     </div>    
   </div>
 </section>
