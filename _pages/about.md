@@ -20,25 +20,25 @@ permalink: /
     <li>AI-driven spatial design automation</li>
   </ul>
 </section>
+
 <section class="education-section">
   <h2>Education</h2>
-  <div class="education-list">
-    <div class="education-item">
-      <div class="education-header">
-        <strong class="degree">M.S./Ph.D. in Architectural Engineering</strong>
-        <span class="year">2026 (Expected)</span>
-      </div>
-      <div class="institution">Hanyang University, South Korea</div>
-      <div class="major">Construction Management</div>
+  
+  <div style="margin-bottom: 2rem;">
+    <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+      <strong>M.S./Ph.D. in Architectural Engineering</strong>
+      <span style="color: #999;">2026 (Expected)</span>
     </div>
-   
-    <div class="education-item">
-      <div class="education-header">
-        <strong class="degree">B.S. in Interior Architecture Design</strong>
-        <span class="year">2020</span>
-      </div>
-      <div class="institution">Hanyang University, South Korea</div>
+    <div style="color: #666;">Hanyang University, South Korea</div>
+    <div style="color: #999; font-style: italic;">Construction Management</div>
+  </div>
+
+  <div style="margin-bottom: 2rem;">
+    <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+      <strong>B.S. in Interior Architecture Design</strong>
+      <span style="color: #999;">2020</span>
     </div>
+    <div style="color: #666;">Hanyang University, South Korea</div>
   </div>
 </section>
 
