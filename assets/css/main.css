@@ -236,7 +236,7 @@ html, body {
 .pub-preview {
   flex-shrink: 0;
   width: 200px !important;
-  height: 112px !important;
+  height: 150px !important;
   background: #f8f9fa;
   border-radius: 8px;
   overflow: hidden;
@@ -427,7 +427,7 @@ html, body {
   .pub-preview {
     width: 100% !important;  /* 가로 전체 */
     height: auto !important;
-    aspect-ratio: 16 / 9;    /* 16:9 비율 */
+    aspect-ratio: 4 / 3;    /* 16:9 비율 */
     margin-bottom: 1rem;
   }
   
