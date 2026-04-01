@@ -45,7 +45,7 @@ html, body {
   justify-content: center;
   min-height: 100vh;
   overflow: visible;
-  padding: 0 10%;         /* 좌우 각각 15% */
+  padding: 0 15%;         /* 좌우 각각 15% */
 }
 
 .about-container {
@@ -61,7 +61,7 @@ html, body {
   width: var(--sidebar-width);
   flex-shrink: 0;
   position: fixed;
-  left: 10%;              /* 왼쪽 15% */
+  left: 15%;              /* 왼쪽 15% */
   top: 0;
   height: 100vh;
   background: #fff;
@@ -115,7 +115,7 @@ html, body {
   height: auto;
   overflow-y: visible;
   padding: 3rem 4rem;
-  margin-left: calc(var(--sidebar-width) + 3rem);
+  margin-left: var(--sidebar-width);
 }
 
 /* ==================== Copyright Footer ==================== */
