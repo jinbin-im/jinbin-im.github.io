@@ -12,16 +12,6 @@ permalink: /
 </section>
 
 <section>
-  <h2>Research Interest</h2>
-  <ul>
-    <li>User-centered design</li>
-    <li>Human responses to built environments</li>
-    <li>Extended Reality (VR/MR) for architectural design</li>
-    <li>AI-driven spatial design automation</li>
-  </ul>
-</section>
-
-<section>
   <h2>Education</h2>
   
   <div style="margin-bottom: 2rem;">
