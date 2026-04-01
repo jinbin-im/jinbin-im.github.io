@@ -12,7 +12,7 @@ permalink: /
         <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Jin-Bin Im">      
       </div>
       
-      <h1 class="profile-name">Jin-Bin Im</h1>
+      <h1 class="profile-name">Jinbin Im</h1>
       <p class="profile-title">Ph.D. Candidate</p>
       <p class="profile-affiliation">Hanyang University<br>Architectural Engineering</p>
       
