@@ -393,3 +393,33 @@ body {
 .main-content::-webkit-scrollbar-thumb:hover {
   background: #999;
 }
+
+/* ==================== Button Styles ==================== */
+.links .btn {
+  display: inline-block;
+  padding: 6px 14px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  border: 1px solid var(--primary);
+  border-radius: 6px;
+  background: white;
+  color: var(--primary);
+  text-decoration: none;
+  margin-right: 0.625rem;
+  margin-top: 0.5rem;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.links .btn:hover {
+  background: var(--primary);
+  color: white;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(123, 39, 216, 0.2);
+}
+
+.links .btn:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
