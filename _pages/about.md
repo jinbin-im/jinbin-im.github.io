@@ -57,16 +57,8 @@ permalink: /
       <div class="education-list">
         <div class="education-item">
           <div class="education-header">
-            <strong class="degree">Ph.D. in Construction Management</strong>
+            <strong class="degree">M.S/Ph.D. in Architectural Engineering, Construction Management</strong>
             <span class="year">2026 (Expected)</span>
-          </div>
-          <div class="institution">Hanyang University, South Korea</div>
-        </div>
-
-        <div class="education-item">
-          <div class="education-header">
-            <strong class="degree">M.S. Architectural Engineering</strong>
-            <span class="year">2022</span>
           </div>
           <div class="institution">Hanyang University, South Korea</div>
         </div>
