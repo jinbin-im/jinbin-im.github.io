@@ -7,7 +7,7 @@ permalink: /
 <section class="about-section">
   <h2>About</h2>
   
-  <p>Hi! I'm Jinbin Im, a Ph.D. candidate in the <a href="http://cbpm.hanyang.ac.kr/"><strong><span style="color:#4f3670; text-decoration:underline;">CB&PM Lab</span></strong></a> at Hanyang University.</p>
+  <p>Hi! I'm Jinbin Im, a Ph.D. candidate in the  <a href="https://are.hanyang.ac.kr/en/home"><strong><span style="color:#7b27d8;">Department of Architectural Engineering</span></strong></a> at  <a href="https://hanyang.ac.kr/web/eng"><strong><span style="color:#7b27d8;">Hanyang University</span></strong></a>. I am working with my advisor  <a href="https://scholar.google.com/citations?user=SlzGoi0AAAAJ&hl=ko&oi=ao"><strong><span style="color:#7b27d8;">Ju-Hyung Kim</span></strong></a> at <a href="http://cbpm.hanyang.ac.kr/"><strong><span style="color:#7b27d8;">CB&PM Lab.</span></strong></a></p>
   
   <p>My academic work focuses on three key areas: <strong>1) optimizing spatial design based on human-centered requirements</strong>, <strong>2) design simulation using extended reality (XR)</strong>, and <strong>3) natural language processing and LLM-based intelligent systems for design automation.</strong></p>
   
