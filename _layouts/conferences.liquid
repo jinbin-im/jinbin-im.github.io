@@ -1,1 +1,172 @@
+---
+---
+{% raw %}
+<style>
+.author-me {
+  color: #7b27d8 !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+  text-decoration: none !important;
+}
 
+/* 제목 링크 스타일 */
+.title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.title a:hover {
+  color: #7b27d8;
+  text-decoration: underline;
+}
+
+/* Location Badge */
+.location-badge {
+  display: inline-block;
+  background: #7b27d8;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  margin-left: 0.5rem;
+  font-weight: 600;
+}
+
+/* Abstract/Bibtex 숨김 스타일 */
+.abstract.hidden,
+.bibtex.hidden {
+  display: none;
+}
+
+.abstract,
+.bibtex {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-left: 3px solid #7b27d8;
+  border-radius: 4px;
+}
+
+/* Preview Layout */
+.pub-row {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.pub-preview {
+  flex-shrink: 0;
+  width: 150px;
+  height: 150px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pub-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pub-content {
+  flex: 1;
+  min-width: 0;
+}
+</style>
+{% endraw %}
+
+<div class="publication-item pub-row">
+  <!-- 왼쪽: 프리뷰 이미지 (선택사항) -->
+  {% if entry.preview %}
+  <div class="pub-preview">
+    {% if entry.preview contains '://' %}
+      <img src="{{ entry.preview }}" alt="{{ entry.title }}">
+    {% else %}
+      <img src="{{ site.baseurl }}/assets/img/publication_preview/{{ entry.preview }}" alt="{{ entry.title }}">
+    {% endif %}
+  </div>
+  {% endif %}
+
+  <!-- 오른쪽: 콘텐츠 -->
+  <div class="pub-content">
+    <!-- 제목 -->
+    <div class="title">
+      {% if entry.url %}
+        <a href="{{ entry.url }}" target="_blank">{{entry.title}}</a>
+      {% elsif entry.doi %}
+        <a href="https://doi.org/{{ entry.doi }}" target="_blank">{{entry.title}}</a>
+      {% else %}
+        {{entry.title}}
+      {% endif %}
+    </div>
+
+    <!-- 저자 -->
+    <div class="author">
+      {% assign author_array_size = entry.author_array | size %}
+      
+      {%- for author in entry.author_array -%}
+        {%- assign author_is_self = false -%}
+        {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
+        
+        {%- if author_last_name == "Im" -%}
+          {%- if author.first contains "Jin-Bin" or author.first contains "J.-B." or author.first contains "J. B." or author.first contains "J.B." -%}
+            {%- assign author_is_self = true -%}
+          {%- endif -%}
+        {%- endif -%}
+        
+        {% if author_is_self %}
+          <span class="author-me">{{author.first}} {{author.last}}</span>
+        {% else %}
+          {{author.first}} {{author.last}}
+        {% endif %}
+        
+        {%- if forloop.last == false -%}
+          {%- if forloop.index == author_array_size | minus: 1 -%}
+            , and&nbsp;
+          {%- else -%}
+            ,&nbsp;
+          {%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+
+    <!-- Conference 정보 -->
+    <div class="periodical">
+      {% if entry.booktitle %}
+        <em>{{entry.booktitle}}</em>
+      {% endif %}
+      
+      {% if entry.address %}
+        <span class="location-badge">{{ entry.address }}</span>
+      {% endif %}
+    </div>
+
+    <!-- 버튼들 -->
+    <div class="links">
+      {%- if entry.abstract %}
+        <a href="#" class="btn" onclick="toggleAbstract('{{entry.key}}'); return false;">Abs</a>
+      {%- endif %}
+      {%- if entry.bibtex_show %}
+        <a href="#" class="btn" onclick="toggleBibtex('{{entry.key}}'); return false;">Bib</a>
+      {%- endif %}
+    </div>
+
+    <!-- 숨김 영역: 초록 -->
+    {% if entry.abstract %}
+      <div id="abstract-{{entry.key}}" class="abstract hidden">
+        <p>{{ entry.abstract }}</p>
+      </div>
+    {% endif %}
+
+    <!-- 숨김 영역: BibTeX -->
+    {% if entry.bibtex_show %}
+      <div id="bibtex-{{entry.key}}" class="bibtex hidden">
+        <pre><code>{{ entry.bibtex }}</code></pre>
+      </div>
+    {% endif %}
+  </div>
+</div>
