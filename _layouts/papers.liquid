@@ -64,7 +64,18 @@
         {% if entry.number %}({{entry.number}}){% endif %}
         {% if entry.pages %}, {{entry.pages}}{% endif %}
       {% endif %}
-    
+    </div>
+
+    <!-- 버튼들 -->
+    <div class="links-and-badges">
+      {%- if entry.abstract %}
+        <a href="#" class="btn" onclick="toggleAbstract('{{entry.key}}'); return false;">Abs</a>
+      {%- endif %}
+      {%- if entry.bibtex_show %}
+        <a href="#" class="btn" onclick="toggleBibtex('{{entry.key}}'); return false;">Bib</a>
+      {%- endif %}
+
+
       {% if entry.note %}
         {% assign note_text = entry.note %}
         <span class="journal-metrics">
@@ -90,16 +101,6 @@
           {% endif %}
         </span>
       {% endif %}
-    </div>
-
-    <!-- 버튼들 -->
-    <div class="links">
-      {%- if entry.abstract %}
-        <a href="#" class="btn" onclick="toggleAbstract('{{entry.key}}'); return false;">Abs</a>
-      {%- endif %}
-      {%- if entry.bibtex_show %}
-        <a href="#" class="btn" onclick="toggleBibtex('{{entry.key}}'); return false;">Bib</a>
-      {%- endif %}
     </div>
 
     <!-- 숨김 영역: 초록 -->
