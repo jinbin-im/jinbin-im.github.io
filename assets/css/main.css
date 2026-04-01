@@ -301,7 +301,7 @@ body {
 /* ==================== Button Styles ==================== */
 .links .btn {
   display: inline-block;
-  padding: 6px 14px;
+  padding: 3px 10px;
   font-size: 0.8125rem;
   font-weight: 500;
   border: 1px solid var(--primary);
@@ -309,8 +309,8 @@ body {
   background: white;
   color: var(--primary);
   text-decoration: none;
-  margin-right: 0.625rem;
-  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0;
   transition: all 0.2s;
   cursor: pointer;
 }
