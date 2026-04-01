@@ -86,7 +86,7 @@ permalink: /
       <p class="section-description">Journal publications in reversed chronological order.</p>
       
       <div class="bibliography">
-        {% bibliography --file publications %}
+        {% bibliography --file papers --template papers %}
       </div>
     </section>
 
@@ -95,7 +95,7 @@ permalink: /
       <p class="section-description">Conference presentations in reversed chronological order.</p>
       
       <div class="bibliography">
-        {% bibliography --file conferences --template bib_conference %}
+        {% bibliography --file conferences --template conference %}
       </div>
     </section>
   </main>
