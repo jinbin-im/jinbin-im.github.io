@@ -7,7 +7,7 @@ permalink: /
 <section class="about-section">
   <h2>About</h2>
  
-Hi! I'm Jinbin Im, a Ph.D. candidate in the <a href="http://cbpm.hanyang.ac.kr/"><strong><span style="color:#4f3670; text-decoration:underline;">Client Briefing and Program Management (CB&PM) Lab</span></strong></a> at Hanyang University.
+Hi! I'm Jinbin Im, a Ph.D. candidate in the <a href="http://cbpm.hanyang.ac.kr/"><strong><span style="color:#4f3670; text-decoration:underline;">CB & PM Lab</span></strong></a> at Hanyang University.
    
 My academic work focuses on three key areas: **1) optimizing spatial design based on human-centered requirements**, **2) design simulation using extended reality (XR)**, and **3) natural language processing and LLM-based intelligent systems for design automation.**
 
