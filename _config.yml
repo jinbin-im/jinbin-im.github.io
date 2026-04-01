@@ -1,6 +1,6 @@
 # Site settings
 title: Jin-Bin Im
-email: jbim0202@hanyang.ac.kr
+email: your-email@hanyang.ac.kr
 description: Ph.D. Candidate in Construction Management at Hanyang University
 baseurl: "/jinbinim"
 url: "https://jinbin-im.github.io"
@@ -8,6 +8,29 @@ url: "https://jinbin-im.github.io"
 # Build settings
 markdown: kramdown
 permalink: /:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-scholar
+
+# Jekyll Scholar Configuration
+scholar:
+  style: apa
+  locale: en
+  source: ./_bibliography
+  bibliography: publications.bib
+  bibliography_template: papers
+  sort_by: year
+  order: descending
+  
+  # Author highlighting
+  last_name: [Im]
+  first_name: [Jin-Bin, J.-B., J. B., J.B.]
+  
+  # Group by year
+  group_by: year
+  group_order: descending
 
 # Collections
 collections:
@@ -28,16 +51,11 @@ navigation:
   - title: About
     url: /
   - title: Publications
-    url: /publications/
+    url: /#publications
   - title: Conferences
-    url: /conferences/
+    url: /#conferences
 
-# Author info (for highlighting in publications)
-scholar:
-  last_name: [Im]
-  first_name: [Jin-Bin, J.-B., J. B., J.B.]
-
-# Exclude from processing
+# Exclude
 exclude:
   - Gemfile
   - Gemfile.lock
