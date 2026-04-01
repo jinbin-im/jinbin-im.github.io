@@ -45,15 +45,15 @@ permalink: /
 <section id="publications" class="publications-section">
   <h2>Publications</h2>
   
-  <div class="bibliography">
+  <ol class="bibliography">
     {% bibliography --file papers --template papers %}
-  </div>
+  </ol>
 </section>
 
 <section id="conferences" class="conferences-section">
   <h2>Conferences</h2>
   
-  <div class="bibliography">
+  <ol class="bibliography">
     {% bibliography --file conferences --template conferences %}
-  </div>
+  </ol>
 </section>
