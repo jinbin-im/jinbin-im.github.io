@@ -1,1 +1,105 @@
+---
+---
 
+<div class="publication-item">
+  <!-- 제목 -->
+  <div class="pub-title">
+    {% if entry.doi %}
+      <a href="https://doi.org/{{ entry.doi }}" target="_blank">{{entry.title}}</a>
+    {% elsif entry.url %}
+      <a href="{{ entry.url }}" target="_blank">{{entry.title}}</a>
+    {% else %}
+      {{entry.title}}
+    {% endif %}
+  </div>
+
+  <!-- 저자 -->
+  <div class="pub-authors">
+    {% assign author_array_size = entry.author_array | size %}
+    
+    {%- for author in entry.author_array -%}
+      {%- assign author_is_self = false -%}
+      {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
+      
+      {%- if author_last_name == "Im" -%}
+        {%- if author.first contains "Jin-Bin" or author.first contains "J.-B." or author.first contains "J. B." or author.first contains "J.B." -%}
+          {%- assign author_is_self = true -%}
+        {%- endif -%}
+      {%- endif -%}
+      
+      {% if author_is_self %}
+        <strong class="author-me">{{author.first}} {{author.last}}</strong>
+      {% else %}
+        {{author.first}} {{author.last}}
+      {% endif %}
+      
+      {%- if forloop.last == false -%}
+        {%- if forloop.index == author_array_size | minus: 1 -%}
+          , and&nbsp;
+        {%- else -%}
+          ,&nbsp;
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+
+  <!-- 저널 정보 with Volume, Issue, Pages -->
+  <div class="pub-venue">
+    <em>{{entry.journal}}</em>
+    {% if entry.volume or entry.number or entry.pages %}
+      {% if entry.volume %}, <strong>{{entry.volume}}</strong>{% endif %}
+      {% if entry.number %}({{entry.number}}){% endif %}
+      {% if entry.pages %}, {{entry.pages}}{% endif %}
+    {% endif %}
+    
+    {% if entry.note %}
+      {% assign note_text = entry.note %}
+      {% if note_text contains "SCI-E" or note_text contains "SCIE" %}
+        <span class="badge badge-scie">SCI-E</span>
+      {% endif %}
+      {% if note_text contains "A&HCI" or note_text contains "AHCI" %}
+        <span class="badge badge-ahci">A&HCI</span>
+      {% endif %}
+      {% if note_text contains "KCI" %}
+        <span class="badge badge-kci">KCI</span>
+      {% endif %}
+      {% if note_text contains "SCOPUS" %}
+        <span class="badge badge-scopus">SCOPUS</span>
+      {% endif %}
+      {% if note_text contains "%" %}
+        {% assign percentage = note_text | split: "(" | last | split: "%" | first %}
+        <span class="badge badge-top">Top {{ percentage }}%</span>
+      {% endif %}
+      {% if note_text contains "IF" %}
+        {% assign if_value = note_text | split: "IF" | last | strip %}
+        <span class="badge badge-if">IF {{ if_value }}</span>
+      {% endif %}
+    {% endif %}
+  </div>
+
+  <!-- 버튼들 -->
+  {% if entry.abstract or entry.pdf or entry.arxiv %}
+    <div class="pub-buttons">
+      {%- if entry.abstract %}
+        <button class="btn-abs" onclick="toggleAbstract('{{entry.key}}')">Abs</button>
+      {%- endif %}
+      {%- if entry.arxiv %}
+        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn-link" target="_blank">arXiv</a>
+      {%- endif %}
+      {%- if entry.pdf %}
+        {% if entry.pdf contains '://' %}
+          <a href="{{ entry.pdf }}" class="btn-link" target="_blank">PDF</a>
+        {% else %}
+          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn-link" target="_blank">PDF</a>
+        {% endif %}
+      {%- endif %}
+    </div>
+  {% endif %}
+
+  <!-- 숨김 영역: 초록 -->
+  {% if entry.abstract %}
+    <div id="abstract-{{entry.key}}" class="abstract-content hidden">
+      <p>{{ entry.abstract }}</p>
+    </div>
+  {% endif %}
+</div>
