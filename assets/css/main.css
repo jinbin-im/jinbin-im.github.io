@@ -134,7 +134,7 @@ html, body {
 .bibliography {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .publication-item,
