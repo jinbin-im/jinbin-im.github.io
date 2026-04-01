@@ -2,12 +2,26 @@
 title: Jin-Bin Im
 email: jbim0202@hanyang.ac.kr
 description: Ph.D. Candidate in Construction Management at Hanyang University
-baseurl: ""
-url: "https://jinbin-im.github.io/jinbinim"
+baseurl: "/jinbinim"
+url: "https://jinbin-im.github.io"
 
 # Build settings
 markdown: kramdown
-theme: minima
+permalink: /:title/
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
 
 # Navigation
 navigation:
@@ -18,14 +32,18 @@ navigation:
   - title: Conferences
     url: /conferences/
 
-# Author info
-author:
-  name: Jin-Bin Im
-  first_name: [Jin-Bin, J.-B., J. B., J.B.]
+# Author info (for highlighting in publications)
+scholar:
   last_name: [Im]
+  first_name: [Jin-Bin, J.-B., J. B., J.B.]
 
-# Exclude
+# Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
   - README.md
+  - LICENSE
