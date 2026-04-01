@@ -87,25 +87,27 @@
 .pub-row {
   display: flex;
   gap: 1.5rem;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .pub-preview {
   flex-shrink: 0;
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 112px;
   background: #f8f9fa;
   border-radius: 8px;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid #e0e0e0;
 }
 
 .pub-preview img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  background: white;
 }
 
 .pub-content {
