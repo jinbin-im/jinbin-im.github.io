@@ -25,15 +25,16 @@ permalink: /
   <div class="education-list">
     <div class="education-item">
       <div class="education-header">
-        <strong class="degree">M.S/Ph.D. in Architectural Engineering, Construction Management</strong>
+        <strong class="degree">M.S./Ph.D. in Architectural Engineering</strong>
         <span class="year">2026 (Expected)</span>
       </div>
       <div class="institution">Hanyang University, South Korea</div>
+      <div class="major">Construction Management</div>
     </div>
    
     <div class="education-item">
       <div class="education-header">
-        <strong class="degree">B.S. Interior Architecture Design</strong>
+        <strong class="degree">B.S. in Interior Architecture Design</strong>
         <span class="year">2020</span>
       </div>
       <div class="institution">Hanyang University, South Korea</div>
