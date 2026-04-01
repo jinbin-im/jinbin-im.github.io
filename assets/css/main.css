@@ -16,6 +16,12 @@
   --sidebar-width: 260px;
 }
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
@@ -50,6 +56,12 @@ body {
   overflow-y: auto;
 }
 
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .profile-image {
   width: 140px;
   height: 140px;
@@ -64,6 +76,14 @@ body {
   font-weight: 600;
   margin-bottom: 0.375rem;
   color: var(--text-primary);
+  text-align: center;
+}
+
+.profile-title {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.25rem;
+  text-align: center;
 }
 
 .profile-affiliation {
@@ -71,16 +91,18 @@ body {
   color: var(--text-tertiary);
   line-height: 1.5;
   margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 /* ==================== Main Content ==================== */
 .main-content {
   margin-left: var(--sidebar-width);
   width: calc(100% - var(--sidebar-width));
+  max-width: 1200px;
   height: 100vh;
   overflow-y: auto;
+  overflow-x: hidden;
   padding: 2.5rem 5rem;
-  max-width: 1200px;
 }
 
 /* ==================== Typography ==================== */
@@ -138,7 +160,45 @@ body {
   border-left: 4px solid var(--primary);
 }
 
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.degree {
+  color: var(--text-primary);
+  font-size: 1rem;
+}
+
+.year {
+  color: var(--text-tertiary);
+  font-size: 0.9rem;
+}
+
+.institution {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.major {
+  color: var(--text-tertiary);
+  font-size: 0.875rem;
+  font-style: italic;
+  margin-top: 0.25rem;
+}
+
 /* ==================== Publications ==================== */
+.section-description {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
 .bibliography {
   display: flex;
   flex-direction: column;
@@ -147,21 +207,33 @@ body {
 
 .publication-item,
 .conference-item {
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
   padding-bottom: 1.5rem; 
   border-bottom: 1px solid var(--border);
 }
 
+.publication-item:last-child,
+.conference-item:last-child {
+  border-bottom: none;
+}
+
 .pub-title,
-.conf-title {
+.conf-title,
+.title {
   font-size: 1.0625rem;
   font-weight: 600;
   line-height: 1.4;
   margin-bottom: 0.625rem;
   color: var(--text-primary);
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 
 .pub-authors,
-.conf-authors {
+.conf-authors,
+.author {
   font-size: 0.9375rem;
   color: var(--text-secondary);
   margin-bottom: 0.375rem;
@@ -169,10 +241,12 @@ body {
 }
 
 .pub-venue,
-.conf-venue {
+.conf-venue,
+.periodical {
   font-size: 0.875rem;
   color: var(--text-tertiary);
   line-height: 1.5;
+  margin-bottom: 0.5rem;
 }
 
 /* ==================== Badges ==================== */
@@ -210,6 +284,56 @@ body {
   border-radius: 12px;
   font-size: 0.8rem;
   margin-left: 0.5rem;
+}
+
+/* ==================== Links & Buttons ==================== */
+.links {
+  margin-top: 0.75rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 4px 12px;
+  font-size: 0.875rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: white;
+  color: var(--text-secondary);
+  text-decoration: none;
+  margin-right: 0.5rem;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: var(--bg-gray);
+}
+
+/* ==================== Profile Icons ==================== */
+.profile-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.profile-icons a {
+  color: var(--text-secondary);
+  font-size: 1.5rem;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.profile-icons a:hover {
+  color: var(--primary);
+  transform: translateY(-2px);
+}
+
+.profile-icons i {
+  display: block;
 }
 
 /* ==================== Responsive ==================== */
@@ -268,29 +392,4 @@ body {
 
 .main-content::-webkit-scrollbar-thumb:hover {
   background: #999;
-}
-
-/* ==================== Profile Icons ==================== */
-.profile-icons {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-top: 2rem;
-  flex-wrap: wrap;
-}
-
-.profile-icons a {
-  color: var(--text-secondary);
-  font-size: 1.5rem;
-  transition: all 0.2s;
-  text-decoration: none;
-}
-
-.profile-icons a:hover {
-  color: var(--primary);
-  transform: translateY(-2px);
-}
-
-.profile-icons i {
-  display: block;
 }
