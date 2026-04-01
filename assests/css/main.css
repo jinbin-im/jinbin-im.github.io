@@ -1,0 +1,374 @@
+/* ==================== Reset & Variables ==================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #7b27d8;
+  --primary-dark: #5a1fa0;
+  --text-primary: #1a1a1a;
+  --text-secondary: #666;
+  --text-tertiary: #999;
+  --border: #e0e0e0;
+  --bg-gray: #f8f9fa;
+  --sidebar-width: 280px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-primary);
+  background: #fff;
+}
+
+/* ==================== About Page Layout ==================== */
+.about-page {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.about-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+/* ==================== Left Sidebar (Fixed) ==================== */
+.profile-sidebar {
+  width: var(--sidebar-width);
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background: #fff;
+  border-right: 1px solid var(--border);
+  padding: 3rem 2rem;
+  overflow-y: auto;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  border: 3px solid var(--border);
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.profile-title {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.25rem;
+}
+
+.profile-affiliation {
+  font-size: 0.9rem;
+  color: var(--text-tertiary);
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.profile-links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.profile-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: var(--bg-gray);
+  border-radius: 8px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.profile-link:hover {
+  background: var(--primary);
+  color: white;
+  transform: translateX(4px);
+}
+
+.profile-link span {
+  font-size: 1.1rem;
+}
+
+/* ==================== Right Main Content (Scrollable) ==================== */
+.main-content {
+  margin-left: var(--sidebar-width);
+  width: calc(100% - var(--sidebar-width));
+  height: 100vh;
+  overflow-y: auto;
+  padding: 3rem 4rem;
+}
+
+/* ==================== Typography ==================== */
+.main-content h2 {
+  font-size: 1.875rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.main-content section {
+  margin-bottom: 4rem;
+}
+
+.main-content p {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.section-description {
+  color: var(--text-tertiary);
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+
+/* ==================== Research Interest ==================== */
+.research-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.research-list li {
+  padding: 0.75rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: var(--text-secondary);
+}
+
+.research-list li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+/* ==================== Education ==================== */
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.education-item {
+  padding: 1.5rem;
+  background: var(--bg-gray);
+  border-radius: 8px;
+  border-left: 4px solid var(--primary);
+}
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+
+.degree {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.year {
+  font-size: 0.875rem;
+  color: var(--text-tertiary);
+  font-weight: 500;
+}
+
+.institution {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+/* ==================== Publications ==================== */
+.bibliography {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.publication-item,
+.conference-item {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.publication-item:last-child,
+.conference-item:last-child {
+  border-bottom: none;
+}
+
+.pub-title,
+.conf-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
+}
+
+.pub-title a,
+.conf-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.pub-title a:hover,
+.conf-title a:hover {
+  color: var(--primary);
+}
+
+.pub-authors,
+.conf-authors {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.author-me {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.pub-venue,
+.conf-venue {
+  font-size: 0.875rem;
+  color: var(--text-tertiary);
+}
+
+.pub-venue em,
+.conf-venue em {
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+/* ==================== Badges ==================== */
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badge-scie,
+.badge-ahci {
+  background: #e0e0e0;
+  color: #333;
+}
+
+.badge-top {
+  background: #e91e63;
+  color: white;
+}
+
+.badge-if {
+  background: #4caf50;
+  color: white;
+}
+
+.location {
+  background: var(--primary);
+  color: white;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+/* ==================== Responsive ==================== */
+@media (max-width: 1024px) {
+  :root {
+    --sidebar-width: 240px;
+  }
+  
+  .main-content {
+    padding: 2rem 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .profile-sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    padding: 2rem 1.5rem;
+  }
+  
+  .main-content {
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+    padding: 2rem 1.5rem;
+  }
+  
+  .education-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+}
+
+/* ==================== Scrollbar Styling ==================== */
+.main-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.main-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.main-content::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.main-content::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
