@@ -7,7 +7,7 @@ permalink: /
 <section class="about-section">
   <h2>About</h2>
   
-  <p>Hi! I'm Jinbin Im, a Ph.D. candidate in the 
+  <p>Hello! I'm Jinbin Im, a Ph.D. candidate in the 
 <a href="https://are.hanyang.ac.kr/en/home" style="text-decoration: none;">
   <span style="color:#7b27d8;">Department of Architectural Engineering</span>
 </a> at 
