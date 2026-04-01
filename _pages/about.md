@@ -30,7 +30,7 @@ permalink: /
       </div>
       <div class="institution">Hanyang University, South Korea</div>
     </div>
-
+   
     <div class="education-item">
       <div class="education-header">
         <strong class="degree">B.S. Interior Architecture Design</strong>
