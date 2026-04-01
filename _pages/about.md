@@ -172,3 +172,7 @@ document.addEventListener('DOMContentLoaded', function() {
   border-left-color: #b58c65;
 }
 </style>
+
+<div class="site-footer">
+      <p>&copy; 2026 Jinbin Im. All rights reserved.</p>
+</div>
