@@ -20,6 +20,8 @@ html, body {
   overflow-x: hidden;
   width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -392,21 +394,33 @@ html, body {
 }
 
 @media (max-width: 768px) {
-  /* 컨테이너 여백 제거 */
+  /* 최상위 컨테이너 여백 완전 제거 */
+  .about-page {
+    padding: 0;
+    margin: 0;
+  }
+  
   .about-container {
     flex-direction: column;
     height: auto;
-    padding: 0;
+    padding: 0 !important;
+    margin: 0;
   }
   
-  /* 사이드바 모바일 레이아웃 */
+  /* 사이드바 */
   .profile-sidebar {
     position: relative;
     width: 100%;
     height: auto;
     border-right: none;
     border-bottom: 1px solid var(--border);
-    padding: 2rem 1rem;
+    padding: 2rem 0;
+    margin: 0;
+  }
+  
+  /* 프로필 콘텐츠만 여백 */
+  .profile-content {
+    padding: 0 1rem;
   }
   
   /* 프로필 이미지 크기 조정 */
@@ -415,16 +429,27 @@ html, body {
     height: 150px;
   }
   
-  /* 메인 콘텐츠 여백 조정 */
-  .main-content {
-    margin-left: 0;
-    width: 100%;
-    height: auto;
-    padding: 1.5rem 1rem;
+  /* 프로필 아이콘 */
+  .profile-icons {
+    gap: 0.75rem;
+    margin-top: 1.5rem;
   }
   
-  /* 섹션 간격 조정 */
+  .profile-icons a {
+    font-size: 1.25rem;
+  }
+  
+  /* 메인 콘텐츠 여백 제거 */
+  .main-content {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    padding: 0 !important;
+  }
+  
+  /* 각 섹션에만 최소 여백 */
   .main-content section {
+    padding: 0 1rem;
     margin-bottom: 2rem;
   }
   
@@ -433,11 +458,16 @@ html, body {
     font-size: 1.25rem;
   }
   
-  /* Education 섹션 */
+  /* Education */
   .education-header {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.25rem;
+  }
+  
+  /* Bibliography 컨테이너 */
+  .bibliography {
+    gap: 1.5rem;
   }
   
   /* Publication 세로 레이아웃 */
@@ -447,69 +477,70 @@ html, body {
     gap: 0;
   }
   
-  /* 프리뷰 이미지 전체 너비 */
+  /* Publication item */
+  .publication-item {
+    padding-bottom: 1.5rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+  
+  /* 프리뷰 이미지 완전 전체 너비 */
   .pub-preview {
-    width: 100% !important;
+    width: calc(100% + 2rem) !important;
     height: auto !important;
     aspect-ratio: 4 / 3;
+    margin-left: -1rem;
+    margin-right: -1rem;
     margin-bottom: 1rem;
     border-radius: 0;
     border-left: none;
     border-right: none;
   }
   
+  /* 콘텐츠 여백 */
   .pub-content {
     width: 100%;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
   }
   
-  /* 제목 폰트 조정 */
+  /* 제목 */
   .title {
     font-size: 0.95rem;
     line-height: 1.4;
     margin-bottom: 0.5rem;
   }
   
-  /* 저자 폰트 조정 */
+  /* 저자 */
   .author {
     font-size: 0.875rem;
     margin-bottom: 0.5rem;
   }
   
-  /* 저널 정보 폰트 조정 */
+  /* 저널 정보 */
   .periodical {
     font-size: 0.85rem;
     margin-bottom: 0.5rem;
   }
   
-  /* 배지 크기 조정 */
+  /* 배지 */
   .metric-badge {
     font-size: 0.65rem;
     padding: 2px 6px;
   }
   
-  /* 버튼 크기 조정 */
+  /* 버튼 */
   .links .btn {
     padding: 4px 10px;
     font-size: 0.7rem;
-    margin-right: 0.5rem;
   }
   
-  /* Publication 간격 조정 */
-  .bibliography {
-    gap: 1.5rem;
-  }
-  
-  .publication-item {
-    padding-bottom: 1.5rem;
-  }
-  
-  /* Conference Accordion 모바일 */
+  /* Conference Accordion */
   .conference-header {
     margin-left: -1rem;
     margin-right: -1rem;
     border-radius: 0;
     padding: 1rem;
+    margin-bottom: 1rem;
   }
   
   .conference-header h3 {
@@ -536,10 +567,18 @@ html, body {
   
   .conference-row {
     padding-left: 0.5rem;
+    padding-right: 0.5rem;
     margin-bottom: 1.5rem;
   }
   
-  /* Copyright footer 모바일 */
+  /* 연도 헤더 */
+  h2.bibliography {
+    font-size: 1rem;
+    margin-top: 2rem;
+    padding-left: 1rem;
+  }
+  
+  /* Copyright footer */
   .copyright-footer {
     padding: 2rem 1rem;
     margin-top: 3rem;
@@ -547,22 +586,6 @@ html, body {
   
   .copyright-footer p {
     font-size: 0.8rem;
-  }
-  
-  /* 프로필 아이콘 크기 조정 */
-  .profile-icons {
-    gap: 0.75rem;
-    margin-top: 1.5rem;
-  }
-  
-  .profile-icons a {
-    font-size: 1.25rem;
-  }
-  
-  /* 연도 헤더 조정 */
-  h2.bibliography {
-    font-size: 1rem;
-    margin-top: 2rem;
   }
 }
 
@@ -615,7 +638,7 @@ html, body {
 
 /* ==================== Bibliography Year Headers ==================== */
 h2.bibliography {
-  font-size: 1.125;
+  font-size: 1.125rem;
   font-weight: 400;
   color: #999;
   margin-top: 2.5rem; 
@@ -626,4 +649,13 @@ h2.bibliography {
 
 h2.bibliography:first-of-type {
   margin-top: 0;
+}
+
+/* ==================== About Section Links ==================== */
+.about-section a {
+  text-decoration: none;
+}
+
+.about-section a:hover {
+  text-decoration: underline;
 }
