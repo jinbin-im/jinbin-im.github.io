@@ -26,8 +26,8 @@ permalink: /
   <p>The current research topic is <strong>automating spatial design revision through affective user requirement realignment using NLP and Optimal Transport.</strong></p>
   
   <p><strong>Next step follows:</strong></p>
-  <p style="margin-left: 1.5rem;">• How to automate the architectural design process, capturing user demand through XR-based requirement realignment?</p>
-  <p style="margin-left: 1.5rem;">• How to construct a multi-agent framework for eliciting user intent from diverse requirements to automate user-centered architectural design?</p>
+  <p style="margin-left: 1.5rem; margin-bottom: 0.5rem;">• How to automate the architectural design process, capturing user demand through XR-based requirement realignment?</p>
+  <p style="margin-left: 1.5rem; margin-bottom: 0;">• How to construct a multi-agent framework for eliciting user intent from diverse requirements to automate user-centered architectural design?</p>
 </section>
 
 <section>
