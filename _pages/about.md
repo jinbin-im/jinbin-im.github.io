@@ -14,7 +14,7 @@ permalink: /
 <section>
   <h2>Education</h2>
   
-  <div style="margin-bottom: 2rem;">
+  <div style="margin-bottom: 1rem;">
     <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
       <strong>M.S./Ph.D. in Architectural Engineering, Construction Management</strong>
       <span style="color: #999;">2026 (Expected)</span>
