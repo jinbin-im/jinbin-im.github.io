@@ -1,0 +1,31 @@
+# Site settings
+title: Jin-Bin Im
+email: your-email@example.com
+description: Ph.D. Candidate in Construction Management at Hanyang University
+baseurl: ""
+url: "https://jinbin-im.github.io/jinbinim"
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Navigation
+navigation:
+  - title: About
+    url: /
+  - title: Publications
+    url: /publications/
+  - title: Conferences
+    url: /conferences/
+
+# Author info
+author:
+  name: Jin-Bin Im
+  first_name: [Jin-Bin, J.-B., J. B., J.B.]
+  last_name: [Im]
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
