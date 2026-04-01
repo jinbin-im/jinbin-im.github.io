@@ -76,18 +76,18 @@ permalink: /
     <section id="publications" class="publications-section">
       <h2>Publications</h2>
       <p class="section-description">Journal publications in reversed chronological order.</p>
-      
+  
       <div class="bibliography">
-        {% bibliography --file publications %}
+        {% bibliography --file publications --template papers %}
       </div>
     </section>
 
     <section id="conferences" class="conferences-section">
       <h2>Conferences</h2>
       <p class="section-description">Conference presentations in reversed chronological order.</p>
-      
+  
       <div class="bibliography">
-        {% bibliography --file conferences --template bib_conference %}
+        {% bibliography --file conferences --template conferences %}
       </div>
     </section>
   </main>
