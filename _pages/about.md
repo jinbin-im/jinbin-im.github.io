@@ -16,19 +16,16 @@ permalink: /
   
   <div style="margin-bottom: 1rem;">
     <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
-      <strong>M.S./Ph.D. in Architectural Engineering, Construction Management</strong>
-      <span style="color: #999;">2026 (Expected)</span>
+      <strong>Hanyang University</strong>
+      , South Korea
     </div>
-    <div style="color: #666;">Hanyang University, South Korea</div>
-    <div style="color: #999; font-style: italic;"></div>
-  </div>
-
-  <div style="margin-bottom: 2rem;">
-    <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
-      <strong>B.S. in Interior Architecture Design</strong>
-      <span style="color: #999;">2020</span>
+    <div style="color: #666;">M.S./Ph.D. in Architectural Engineering, Construction Management
+    <span style="color: #999;">2026 (Expected)</span>
     </div>
-    <div style="color: #666;">Hanyang University, South Korea</div>
+   
+    <div style="color: #666;">B.S. in Interior Architecture Design
+    <span style="color: #999;">2020 (Expected)</span>
+    </div>    
   </div>
 </section>
 
