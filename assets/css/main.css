@@ -91,7 +91,6 @@ html, body {
 
 .profile-affiliation {
   font-size: 0.925rem;
-  color: var(--text-tertiary);
   line-height: 2;
   text-align: center;
 }
