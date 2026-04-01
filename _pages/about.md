@@ -78,7 +78,7 @@ permalink: /
       <p class="section-description">Journal publications in reversed chronological order.</p>
   
       <div class="bibliography">
-        {% bibliography --file publications --template papers %}
+        {% bibliography --file papers --template papers %}
       </div>
     </section>
 
