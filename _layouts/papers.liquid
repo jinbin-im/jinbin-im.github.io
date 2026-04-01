@@ -232,3 +232,40 @@
     {% endif %}
   </div>
 </div>
+
+<script>
+(function() {
+  if (window.pubTogglesInitialized) return;
+  window.pubTogglesInitialized = true;
+
+  document.addEventListener('click', function(e) {
+    if (e.target.classList.contains('abstract-toggle')) {
+      e.preventDefault();
+      const wrapper = e.target.closest('.publication-item');
+      if (wrapper) {
+        const key = wrapper.querySelector('[id^="abstract-"]')?.id.replace('abstract-', '');
+        if (key) {
+          const abstractDiv = document.getElementById('abstract-' + key);
+          if (abstractDiv) {
+            abstractDiv.classList.toggle('hidden');
+          }
+        }
+      }
+    }
+    
+    if (e.target.classList.contains('bibtex-toggle')) {
+      e.preventDefault();
+      const wrapper = e.target.closest('.publication-item');
+      if (wrapper) {
+        const key = wrapper.querySelector('[id^="bibtex-"]')?.id.replace('bibtex-', '');
+        if (key) {
+          const bibtexDiv = document.getElementById('bibtex-' + key);
+          if (bibtexDiv) {
+            bibtexDiv.classList.toggle('hidden');
+          }
+        }
+      }
+    }
+  });
+})();
+</script>
