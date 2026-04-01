@@ -115,7 +115,7 @@ html, body {
   height: auto;
   overflow-y: visible;
   padding: 3rem 4rem;
-  margin-left: var(--sidebar-width);
+  margin-left: calc(var(--sidebar-width) +1rem);
 }
 
 /* ==================== Copyright Footer ==================== */
