@@ -3,36 +3,7 @@ layout: about
 title: About
 permalink: /
 ---
-
-<div class="about-container">
-  <!-- 왼쪽 고정 프로필 -->
-  <aside class="profile-sidebar">
-    <div class="profile-content">
-      <div class="profile-image">
-        <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Jin-Bin Im">      
-      </div>
-      
-      <h1 class="profile-name">Jinbin Im</h1>
-      <p class="profile-title">Ph.D. Candidate</p>
-      <p class="profile-affiliation">Hanyang University<br>Architectural Engineering</p>
-      
-      <div class="profile-links">
-        <a href="mailto:your-email@hanyang.ac.kr" class="profile-link">
-          <span>📧</span> Email
-        </a>
-        <a href="#" class="profile-link">
-          <span>🎓</span> Google Scholar
-        </a>
-        <a href="#" class="profile-link">
-          <span>📄</span> ResearchGate
-        </a>
-        <a href="#" class="profile-link">
-          <span>💼</span> LinkedIn
-        </a>
-      </div>
-    </div>
-  </aside>
-
+ 
   <!-- 오른쪽 스크롤 가능한 메인 콘텐츠 -->
   <main class="main-content">
     <section class="about-section">
