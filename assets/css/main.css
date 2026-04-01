@@ -240,6 +240,26 @@ html, body {
   gap: 1rem;
 }
 
+/* ==================== Conference Box Style ==================== */
+.conference-box {
+  padding: 1.25rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid var(--primary);
+}
+
+.location-badge {
+  display: inline-block;
+  background: #7b27d8;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  margin-left: 0.5rem;
+  font-weight: 600;
+}
+
+
 /* ==================== Profile Icons ==================== */
 .profile-icons {
   display: flex;
