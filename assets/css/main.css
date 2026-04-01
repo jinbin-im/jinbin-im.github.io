@@ -240,23 +240,94 @@ html, body {
   gap: 1rem;
 }
 
-/* ==================== Conference Box Style ==================== */
-.conference-box {
-  padding: 1.25rem;
+/* ==================== Conference Accordion ==================== */
+.conference-header {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1.2rem;
   background: #f8f9fa;
-  border-radius: 8px;
-  border-left: 4px solid var(--primary);
+  border-left: 4px solid #7b27d8;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  cursor: pointer;
+  transition: all 0.2s;
+  user-select: none;
 }
 
-.location-badge {
-  display: inline-block;
-  background: #7b27d8;
-  color: white;
-  padding: 2px 8px;
-  border-radius: 10px;
-  font-size: 0.7rem;
-  margin-left: 0.5rem;
+.conference-header:hover {
+  background: #f0f1f3;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+.conference-header h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.3rem;
+  color: #222;
   font-weight: 600;
+  display: grid;
+  grid-template-columns: 200px 200px 1fr auto;
+  align-items: center;
+  gap: 1rem;
+}
+
+.conference-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #222;
+  width: 200px;
+}
+
+.conference-month {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #888;
+  width: 200px;
+}
+
+.conference-address {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #888;
+}
+
+.conference-header h3::after {
+  content: '▼';
+  font-size: 0.8rem;
+  color: #7b27d8;
+  transition: transform 0.3s;
+  justify-self: end;
+}
+
+.conference-header.collapsed h3::after {
+  transform: rotate(-90deg);
+}
+
+.conference-full-title {
+  font-size: 0.95rem;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.conference-papers {
+  display: block;
+  overflow: hidden;
+  max-height: 10000px;
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+  opacity: 1;
+}
+
+.conference-papers.hidden {
+  max-height: 0;
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.conference-row {
+  margin-bottom: 2rem;
+  padding-left: 1rem;
 }
 
 
