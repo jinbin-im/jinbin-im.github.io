@@ -78,13 +78,6 @@ body {
   text-align: center;
 }
 
-.profile-title {
-  font-size: 0.9rem;
-  color: var(--text-secondary);
-  margin-bottom: 0.25rem;
-  text-align: center;
-}
-
 .profile-affiliation {
   font-size: 0.875rem;
   color: var(--text-tertiary);
@@ -101,7 +94,9 @@ body {
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
-  padding: 2.5rem 5rem;
+  padding: 3rem 4rem;
+  max-width: 900px;
+  margin-right: auto;
 }
 
 /* ==================== Typography ==================== */
@@ -131,10 +126,11 @@ body {
 }
 
 .research-list li {
-  padding: 0.75rem 0;
+  padding: 0.5rem 0;
   padding-left: 1.5rem;
   position: relative;
   color: var(--text-secondary);
+  line-height: 1.75;
 }
 
 .research-list li::before {
@@ -218,97 +214,6 @@ body {
   border-bottom: none;
 }
 
-.pub-title,
-.conf-title,
-.title {
-  font-size: 1.0625rem;
-  font-weight: 600;
-  line-height: 1.4;
-  margin-bottom: 0.625rem;
-  color: var(--text-primary);
-  max-width: 100%;
-  overflow-wrap: break-word;
-}
-
-.pub-authors,
-.conf-authors,
-.author {
-  font-size: 0.9375rem;
-  color: var(--text-secondary);
-  margin-bottom: 0.375rem;
-  line-height: 1.5;
-}
-
-.pub-venue,
-.conf-venue,
-.periodical {
-  font-size: 0.875rem;
-  color: var(--text-tertiary);
-  line-height: 1.5;
-  margin-bottom: 0.5rem;
-}
-
-/* ==================== Badges ==================== */
-.badge {
-  display: inline-block;
-  padding: 3px 10px;
-  border-radius: 12px;
-  font-size: 0.7rem;
-  font-weight: 600;
-  margin-left: 0.5rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.badge-scie,
-.badge-ahci {
-  background: #e0e0e0;
-  color: #333;
-}
-
-.badge-top {
-  background: #e91e63;
-  color: white;
-}
-
-.badge-if {
-  background: #4caf50;
-  color: white;
-}
-
-.location {
-  background: var(--primary);
-  color: white;
-  padding: 3px 10px;
-  border-radius: 12px;
-  font-size: 0.8rem;
-  margin-left: 0.5rem;
-}
-
-/* ==================== Links & Buttons ==================== */
-.links {
-  margin-top: 0.75rem;
-}
-
-.btn {
-  display: inline-block;
-  padding: 4px 12px;
-  font-size: 0.875rem;
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  background: white;
-  color: var(--text-secondary);
-  text-decoration: none;
-  margin-right: 0.5rem;
-  transition: all 0.2s;
-  cursor: pointer;
-}
-
-.btn:hover {
-  border-color: var(--primary);
-  color: var(--primary);
-  background: var(--bg-gray);
-}
 
 /* ==================== Profile Icons ==================== */
 .profile-icons {
