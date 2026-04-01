@@ -52,14 +52,14 @@ html, body {
   width: 100%;
   max-width: 1400px;
   min-height: 100vh;
-  padding: 0 2rem;
+  padding: 0;
 }
 
 /* ==================== Left Sidebar ==================== */
 .profile-sidebar {
   width: var(--sidebar-width);
   flex-shrink: 0;
-  position: sticky;
+  position: fixed;
   left: 0;
   top: 0;
   height: 100vh;
@@ -67,6 +67,7 @@ html, body {
   border-right: none;
   padding: 2.5rem 1.5rem;
   overflow-y: auto;
+  z-index: 10;
 }
 
 .profile-content {
@@ -110,9 +111,10 @@ html, body {
 /* ==================== Main Content ==================== */
 .main-content {
   flex: 1;
-  height: 100vh;
+  height: auto;
   overflow-y: visible;
   padding: 3rem 4rem;
+  margin-left: var(--sidebar-width);
 }
 
 /* ==================== Copyright Footer ==================== */
