@@ -160,6 +160,11 @@ html, body {
   text-decoration: none !important;
 }
 
+.author {
+  font-size: 0.875rem;     /* 기본 15px → 14px */
+  color: var(--text-secondary);
+}
+
 .journal-metrics {
   display: inline-flex;
   gap: 5px;
