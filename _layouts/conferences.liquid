@@ -144,29 +144,4 @@
         <span class="location-badge">{{ entry.address }}</span>
       {% endif %}
     </div>
-
-    <!-- 버튼들 -->
-    <div class="links">
-      {%- if entry.abstract %}
-        <a href="#" class="btn" onclick="toggleAbstract('{{entry.key}}'); return false;">Abs</a>
-      {%- endif %}
-      {%- if entry.bibtex_show %}
-        <a href="#" class="btn" onclick="toggleBibtex('{{entry.key}}'); return false;">Bib</a>
-      {%- endif %}
-    </div>
-
-    <!-- 숨김 영역: 초록 -->
-    {% if entry.abstract %}
-      <div id="abstract-{{entry.key}}" class="abstract hidden">
-        <p>{{ entry.abstract }}</p>
-      </div>
-    {% endif %}
-
-    <!-- 숨김 영역: BibTeX -->
-    {% if entry.bibtex_show %}
-      <div id="bibtex-{{entry.key}}" class="bibtex hidden">
-        <pre><code>{{ entry.bibtex }}</code></pre>
-      </div>
-    {% endif %}
-  </div>
 </div>
