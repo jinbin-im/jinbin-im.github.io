@@ -11,9 +11,9 @@ permalink: /
   <p>His research focuses on integrating AI and extended reality technologies to enhance human-centered design in built environments.</p>
 </section>
 
-<section class="research-section">
+<section>
   <h2>Research Interest</h2>
-  <ul class="research-list">
+  <ul>
     <li>User-centered design</li>
     <li>Human responses to built environments</li>
     <li>Extended Reality (VR/MR) for architectural design</li>
@@ -21,16 +21,16 @@ permalink: /
   </ul>
 </section>
 
-<section class="education-section">
+<section>
   <h2>Education</h2>
   
   <div style="margin-bottom: 2rem;">
     <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
-      <strong>M.S./Ph.D. in Architectural Engineering</strong>
+      <strong>M.S./Ph.D. in Architectural Engineering, Construction Management</strong>
       <span style="color: #999;">2026 (Expected)</span>
     </div>
     <div style="color: #666;">Hanyang University, South Korea</div>
-    <div style="color: #999; font-style: italic;">Construction Management</div>
+    <div style="color: #999; font-style: italic;"></div>
   </div>
 
   <div style="margin-bottom: 2rem;">
