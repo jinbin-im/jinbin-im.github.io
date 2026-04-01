@@ -98,7 +98,7 @@ body {
 .main-content {
   margin-left: var(--sidebar-width);
   width: calc(100% - var(--sidebar-width));
-  max-width: 1200px;
+  max-width: none;
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
