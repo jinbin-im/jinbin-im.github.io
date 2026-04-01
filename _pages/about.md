@@ -4,8 +4,7 @@ title: About
 permalink: /
 ---
  
-  <!-- 오른쪽 스크롤 가능한 메인 콘텐츠 -->
-  <main class="main-content">
+
     <section class="about-section">
       <h2>About</h2>
       <p>Jin-Bin Im is a Ph.D. candidate at Hanyang University, specializing in Architectural Engineering. He is a graduate research assistant at the Client Briefing and Program Management (CB&PM) Lab.</p>
@@ -61,5 +60,3 @@ permalink: /
         {% bibliography --file conferences --template conferences %}
       </div>
     </section>
-  </main>
-</div>
