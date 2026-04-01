@@ -18,7 +18,7 @@ permalink: /
   <span style="color:#7b27d8;">Ju-Hyung Kim</span>
 </a> at 
 <a href="http://cbpm.hanyang.ac.kr/" style="text-decoration: none;">
-  <span style="color:#7b27d8;">CB&PM Lab.</span>
+  <span style="color:#7b27d8;">CB & PM Lab.</span>
 </a></p>
   
   <p>My academic work focuses on three key areas: <strong>1) optimizing spatial design based on human-centered requirements</strong>, <strong>2) design simulation using extended reality (XR)</strong>, and <strong>3) natural language processing and LLM-based intelligent systems for design automation.</strong></p>
