@@ -6,19 +6,16 @@ permalink: /
  
 <section class="about-section">
   <h2>About</h2>
- 
-Hi! I'm Jinbin Im, a Ph.D. candidate in the <a href="http://cbpm.hanyang.ac.kr/"><strong><span style="color:#4f3670; text-decoration:underline;">CB & PM Lab</span></strong></a> at Hanyang University.
-   
-My academic work focuses on three key areas: **1) optimizing spatial design based on human-centered requirements**, **2) design simulation using extended reality (XR)**, and **3) natural language processing and LLM-based intelligent systems for design automation.**
-
-The current research topic is **automating spatial design revision through affective user requirement realignment using NLP and Optimal Transport.** 
-
-Next step follows:
-- how to automate the architectural design process, capturing user demand through XR-based requirement realignment?
-- how to construct a multi-agent framework for eliciting user intent from diverse requirements to automate user-centered architectural design ?
-
-      
-  <p>His research focuses on integrating AI and extended reality technologies to enhance human-centered design in built environments.</p>
+  
+  <p>Hi! I'm Jinbin Im, a Ph.D. candidate in the <a href="http://cbpm.hanyang.ac.kr/"><strong><span style="color:#4f3670; text-decoration:underline;">CB&PM Lab</span></strong></a> at Hanyang University.</p>
+  
+  <p>My academic work focuses on three key areas: <strong>1) optimizing spatial design based on human-centered requirements</strong>, <strong>2) design simulation using extended reality (XR)</strong>, and <strong>3) natural language processing and LLM-based intelligent systems for design automation.</strong></p>
+  
+  <p>The current research topic is <strong>automating spatial design revision through affective user requirement realignment using NLP and Optimal Transport.</strong></p>
+  
+  <p><strong>Next step follows:</strong></p>
+  <p style="margin-left: 1.5rem;">• How to automate the architectural design process, capturing user demand through XR-based requirement realignment?</p>
+  <p style="margin-left: 1.5rem;">• How to construct a multi-agent framework for eliciting user intent from diverse requirements to automate user-centered architectural design?</p>
 </section>
 
 <section>
