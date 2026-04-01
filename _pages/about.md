@@ -12,8 +12,8 @@ permalink: /
   <span style="color:#7b27d8;">Department of Architectural Engineering</span>
 </a> at 
 <a href="https://hanyang.ac.kr/web/eng" style="text-decoration: none;">
-  <span style="color:#7b27d8;">Hanyang University</span>
-</a>. I am working with my advisor 
+  <span style="color:#7b27d8;">Hanyang University.</span>
+</a> I am working with my advisor 
 <a href="https://scholar.google.com/citations?user=SlzGoi0AAAAJ&hl=ko&oi=ao" style="text-decoration: none;">
   <span style="color:#7b27d8;">Ju-Hyung Kim</span>
 </a> at 
