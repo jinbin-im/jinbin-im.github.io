@@ -16,15 +16,14 @@ permalink: /
   
   <div style="margin-bottom: 1rem;">
     <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
-      <strong>Hanyang University</strong>
-      , South Korea
+     <strong>Hanyang University</strong>
     </div>
-    <div style="color: #666;">M.S./Ph.D. in Architectural Engineering, Construction Management
-    <span style="color: #999;">2026 (Expected)</span>
+    <div style="color: #666;"> M.S./Ph.D. in Architectural Engineering, Construction Management
+     <span style="color: #999;">2026 (Expected)</span>
     </div>
    
     <div style="color: #666;">B.S. in Interior Architecture Design
-    <span style="color: #999;">2020 (Expected)</span>
+     <span style="color: #999;">2020 (Expected)</span>
     </div>    
   </div>
 </section>
