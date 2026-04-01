@@ -19,7 +19,7 @@ scholar:
   style: apa
   locale: en
   source: ./_bibliography
-  bibliography: publications.bib
+  bibliography: papers.bib
   bibliography_template: papers
   sort_by: year
   order: descending
