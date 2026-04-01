@@ -266,15 +266,15 @@ html, body {
 
 /* ==================== Bibliography Year Headers ==================== */
 h2.bibliography {
-  font-size: 1.125rem !important;
-  font-weight: 400 !important;
-  color: #999 !important;
-  margin-top: 2.5rem !important;
-  margin-bottom: 1.5rem !important;
-  padding-bottom: 0 !important;
-  border-bottom: none !important;
+  font-size: 1.125;
+  font-weight: 400;
+  color: #999;
+  margin-top: 2.5rem; 
+  margin-bottom: 0.5rem;
+  padding-bottom: 0;
+  border-bottom: none;
 }
 
 h2.bibliography:first-of-type {
-  margin-top: 0 !important;
+  margin-top: 0;
 }
