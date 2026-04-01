@@ -37,7 +37,6 @@ body {
   align-items: flex-start;
   height: 100vh;
   overflow: hidden;
-  padding: 0 2rem;
 }
 
 .about-container {
@@ -47,6 +46,7 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   position: relative;
+  padding: 0 2rem;
 }
 
 /* ==================== Left Sidebar ==================== */
