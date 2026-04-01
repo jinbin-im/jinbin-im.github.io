@@ -45,6 +45,7 @@ html, body {
   justify-content: center;
   min-height: 100vh;
   overflow: visible;
+  padding: 0 15%;         /* 좌우 각각 15% */
 }
 
 .about-container {
@@ -52,8 +53,7 @@ html, body {
   width: 100%;
   max-width: 1400px;
   min-height: 100vh;
-  padding: 0 2rem;
-  padding-left: 0;
+  padding: 0;
 }
 
 /* ==================== Left Sidebar ==================== */
@@ -61,7 +61,7 @@ html, body {
   width: var(--sidebar-width);
   flex-shrink: 0;
   position: fixed;
-  left: 0;
+  left: 15%;              /* 왼쪽 15% */
   top: 0;
   height: 100vh;
   background: #fff;
