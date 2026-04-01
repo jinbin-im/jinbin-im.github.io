@@ -161,7 +161,7 @@ html, body {
 }
 
 .author {
-  font-size: 0.875rem;     /* 기본 15px → 14px */
+  font-size: 1rem;     /* 기본 15px → 14px */
   color: var(--text-secondary);
 }
 
