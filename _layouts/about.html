@@ -84,12 +84,19 @@
   </div>
   
   <script>
-    function toggleAbstract(key) {
-      const abstractDiv = document.getElementById('abstract-' + key);
-      if (abstractDiv) {
-        abstractDiv.classList.toggle('hidden');
-      }
+  function toggleAbstract(key) {
+    const abstractDiv = document.getElementById('abstract-' + key);
+    if (abstractDiv) {
+      abstractDiv.classList.toggle('hidden');
     }
+  }
+  
+  function toggleBibtex(key) {
+    const bibtexDiv = document.getElementById('bibtex-' + key);
+    if (bibtexDiv) {
+      bibtexDiv.classList.toggle('hidden');
+    }
+  }
   </script>
 </body>
 </html>
