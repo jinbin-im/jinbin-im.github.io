@@ -682,6 +682,10 @@ h2.bibliography:first-of-type {
 }
 
 /* ==================== In-Progress Research ==================== */
+.research-section {
+  margin-bottom: 4rem;
+}
+
 .research-group {
   margin-bottom: 3rem;
 }
@@ -778,6 +782,35 @@ h2.bibliography:first-of-type {
   font-style: italic;
 }
 
+/* ==================== Research Projects ==================== */
+.project-card {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  background: #f8f9fa;
+  border-left: 4px solid var(--primary);
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.project-card:hover {
+  background: #f0f1f3;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.project-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+  border: none;
+  padding: 0;
+}
+
+.project-meta {
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+  margin-bottom: 1rem;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .research-card {
@@ -796,5 +829,13 @@ h2.bibliography:first-of-type {
   
   .card-meta {
     font-size: 0.8rem;
+  }
+  
+  .project-card {
+    padding: 1rem;
+  }
+  
+  .project-card h3 {
+    font-size: 1rem;
   }
 }
