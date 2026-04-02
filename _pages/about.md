@@ -72,12 +72,12 @@ permalink: /
        <strong>Teaching Fellow</strong>, Hanyang University
      </div>
      <div class="teaching-detail" style="display: flex;">
-       <span style="width: 80px; flex-shrink: 0;">PBL</span>
+       <span style="width: 35px; flex-shrink: 0;">PBL</span>
        <span style="flex: 1;">4004  Architectural Engineering Capstone PBL</span>
        <span class="year" style="margin-left: 1rem;">Fall 2025</span>
      </div>
      <div class="teaching-detail" style="display: flex;">
-       <span style="width: 80px; flex-shrink: 0;">ENE</span>
+       <span style="width: 35px; flex-shrink: 0;">ENE</span>
        <span style="flex: 1;">4044  Computer Engineering</span>
        <span class="year" style="margin-left: 1rem;">Spring 2024, 2025</span>
      </div>
