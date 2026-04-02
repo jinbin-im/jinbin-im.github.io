@@ -47,6 +47,99 @@ permalink: /
   </div>
 </section>
 
+<section class="two-column-section">
+  <div class="column-left">
+    <h2>Teaching</h2>
+    <div style="margin-bottom: 1rem;">
+     <div style="margin-bottom: 0.5rem;">
+       <strong>Lecturer,</strong> Korea University of Technology and Education
+     </div>
+     <div class="activity-item">
+       <div class="activity-period">2026</div>
+       <div class="activity-content">
+         <div class="activity-title">AI-based Optimization Technology for Architectural Design</div>
+       </div>
+     </div>
+     <div class="activity-item">
+       <div class="activity-period">Spring 2024, 2025</div>
+       <div class="activity-content">
+         <div class="activity-title">ENE 4044 Computer Engineering</div>
+       </div>
+     </div>
+    </div>
+   
+    <div style="margin-bottom: 1rem;">
+      <div style="margin-bottom: 0.5rem;">
+        <strong>Teaching Fellow,</strong> Hanyang University
+      </div>
+      <div class="activity-item">
+        <div class="activity-period">Fall 2025</div>
+        <div class="activity-content">
+          <div class="activity-title">PBL 4004 Architectural Engineering Capstone PBL</div>
+        </div>
+      </div>
+      <div class="activity-item">
+        <div class="activity-period">Spring 2024, 2025</div>
+        <div class="activity-content">
+          <div class="activity-title">ENE 4044 Computer Engineering</div>
+        </div>
+      </div>
+     </div>
+  </div>
+  
+  <div class="column-right">
+    <h2>Service</h2>
+    
+    <div class="activity-item">
+      <div class="activity-period">2026</div>
+      <div class="activity-content">
+        <div class="activity-title">Reviewer</div>
+        <div class="activity-org">23rd Smart and Sustainable Built Environment (SASBE)</div>
+      </div>
+    </div>
+
+    <div class="activity-item">
+      <div class="activity-period">2026-Present</div>
+      <div class="activity-content">
+        <div class="activity-title">Reviewer</div>
+        <div class="activity-org">Results in Engineering</div>
+      </div>
+    </div>
+
+    <div class="activity-item">
+      <div class="activity-period">2026-Present</div>
+      <div class="activity-content">
+        <div class="activity-title">Reviewer</div>
+        <div class="activity-org">Journal of Management in Engineering</div>
+      </div>
+    </div>
+
+    <div class="activity-item">
+      <div class="activity-period">2025-Present</div>
+      <div class="activity-content">
+        <div class="activity-title">Reviewer</div>
+        <div class="activity-org">Architectural Engineering and Design Management</div>
+      </div>
+    </div>
+    
+    <div class="activity-item">
+      <div class="activity-period">2025–Present</div>
+      <div class="activity-content">
+        <div class="activity-title">Reviewer</div>
+        <div class="activity-org">Building and Environment</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="publications" class="publications-section">
+  <h2>Publications</h2>
+  
+  <div class="bibliography">
+    {% bibliography --file papers --template papers %}
+  </div>
+</section>
+
 <section id="publications" class="publications-section">
   <h2>Papers</h2>
   
