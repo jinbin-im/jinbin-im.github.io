@@ -40,14 +40,14 @@ permalink: /
       <strong>Hanyang University</strong>
     </div>
     <div style="display: flex; margin-bottom: 0.5rem;">
-      <span style="width: 180px; flex-shrink: 0;">M.S./Ph.D. in</span>
-      <span style="flex: 1;">Architectural Engineering, Construction Management</span>
+      <span style="width: 100px; flex-shrink: 0;">M.S./Ph.D.</span>
+      <span style="flex: 1;">in Architectural Engineering, Construction Management</span>
       <span style="color: #999; margin-left: 1rem; white-space: nowrap;">2026 (Expected)</span>
     </div>
    
     <div style="display: flex; margin-bottom: 0.5rem;">
-      <span style="width: 180px; flex-shrink: 0;">B.S. in</span>
-      <span style="flex: 1;">Interior Architecture Design</span>
+      <span style="width: 100px; flex-shrink: 0;">B.S.</span>
+      <span style="flex: 1;">in Interior Architecture Design</span>
       <span style="color: #999; margin-left: 1rem; white-space: nowrap;">2020</span>
     </div>    
   </div>
@@ -81,6 +81,7 @@ permalink: /
        <span style="flex: 1;">Computer Engineering</span>
        <span class="year" style="margin-left: 1rem;">Spring 2024, 2025</span>
      </div>
+    </div>
   </div>
   
   <div class="column-right">
