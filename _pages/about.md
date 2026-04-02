@@ -40,13 +40,13 @@ permalink: /
       <strong>Hanyang University</strong>
     </div>
     <div style="display: flex; margin-bottom: 0.5rem;">
-      <span style="width: 100px; flex-shrink: 0;">M.S./Ph.D.</span>
+      <span style="width: 80px; flex-shrink: 0;">M.S./Ph.D.</span>
       <span style="flex: 1;">in Architectural Engineering, Construction Management</span>
       <span style="color: #999; margin-left: 1rem; white-space: nowrap;">2026 (Expected)</span>
     </div>
    
     <div style="display: flex; margin-bottom: 0.5rem;">
-      <span style="width: 100px; flex-shrink: 0;">B.S.</span>
+      <span style="width: 80px; flex-shrink: 0;">B.S.</span>
       <span style="flex: 1;">in Interior Architecture Design</span>
       <span style="color: #999; margin-left: 1rem; white-space: nowrap;">2020</span>
     </div>    
