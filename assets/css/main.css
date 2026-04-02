@@ -779,8 +779,8 @@ h2.bibliography:first-of-type {
   text-align: left;
   line-height: 1.4;
   width: fit-content;
-  min-width: 100px;
-  max-width: 100px;
+  min-width: 110px;
+  max-width: 110px;
   transition: all 0.2s;
   letter-spacing: 0.3px;
 }
