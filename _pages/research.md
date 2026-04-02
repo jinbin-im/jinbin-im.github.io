@@ -54,8 +54,8 @@ permalink: /research/
   </div>
   
   <div class="research-item">
+    <div class="research-status">Co-author</div>
     <div class="research-content">
-      <div class="research-status">Co-author</div>
       <div class="title">Weather-adaptive automated pipe counting for open-air construction storage: Leveraging synthetic data augmentation and YOLO-Network Family</div>
       <div class="periodical">Submitted to <em>Developments in the Built Environment</em></div>
     </div>
