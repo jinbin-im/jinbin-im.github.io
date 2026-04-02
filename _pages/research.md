@@ -11,8 +11,7 @@ permalink: /research/
   <h2 class="bibliography">Under Revision</h2>
   
   <div class="research-item">
-    <div class="author-co">Co-
-      author</div>
+    <div class="author-co">Co-author</div>
     <div class="research-content">
       <div class="title">Prediction of structural frame works safety and health management expenses in apartment construction projects by introducing interpretable machine learning</div>
       <div class="periodical">Submitted to <em>Engineering, Construction, and Architectural Management</em></div>
