@@ -108,14 +108,6 @@ permalink: /
 </section>
 
 <section id="publications" class="publications-section">
-  <h2>Publications</h2>
-  
-  <div class="bibliography">
-    {% bibliography --file papers --template papers %}
-  </div>
-</section>
-
-<section id="publications" class="publications-section">
   <h2>Papers</h2>
   
   <div class="bibliography">
