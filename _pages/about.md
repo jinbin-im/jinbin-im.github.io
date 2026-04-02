@@ -25,7 +25,7 @@ permalink: /
 
   <p>Additionally, I hold research interests and published works in <strong>Construction, Project, and Program Management</strong> as well as <strong>Energy Management and Policy</strong>, focusing on enhancing <strong>operational efficiency and sustainability within the built environment.</strong></p>
   
-  <p>My current research focuses on <strong>automating spatial design revision through affective user requirement realignment using NLP and Optimal Transport theory to achieve minimal disruptive design changes within the BIM environment.</strong></p>
+  <p>My current research focuses on <strong>automating spatial design revision through affective user requirement realignment using NLP and Optimal Transport theory</strong> to achieve minimal disruptive design changes within the BIM environment.</p>
   
   <p><strong>Moving forward, my research aims to:</strong></p>
   <p style="margin-left: 1.5rem; margin-bottom: 0.2rem;">• How to automate the architectural design process in XR environments to capture and reflect accurate user demands in real-time?</p>
