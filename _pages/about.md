@@ -59,7 +59,7 @@ permalink: /
     
     <div class="teaching-item">
       <div class="teaching-header">
-        <strong>Lecturer</strong>, Korea University of Technology and Education
+        <strong>Instructor</strong>, Korea University of Technology and Education
       </div>
       <div class="teaching-detail">
         <span>AI-based Optimization Technology for Architectural Design</span>
