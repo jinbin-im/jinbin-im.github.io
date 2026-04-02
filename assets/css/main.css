@@ -716,7 +716,6 @@ h2.bibliography:first-of-type {
     font-size: 0.8rem;
   }
 }
-}
 
 /* ==================== Sidebar Navigation ==================== */
 .sidebar-nav {
@@ -780,8 +779,8 @@ h2.bibliography:first-of-type {
   text-align: left;
   line-height: 1.4;
   width: fit-content;
-  min-width: 85px;
-  max-width: 85px;
+  min-width: 100px;
+  max-width: 100px;
   transition: all 0.2s;
   letter-spacing: 0.3px;
 }
