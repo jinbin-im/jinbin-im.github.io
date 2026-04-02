@@ -23,7 +23,7 @@ permalink: /
   
   <p>My academic work focuses on three key areas: <strong>1) optimizing spatial design based on human-centered requirements</strong>, <strong>2) design simulation using extended reality (XR)</strong>, and <strong>3) NLP and LLM-based intelligent systems for design automation.</strong></p>
 
-  <p>Additionally, I hold research interests and published works in Construction, Project, and Program Management as well as Energy Management and Policy, focusing on enhancing operational efficiency and sustainability within the built environment.</p>
+  <p>Additionally, I hold research interests and published works in <strong>Construction, Project, and Program Management</strong> as well as <strong>Energy Management and Policy</strong>, focusing on enhancing <strong>operational efficiency and sustainability within the built environment.</strong></p>
   
   <p>My current research focuses on <strong>automating spatial design revision through affective user requirement realignment using NLP and Optimal Transport theory to achieve minimal disruptive design changes within the BIM environment.</strong></p>
   
