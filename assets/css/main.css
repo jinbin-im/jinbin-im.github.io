@@ -911,6 +911,13 @@ h2.bibliography:first-of-type {
   margin-bottom: 3rem;
 }
 
+@media (max-width: 768px) {
+  .two-column-section {
+    grid-template-columns: 1fr;
+    gap: 2rem:
+  }
+}
+
 .column-left,
 .column-right {
   min-width: 0;
