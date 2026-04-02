@@ -698,7 +698,10 @@ h2.bibliography:first-of-type {
   border-bottom: none;
 }
 
-.research-status {
+/* 공통 스타일 */
+.author-co,
+.author-first,
+.author-corresponding {
   flex-shrink: 0;
   padding: 0.25rem 0.75rem;
   border-radius: 4px;
@@ -709,20 +712,20 @@ h2.bibliography:first-of-type {
 }
 
 /* Co-author - 회색 */
-.research-item .research-status {
+.author-co {
   background: #e0e0e0;
   color: #666;
 }
 
-/* First author - 보라색 강조 */
-.research-item:has(.research-content) .research-status:contains("First") {
+/* First author - 보라색 */
+.author-first {
   background: #f0e7f9;
   color: #7b27d8;
   border: 1px solid #7b27d8;
 }
 
-/* Corresponding author - 파란색 강조 */
-.research-item:has(.research-content) .research-status:contains("Corresponding") {
+/* Corresponding author - 파란색 */
+.author-corresponding {
   background: #eff6ff;
   color: #2563eb;
   border: 1px solid #2563eb;
