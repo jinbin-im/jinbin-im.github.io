@@ -1,15 +1,15 @@
 ---
 layout: about
-title: In-Progress Research
-permalink: /research-in-progress/
+title: Research
+permalink: /research/
 ---
 
-<section>
+<section id="in-progress" class="research-section">
   <h2>In-Progress Research</h2>
   
   <p style="color: #666; margin-bottom: 2rem;">Research projects currently under review or in preparation for submission.</p>
   
-  <!-- Under Review -->
+  <!-- Under Revision -->
   <div class="research-group">
     <h3 class="group-title">
       <span class="status-badge under-revision">Under Revision</span>
@@ -99,3 +99,27 @@ permalink: /research-in-progress/
     </div>
   </div>
 </section>
+
+<section id="projects" class="research-section">
+  <h2>Research Projects</h2>
+  
+  <p style="color: #666; margin-bottom: 2rem;">Completed and ongoing research projects.</p>
+  
+  <!-- 프로젝트 내용 추가 -->
+  <div class="project-card">
+    <h3>Project Title 1</h3>
+    <p class="project-meta">Duration • Funding Agency</p>
+    <p>Project description...</p>
+  </div>
+  
+  <div class="project-card">
+    <h3>Project Title 2</h3>
+    <p class="project-meta">Duration • Funding Agency</p>
+    <p>Project description...</p>
+  </div>
+</section>
+
+<!-- Copyright Footer -->
+<div class="copyright-footer">
+  <p>© 2026 Jinbin Im. All rights reserved.</p>
+</div>
