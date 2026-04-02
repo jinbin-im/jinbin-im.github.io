@@ -761,6 +761,7 @@ h2.bibliography:first-of-type {
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   border-bottom: 1px solid var(--border);
+  align-items: flex-start;  /* 상단 정렬 */
 }
 
 .research-item:last-child {
@@ -780,6 +781,7 @@ h2.bibliography:first-of-type {
   line-height: 1.4;
   width: fit-content;
   min-width: 85px;
+  max-width: 85px;
   transition: all 0.2s;
   letter-spacing: 0.3px;
 }
