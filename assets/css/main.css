@@ -259,6 +259,12 @@ h2.bibliography:first-of-type {
   text-decoration: none !important;
 }
 
+.periodical {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;  /* ← 이 줄 추가 */
+}
+
 /* ==================== Journal Metrics Badges ==================== */
 .journal-metrics {
   display: inline-flex;
