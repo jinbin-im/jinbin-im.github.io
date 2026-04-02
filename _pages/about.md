@@ -21,12 +21,14 @@ permalink: /
   <span style="color:#7b27d8;">CB & PM Lab.</span>
 </a></p>
   
-  <p>My academic work focuses on three key areas: <strong>1) optimizing spatial design based on human-centered requirements</strong>, <strong>2) design simulation using extended reality (XR)</strong>, and <strong>3) natural language processing and LLM-based intelligent systems for design automation.</strong></p>
+  <p>My academic work focuses on three key areas: <strong>1) optimizing spatial design based on human-centered requirements</strong>, <strong>2) design simulation using extended reality (XR)</strong>, and <strong>3) NLP and LLM-based intelligent systems for design automation.</strong></p>
+
+  <p>Additionally, I hold research interests and published works in Construction, Project, and Program Management as well as Energy Management and Policy, focusing on enhancing operational efficiency and sustainability within the built environment.</p>
   
-  <p>The current research topic is <strong>automating spatial design revision through affective user requirement realignment using NLP and Optimal Transport.</strong></p>
+  <p>My current research focuses on <strong>automating spatial design revision through affective user requirement realignment using NLP and Optimal Transport theory to achieve minimal disruptive design changes within the BIM environment.</strong></p>
   
-  <p><strong>Next step follows:</strong></p>
-  <p style="margin-left: 1.5rem; margin-bottom: 0.2rem;">• How to automate the architectural design process in XR environment, capturing accurate user demand?</p>
+  <p><strong>Moving forward, my research aims to:</strong></p>
+  <p style="margin-left: 1.5rem; margin-bottom: 0.2rem;">• How to automate the architectural design process in XR environments to capture and reflect accurate user demands in real-time?</p>
   <p style="margin-left: 1.5rem; margin-bottom: 0;">• How to construct a multi-agent framework for eliciting user intent from diverse requirements to automate user-centered architectural design?</p>
 </section>
 
