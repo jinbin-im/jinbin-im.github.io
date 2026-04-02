@@ -39,12 +39,16 @@ permalink: /
     <div style="margin-bottom: 0.5rem;">
       <strong>Hanyang University</strong>
     </div>
-    <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;"> M.S./Ph.D. in Architectural Engineering, Construction Management
-      <span style="color: #999;">2026 (Expected)</span>
+    <div style="display: flex; margin-bottom: 0.5rem;">
+      <span style="width: 180px; flex-shrink: 0;">M.S./Ph.D. in</span>
+      <span style="flex: 1;">Architectural Engineering, Construction Management</span>
+      <span style="color: #999; margin-left: 1rem; white-space: nowrap;">2026 (Expected)</span>
     </div>
    
-    <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">B.S. in Interior Architecture Design
-      <span style="color: #999;">2020</span>
+    <div style="display: flex; margin-bottom: 0.5rem;">
+      <span style="width: 180px; flex-shrink: 0;">B.S. in</span>
+      <span style="flex: 1;">Interior Architecture Design</span>
+      <span style="color: #999; margin-left: 1rem; white-space: nowrap;">2020</span>
     </div>    
   </div>
 </section>
@@ -64,18 +68,19 @@ permalink: /
     </div>
     
     <div class="teaching-item">
-      <div class="teaching-header">
-        <strong>Teaching Fellow</strong>, Hanyang University
-      </div>
-      <div class="teaching-detail">
-        <span>PBL 4004 Architectural Engineering Capstone PBL</span>
-        <span class="year">Fall 2025</span>
-      </div>
-      <div class="teaching-detail">
-        <span>ENE 4044 Computer Engineering</span>
-        <span class="year">Spring 2024, 2025</span>
-      </div>
-    </div>
+     <div class="teaching-header">
+       <strong>Teaching Fellow</strong>, Hanyang University
+     </div>
+     <div class="teaching-detail" style="display: flex;">
+       <span style="width: 120px; flex-shrink: 0;">PBL 4004</span>
+       <span style="flex: 1;">Architectural Engineering Capstone PBL</span>
+       <span class="year" style="margin-left: 1rem;">Fall 2025</span>
+     </div>
+     <div class="teaching-detail" style="display: flex;">
+       <span style="width: 120px; flex-shrink: 0;">ENE 4044</span>
+       <span style="flex: 1;">Computer Engineering</span>
+       <span class="year" style="margin-left: 1rem;">Spring 2024, 2025</span>
+     </div>
   </div>
   
   <div class="column-right">
