@@ -92,18 +92,70 @@ permalink: /research/
 <section id="projects" class="research-section">
   <h2>Research Projects</h2>
   
-  <p style="color: #666; margin-bottom: 2rem;">Completed and ongoing research projects.</p>
-  
-  <div class="project-card">
-    <h3>Project Title 1</h3>
-    <p class="project-meta">Duration • Funding Agency</p>
-    <p>Project description...</p>
+  <div class="project-item">
+    <div class="project-period">Mar. 2024–Present</div>
+    <div class="project-content">
+      <h3>Development of Artificial Intelligence-based Real-Time Construction Quality Management System</h3>
+      <div class="project-meta">
+        <span class="project-role">Research Assistant</span> • 
+        <span class="project-org">National Research Foundation of Korea</span>
+      </div>
+    </div>
   </div>
   
-  <div class="project-card">
-    <h3>Project Title 2</h3>
-    <p class="project-meta">Duration • Funding Agency</p>
-    <p>Project description...</p>
+  <div class="project-item">
+    <div class="project-period">Oct. 2023–Oct. 2024</div>
+    <div class="project-content">
+      <h3>Study on Quality Control of Educational Facilities using Virtual Environments</h3>
+      <div class="project-meta">
+        <span class="project-role">Principal Contributor</span> • 
+        <span class="project-org">Poongjak Co., Ltd.</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="project-item">
+    <div class="project-period">Sep. 2021–Feb. 2024</div>
+    <div class="project-content">
+      <h3>Development of Decision-making Framework to Support Personalized Spatial Composition based on Temperament, Perception and Bio-markers Applying Digital Twin</h3>
+      <div class="project-meta">
+        <span class="project-role">Principal Contributor</span> • 
+        <span class="project-org">National Research Foundation of Korea</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="project-item">
+    <div class="project-period">Apr. 2021–Dec. 2022</div>
+    <div class="project-content">
+      <h3>Construction Quality Control using Digital Twin Technology</h3>
+      <div class="project-meta">
+        <span class="project-role">Research Assistant</span> • 
+        <span class="project-org">Hyundai Engineering Co., Ltd.</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="project-item">
+    <div class="project-period">Jun.–Sep. 2021</div>
+    <div class="project-content">
+      <h3>Establishment of Standard Guidelines for Daycare Centers in Police Stations</h3>
+      <div class="project-meta">
+        <span class="project-role">Research Assistant</span> • 
+        <span class="project-org">National Police Agency</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="project-item">
+    <div class="project-period">May–Jul. 2019</div>
+    <div class="project-content">
+      <h3>Spatial Preference Modeling based on Immersive Virtual Environment and Choice Modeling Theory</h3>
+      <div class="project-meta">
+        <span class="project-role">Research Intern</span> • 
+        <span class="project-org">National Research Foundation of Korea</span>
+      </div>
+    </div>
   </div>
 </section>
 
