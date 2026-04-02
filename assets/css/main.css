@@ -473,6 +473,11 @@ h2.bibliography:first-of-type {
   .main-content {
     padding: 2rem 0 2rem 2rem;
   }
+
+  .two-column-section {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -691,6 +696,26 @@ h2.bibliography:first-of-type {
   .research-content .periodical {
     font-size: 0.8rem;
   }
+
+  .activity-item {
+    flex-direction: column;
+    gap: 0.25rem;
+    padding-bottom: 1rem;
+  }
+  
+  .activity-period {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  
+  .activity-title {
+    font-size: 0.9rem;
+  }
+  
+  .activity-org {
+    font-size: 0.8rem;
+  }
+}
 }
 
 /* ==================== Sidebar Navigation ==================== */
@@ -868,5 +893,66 @@ h2.bibliography:first-of-type {
 }
 
 .project-org {
+  color: var(--text-secondary);
+}
+
+/* ==================== Two Column Section (Teaching & Service) ==================== */
+.two-column-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.column-left,
+.column-right {
+  min-width: 0;
+}
+
+.column-left h2,
+.column-right h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.activity-item {
+  display: flex;
+  gap: 1.5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.activity-item:last-child {
+  border-bottom: none;
+}
+
+.activity-period {
+  flex-shrink: 0;
+  width: 100px;
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+  font-weight: 500;
+  padding-top: 0.1rem;
+}
+
+.activity-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.activity-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.activity-org {
+  font-size: 0.85rem;
   color: var(--text-secondary);
 }
