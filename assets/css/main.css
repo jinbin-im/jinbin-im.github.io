@@ -686,68 +686,19 @@ h2.bibliography:first-of-type {
   margin-bottom: 4rem;
 }
 
-.research-group {
-  margin-bottom: 3rem;
-}
-
-.group-title {
-  margin-bottom: 1.5rem;
-  border-bottom: none;
-  padding-bottom: 0;
-}
-
-.status-badge {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.status-badge.under-revision {
-  background: #fff4e6;
-  color: #d97706;
-  border-left: 4px solid #d97706;
-}
-
-.status-badge.under-review {
-  background: #eff6ff;
-  color: #2563eb;
-  border-left: 4px solid #2563eb;
-}
-
-.status-badge.manuscript {
-  background: #f0fdf4;
-  color: #16a34a;
-  border-left: 4px solid #16a34a;
-}
-
-.status-badge.in-prep {
-  background: #faf5ff;
-  color: #7b27d8;
-  border-left: 4px solid #7b27d8;
-}
-
-.research-card {
+.research-item {
   display: flex;
   gap: 1rem;
-  padding: 1.25rem;
+  padding-bottom: 1rem;
   margin-bottom: 1rem;
-  background: #f8f9fa;
-  border-left: 3px solid var(--border);
-  border-radius: 6px;
-  transition: all 0.2s;
+  border-bottom: 1px solid var(--border);
 }
 
-.research-card:hover {
-  background: #f0f1f3;
-  border-left-color: var(--primary);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+.research-item:last-child {
+  border-bottom: none;
 }
 
-.card-status {
+.research-status {
   flex-shrink: 0;
   padding: 0.25rem 0.75rem;
   background: #e0e0e0;
@@ -759,11 +710,12 @@ h2.bibliography:first-of-type {
   white-space: nowrap;
 }
 
-.card-content {
+.research-content {
   flex: 1;
+  min-width: 0;
 }
 
-.card-title {
+.research-content .title {
   font-size: 0.95rem;
   line-height: 1.5;
   color: var(--text-primary);
@@ -771,13 +723,18 @@ h2.bibliography:first-of-type {
   font-weight: 500;
 }
 
-.card-meta {
-  font-size: 0.85rem;
+.research-content .author {
+  font-size: 0.9rem;
   color: var(--text-secondary);
-  margin: 0;
+  margin-bottom: 0.5rem;
 }
 
-.card-meta em {
+.research-content .periodical {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.research-content .periodical em {
   color: #7b27d8;
   font-style: italic;
 }
@@ -813,21 +770,22 @@ h2.bibliography:first-of-type {
 
 /* Responsive */
 @media (max-width: 768px) {
-  .research-card {
+  .research-item {
     flex-direction: column;
-    gap: 0.75rem;
-    padding: 1rem;
+    gap: 0.5rem;
+    padding-bottom: 1rem;
   }
   
-  .card-status {
+  .research-status {
     width: fit-content;
   }
   
-  .card-title {
+  .research-content .title {
     font-size: 0.9rem;
   }
   
-  .card-meta {
+  .research-content .author,
+  .research-content .periodical {
     font-size: 0.8rem;
   }
   
