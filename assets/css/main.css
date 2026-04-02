@@ -216,14 +216,13 @@ h2.bibliography:first-of-type {
 .pub-preview {
   flex-shrink: 0;
   width: 200px !important;
-  height: 112px !important;
+  height: 150px !important;
   background: #f8f9fa;
   border-radius: 8px;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid var(--border);
 }
 
 .pub-preview img {
@@ -544,8 +543,8 @@ h2.bibliography:first-of-type {
   
   .pub-preview {
     width: calc(100% + 2rem) !important;
-    height: auto !important;
-    aspect-ratio: 16 / 9;
+    height: auto;
+    aspect-ratio: 4 / 3;
     margin-left: -1rem;
     margin-right: -1rem;
     margin-bottom: 1rem;
