@@ -50,83 +50,58 @@ permalink: /
 <section class="two-column-section">
   <div class="column-left">
     <h2>Teaching</h2>
-    <div style="margin-bottom: 1rem;">
-     <div style="margin-bottom: 0.5rem;">
-       <strong>Lecturer,</strong> Korea University of Technology and Education
-     </div>
-     <div class="activity-item">
-       <div class="activity-period">2026</div>
-       <div class="activity-content">
-         <div class="activity-title">AI-based Optimization Technology for Architectural Design</div>
-       </div>
-     </div>
-     <div class="activity-item">
-       <div class="activity-period">Spring 2024, 2025</div>
-       <div class="activity-content">
-         <div class="activity-title">ENE 4044 Computer Engineering</div>
-       </div>
-     </div>
+    
+    <div class="teaching-item">
+      <div class="teaching-header">
+        <strong>Lecturer</strong>, Korea University of Technology and Education
+      </div>
+      <div class="teaching-detail">
+        <span>AI-based Optimization Technology for Architectural Design</span>
+        <span class="year">2026</span>
+      </div>
     </div>
-   
-    <div style="margin-bottom: 1rem;">
-      <div style="margin-bottom: 0.5rem;">
-        <strong>Teaching Fellow,</strong> Hanyang University
+    
+    <div class="teaching-item">
+      <div class="teaching-header">
+        <strong>Teaching Fellow</strong>, Hanyang University
       </div>
-      <div class="activity-item">
-        <div class="activity-period">Fall 2025</div>
-        <div class="activity-content">
-          <div class="activity-title">PBL 4004 Architectural Engineering Capstone PBL</div>
-        </div>
+      <div class="teaching-detail">
+        <span>PBL 4004 Architectural Engineering Capstone PBL</span>
+        <span class="year">Fall 2025</span>
       </div>
-      <div class="activity-item">
-        <div class="activity-period">Spring 2024, 2025</div>
-        <div class="activity-content">
-          <div class="activity-title">ENE 4044 Computer Engineering</div>
-        </div>
+      <div class="teaching-detail">
+        <span>ENE 4044 Computer Engineering</span>
+        <span class="year">Spring 2024, 2025</span>
       </div>
-     </div>
+    </div>
   </div>
   
   <div class="column-right">
     <h2>Service</h2>
     
-    <div class="activity-item">
-      <div class="activity-period">2026</div>
-      <div class="activity-content">
-        <div class="activity-title">Reviewer</div>
-        <div class="activity-org">23rd Smart and Sustainable Built Environment (SASBE)</div>
+    <div class="service-item">
+      <div class="service-header">
+        <strong>Reviewer</strong>
       </div>
-    </div>
-
-    <div class="activity-item">
-      <div class="activity-period">2026-Present</div>
-      <div class="activity-content">
-        <div class="activity-title">Reviewer</div>
-        <div class="activity-org">Results in Engineering</div>
+      <div class="service-detail">
+        <span>23rd Smart and Sustainable Built Environment (SASBE)</span>
+        <span class="year">2026</span>
       </div>
-    </div>
-
-    <div class="activity-item">
-      <div class="activity-period">2026-Present</div>
-      <div class="activity-content">
-        <div class="activity-title">Reviewer</div>
-        <div class="activity-org">Journal of Management in Engineering</div>
+      <div class="service-detail">
+        <span>Results in Engineering</span>
+        <span class="year">2026–Present</span>
       </div>
-    </div>
-
-    <div class="activity-item">
-      <div class="activity-period">2025-Present</div>
-      <div class="activity-content">
-        <div class="activity-title">Reviewer</div>
-        <div class="activity-org">Architectural Engineering and Design Management</div>
+      <div class="service-detail">
+        <span>Journal of Management in Engineering</span>
+        <span class="year">2026–Present</span>
       </div>
-    </div>
-    
-    <div class="activity-item">
-      <div class="activity-period">2025–Present</div>
-      <div class="activity-content">
-        <div class="activity-title">Reviewer</div>
-        <div class="activity-org">Building and Environment</div>
+      <div class="service-detail">
+        <span>Architectural Engineering and Design Management</span>
+        <span class="year">2025–Present</span>
+      </div>
+      <div class="service-detail">
+        <span>Building and Environment</span>
+        <span class="year">2025–Present</span>
       </div>
     </div>
   </div>
