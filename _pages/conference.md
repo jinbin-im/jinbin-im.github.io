@@ -145,6 +145,6 @@ document.addEventListener('DOMContentLoaded', function() {
 </style>
 
 <!-- Copyright Footer -->
-<div class="copyright-footer">
-  <p>© 2026 Jinbin Im. All rights reserved.</p>
+<div class="site-footer">
+      <p>&copy; 2026 Jinbin Im. All rights reserved.</p>
 </div>
