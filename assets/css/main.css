@@ -647,6 +647,28 @@ h2.bibliography:first-of-type {
     font-size: 0.85rem;
     margin-bottom: 0;
   }
+
+  /* Research Projects */
+  .project-item {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .project-period {
+    width: 100%;
+    font-size: 0.8rem;
+    padding-top: 0;
+  }
+  
+  .project-content h3 {
+    font-size: 0.95rem;
+  }
+  
+  .project-meta {
+    font-size: 0.85rem;
+  }
 }
 
 /* ==================== Sidebar Navigation ==================== */
@@ -760,61 +782,54 @@ h2.bibliography:first-of-type {
   font-style: italic;
 }
 
-/* ==================== Research Projects ==================== */
-.project-card {
-  padding: 1.5rem;
+/* ==================== Research Projects - Timeline Style ==================== */
+.project-item {
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 1.5rem;
   margin-bottom: 1.5rem;
-  background: #f8f9fa;
-  border-left: 4px solid var(--primary);
-  border-radius: 6px;
-  transition: all 0.2s;
+  border-bottom: 1px solid var(--border);
 }
 
-.project-card:hover {
-  background: #f0f1f3;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+.project-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
 }
 
-.project-card h3 {
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
+.project-period {
+  flex-shrink: 0;
+  width: 140px;
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+  font-weight: 500;
+  padding-top: 0.2rem;
+}
+
+.project-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.project-content h3 {
+  font-size: 1rem;
+  font-weight: 600;
   color: var(--text-primary);
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
   border: none;
   padding: 0;
 }
 
 .project-meta {
-  font-size: 0.85rem;
-  color: var(--text-tertiary);
-  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .research-item {
-    flex-direction: column;
-    gap: 0.5rem;
-    padding-bottom: 1rem;
-  }
-  
-  .research-status {
-    width: fit-content;
-  }
-  
-  .research-content .title {
-    font-size: 0.9rem;
-  }
-  
-  .research-content .author,
-  .research-content .periodical {
-    font-size: 0.8rem;
-  }
-  
-  .project-card {
-    padding: 1rem;
-  }
-  
-  .project-card h3 {
-    font-size: 1rem;
-  }
+.project-role {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.project-org {
+  color: var(--text-secondary);
 }
