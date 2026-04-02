@@ -701,13 +701,31 @@ h2.bibliography:first-of-type {
 .research-status {
   flex-shrink: 0;
   padding: 0.25rem 0.75rem;
-  background: #e0e0e0;
   border-radius: 4px;
   font-size: 0.75rem;
   font-weight: 600;
-  color: #666;
   height: fit-content;
   white-space: nowrap;
+}
+
+/* Co-author - 회색 */
+.research-item .research-status {
+  background: #e0e0e0;
+  color: #666;
+}
+
+/* First author - 보라색 강조 */
+.research-item:has(.research-content) .research-status:contains("First") {
+  background: #f0e7f9;
+  color: #7b27d8;
+  border: 1px solid #7b27d8;
+}
+
+/* Corresponding author - 파란색 강조 */
+.research-item:has(.research-content) .research-status:contains("Corresponding") {
+  background: #eff6ff;
+  color: #2563eb;
+  border: 1px solid #2563eb;
 }
 
 .research-content {
