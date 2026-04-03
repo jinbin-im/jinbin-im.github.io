@@ -910,6 +910,11 @@ h2.bibliography:first-of-type {
     font-size: 0.7rem;
     padding: 0.3rem 0.65rem;
   }
+
+  .author-corresponding {
+    max-width: none;
+    white-space: nowrap;  /* 추가 */
+  }
   
   .research-content .title {
     font-size: 0.9rem;
