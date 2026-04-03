@@ -189,7 +189,7 @@ body {
 }
 
 /* ==================== Copyright Footer ==================== */
-.copyright-footer {
+.site-footer {
   width: 100%;
   max-width: 1400px;
   margin: 4rem auto 2rem auto;
@@ -197,7 +197,7 @@ body {
   text-align: center;
 }
 
-.copyright-footer p {
+.site-footer p {
   margin: 0;
   color: var(--text-tertiary);
   font-size: 0.875rem;
@@ -987,13 +987,13 @@ h2.bibliography:first-of-type {
     font-size: 0.85rem;
   }
   
-  .copyright-footer {
+  .site-footer {
     padding: 2rem 1rem;
     text-align: center;  
     margin-top: 3rem;
   }
   
-  .copyright-footer p {
+  .site-footer p {
     text-align: center;
     font-size: 0.8rem;
   }
