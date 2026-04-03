@@ -894,7 +894,7 @@ h2.bibliography:first-of-type {
   
   /* Research - 왼쪽 정렬 */
   .research-item {
-    flex-direction: row;
+    flex-direction: column;
     gap: 0.5rem;
     padding-bottom: 1.25rem;
     margin-left: -1rem;
