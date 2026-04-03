@@ -59,11 +59,14 @@
     <!-- 저널 정보 -->
     <div class="periodical">
       <em>{{entry.journal}}</em>
-      {% if entry.volume or entry.number or entry.pages %}
-        {% if entry.volume %}, <strong>{{entry.volume}}</strong>{% endif %}
-        {% if entry.number %}({{entry.number}}){% endif %}
-        {% if entry.pages %}, {{entry.pages}}{% endif %}
+      {% if entry.year != "in press" %}
+        {% if entry.volume or entry.number or entry.pages %}
+          {% if entry.volume %}, <strong>{{entry.volume}}</strong>{% endif %}
+          {% if entry.number %}({{entry.number}}){% endif %}
+          {% if entry.pages %}, {{entry.pages}}{% endif %}
+        {% endif %}
       {% endif %}
+      {% if entry.year == "in press" %}, (in press){% endif %}
     </div>
 
     <!-- 버튼들 -->
@@ -74,7 +77,6 @@
       {%- if entry.bibtex_show %}
         <a href="#" class="btn" onclick="toggleBibtex('{{entry.key}}'); return false;">Bib</a>
       {%- endif %}
-
 
       {% if entry.note %}
         {% assign note_text = entry.note %}
@@ -117,10 +119,10 @@
   title={{"{"}}{{ entry.title }}},
   author={{"{"}}{{ entry.author }}},
   journal={{"{"}}{{ entry.journal }}},
-  {% if entry.volume %}volume={{"{"}}{{ entry.volume }}},
+  {% if entry.year != "in press" %}{% if entry.volume %}volume={{"{"}}{{ entry.volume }}},
   {% endif %}{% if entry.number %}number={{"{"}}{{ entry.number }}},
   {% endif %}{% if entry.pages %}pages={{"{"}}{{ entry.pages }}},
-  {% endif %}year={{"{"}}{{ entry.year }}},
+  {% endif %}{% endif %}year={{"{"}}{{ entry.year }}},
   {% if entry.publisher %}publisher={{"{"}}{{ entry.publisher }}}
   {% endif %}}</code></pre>
       </div>
