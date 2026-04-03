@@ -613,6 +613,15 @@ h2.bibliography:first-of-type {
   color: var(--text-secondary);
 }
 
+.project-affiliation {
+  flex-shrink: 0;
+  width: 140px;
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+  font-weight: 500;
+  padding-top: 0.2rem;
+}
+
 /* ==================== Two Column Section (Teaching & Service) ==================== */
 .two-column-section {
   display: grid;
