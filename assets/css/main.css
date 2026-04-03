@@ -893,7 +893,7 @@ h2.bibliography:first-of-type {
   
   /* Research - 왼쪽 정렬 */
   .research-item {
-    flex-direction: column;
+    flex-direction: row;
     gap: 0.5rem;
     padding-bottom: 1.25rem;
     margin-left: -1rem;
@@ -905,8 +905,8 @@ h2.bibliography:first-of-type {
   .author-co,
   .author-first,
   .author-corresponding {
-    min-width: 90px;
-    max-width: 90px;
+    min-width: auto;
+    max-width: auto;
     font-size: 0.7rem;
     padding: 0.3rem 0.65rem;
   }
@@ -980,10 +980,12 @@ h2.bibliography:first-of-type {
   
   .copyright-footer {
     padding: 2rem 1rem;
+    text-align: center;  
     margin-top: 3rem;
   }
   
   .copyright-footer p {
+    text-align: center;
     font-size: 0.8rem;
   }
 }
