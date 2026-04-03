@@ -38,7 +38,7 @@ permalink: /research/
   </div>
   
   <div class="research-item">
-    <div class="author-first">First author</div>
+    <div class="author-first">Co-First author</div>
     <div class="research-content">
       <div class="title">Strategic Pathways for e-Methanol Deployment in the Low-Carbon Transition: Policy Modeling of Cost Competitiveness and Flexibility Requirements in Korea</div>
       <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/energy-strategy-reviews" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Energy Strategy Reviews</em></a></div>
