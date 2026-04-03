@@ -614,12 +614,7 @@ h2.bibliography:first-of-type {
 }
 
 .project-affiliation {
-  flex-shrink: 0;
-  width: 140px;
-  font-size: 0.85rem;
-  color: var(--text-tertiary);
-  font-weight: 500;
-  padding-top: 0.2rem;
+  color: var(--primary);
 }
 
 /* ==================== Two Column Section (Teaching & Service) ==================== */
