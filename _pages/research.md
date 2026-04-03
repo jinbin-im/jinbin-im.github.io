@@ -14,7 +14,7 @@ permalink: /research/
     <div class="author-co">Co-author</div>
     <div class="research-content">
       <div class="title">Prediction of structural frame works safety and health management expenses in apartment construction projects by introducing interpretable machine learning</div>
-      <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/developments-in-the-built-environment";><em>Engineering, Construction, and Architectural Management</em></a></div>
+      <div class="periodical">Submitted to <a href="https://www.emeraldgrouppublishing.com/journal/ecam" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Engineering, Construction, and Architectural Management</em></a></div>
     </div>
   </div>
   
@@ -22,7 +22,7 @@ permalink: /research/
     <div class="author-co">Co-author</div>
     <div class="research-content">
       <div class="title">Visual quality features in immersive virtual environments: A systematic review of their impact on user experience</div>
-      <div class="periodical">Submitted to <a href="https://link.springer.com/journal/10055";><em>Virtual Reality</em></a></div>
+      <div class="periodical">Submitted to <a href="https://link.springer.com/journal/10055" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Virtual Reality</em></a></div>
     </div>
   </div>
   
@@ -33,7 +33,7 @@ permalink: /research/
     <div class="author-first">First author</div>
     <div class="research-content">
       <div class="title">Optimizing Immersive Virtual Environments for Architectural Design Review: The Impact of Visualization Quality on Occupant-Centric Performance Assessment</div>
-      <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/journal-of-building-engineering";><em>Journal of Building Engineering</em></a></div>
+      <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/journal-of-building-engineering" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Journal of Building Engineering</em></a></div>
     </div>
   </div>
   
@@ -41,7 +41,7 @@ permalink: /research/
     <div class="author-first">First author</div>
     <div class="research-content">
       <div class="title">Strategic Pathways for e-Methanol Deployment in the Low-Carbon Transition: Policy Modeling of Cost Competitiveness and Flexibility Requirements in Korea</div>
-      <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/energy-strategy-reviews";><em>Energy Strategy Reviews</em></a></div>
+      <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/energy-strategy-reviews" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Energy Strategy Reviews</em></a></div>
     </div>
   </div>
   
@@ -49,7 +49,7 @@ permalink: /research/
     <div class="author-corresponding">Corresponding author</div>
     <div class="research-content">
       <div class="title">Beyond Viewing: How Installation Artwork Design Modality Shapes Visitor Satisfaction Through Affective and Behavioral Pathways</div>
-      <div class="periodical">Submitted to <a href="https://www.tandfonline.com/journals/rfdj20";><em>the Design Journal</em></a></div>
+      <div class="periodical">Submitted to <a href="https://www.tandfonline.com/journals/rfdj20" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>the Design Journal</em></a></div>
     </div>
   </div>
   
@@ -57,7 +57,7 @@ permalink: /research/
     <div class="author-co">Co-author</div>
     <div class="research-content">
       <div class="title">Weather-adaptive automated pipe counting for open-air construction storage: Leveraging synthetic data augmentation and YOLO-Network Family</div>
-      <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/journal-of-building-engineering";><em>Journal of Building Engineering</em></a></div>
+      <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/developments-in-the-built-environment"target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Developments in the Built Environment</em></a></div>
     </div>
   </div>
   
