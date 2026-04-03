@@ -113,7 +113,7 @@
     <!-- 숨김 영역: BibTeX -->
     {% if entry.bibtex_show %}
       <div id="bibtex-{{entry.key}}" class="bibtex hidden">
-        <pre><code>{% assign bibtex_lines = entry.bibtex | split: newline %}{% for line in bibtex_lines %}{% unless line contains "preview" or line contains "bibtex_show" or line contains "note" or line contains "selected" %}{{ line }}
+        <pre><code>{% assign bibtex_lines = entry.bibtex | split: newline %}{% for line in bibtex_lines %}{% unless line contains "preview" or line contains "bibtex_show" or line contains "note" or line contains "selected" %}{{ line }}{% endunless %}{% endfor %}</code></pre>
       </div>
     {% endif %}
   </div>
