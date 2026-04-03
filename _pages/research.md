@@ -46,14 +46,6 @@ permalink: /research/
   </div>
   
   <div class="research-item">
-    <div class="author-corresponding">Corresponding author</div>
-    <div class="research-content">
-      <div class="title">Beyond Viewing: How Installation Artwork Design Modality Shapes Visitor Satisfaction Through Affective and Behavioral Pathways</div>
-      <div class="periodical">Submitted to <a href="https://www.tandfonline.com/journals/rfdj20" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>the Design Journal</em></a></div>
-    </div>
-  </div>
-  
-  <div class="research-item">
     <div class="author-co">Co-author</div>
     <div class="research-content">
       <div class="title">Weather-adaptive automated pipe counting for open-air construction storage: Leveraging synthetic data augmentation and YOLO-Network Family</div>
@@ -63,6 +55,14 @@ permalink: /research/
   
   <!-- Manuscript Completed -->
   <h2 class="bibliography">Manuscript Completed</h2>
+
+   <div class="research-item">
+    <div class="author-corresponding">Corresponding author</div>
+    <div class="research-content">
+      <div class="title">Beyond Viewing: How Installation Artwork Design Modality Shapes Visitor Satisfaction Through Affective and Behavioral Pathways</div>
+%      <div class="periodical">Submitted to <a href="https://www.tandfonline.com/journals/rfdj20" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>the Design Journal</em></a></div>
+    </div>
+  </div> 
   
   <div class="research-item">
     <div class="author-co">Co-author</div>
