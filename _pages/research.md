@@ -172,7 +172,7 @@ permalink: /research/
       <div class="title"><strong>Spatial Preference Modeling based on Immersive Virtual Environment and Choice Modeling Theory</strong></div>
       <div class="project-meta">
         <span class="project-role">Research Intern</span> • 
-        <span class="project-affiliation"> CB&PM Lab. (Hanyang University)</span> •         
+        <span class="project-affiliation"> Dept. of Interior Architecture Design (Hanyang University)</span> •         
         <span class="project-org">National Research Foundation of Korea</span>
       </div>
     </div>
