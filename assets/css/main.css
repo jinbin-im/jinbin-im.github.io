@@ -622,11 +622,6 @@ h2.bibliography:first-of-type {
   padding-top: 0.2rem;
 }
 
-.project-left {
-  flex-shrink: 0;
-  width: 180px;
-}
-
 /* ==================== Two Column Section (Teaching & Service) ==================== */
 .two-column-section {
   display: grid;
