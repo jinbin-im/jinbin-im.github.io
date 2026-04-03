@@ -57,7 +57,7 @@ permalink: /research/
     <div class="author-co">Co-author</div>
     <div class="research-content">
       <div class="title">Weather-adaptive automated pipe counting for open-air construction storage: Leveraging synthetic data augmentation and YOLO-Network Family</div>
-      <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/developments-in-the-built-environment"target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Developments in the Built Environment</em></a></div>
+      <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/developments-in-the-built-environment" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Developments in the Built Environment</em></a></div>
     </div>
   </div>
   
