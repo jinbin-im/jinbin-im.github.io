@@ -121,6 +121,38 @@ body {
   transform: translateY(-2px);
 }
 
+/* ==================== Sidebar Navigation ==================== */
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.sidebar-nav .nav-item {
+  padding: 0.75rem 1rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: all 0.2s;
+  margin-bottom: 0.25rem;
+}
+
+.sidebar-nav .nav-item:hover {
+  background: var(--bg-gray);
+  color: var(--text-primary);
+}
+
+.sidebar-nav .nav-item.active {
+  background: #f0e7f9;
+  color: var(--primary);
+  font-weight: 600;
+}
+
 /* ==================== Main Content ==================== */
 .main-content {
   flex: 1;
@@ -253,6 +285,7 @@ h2.bibliography:first-of-type {
 }
 
 .author-me {
+  color: #7b27d8 !important;
   font-weight: 700 !important;
   font-style: normal !important;
   text-decoration: none !important;
@@ -261,7 +294,7 @@ h2.bibliography:first-of-type {
 .periodical {
   font-size: 0.95rem;
   color: var(--text-secondary);
-  margin-bottom: 0.75rem;  /* ← 이 줄 추가 */
+  margin-bottom: 0.75rem;
 }
 
 /* ==================== Journal Metrics Badges ==================== */
@@ -443,6 +476,200 @@ h2.bibliography:first-of-type {
   padding-left: 1rem;
 }
 
+/* ==================== In-Progress Research ==================== */
+.research-section {
+  margin-bottom: 4rem;
+}
+
+.research-item {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+  align-items: flex-start;
+}
+
+.research-item:last-child {
+  border-bottom: none;
+}
+
+.author-co,
+.author-first,
+.author-corresponding {
+  flex-shrink: 0;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-align: left;
+  line-height: 1.4;
+  width: fit-content;
+  min-width: 110px;
+  max-width: 110px;
+  transition: all 0.2s;
+  letter-spacing: 0.3px;
+}
+
+.author-co {
+  background: transparent;
+  color: #888;
+  border: 1.5px solid #d0d0d0;
+}
+
+.author-first {
+  background: linear-gradient(135deg, #f0e7f9 0%, #e8d5f7 100%);
+  color: #6b1fb8;
+  border: 1.5px solid #b47dd8;
+  box-shadow: 0 1px 3px rgba(123, 39, 216, 0.1);
+}
+
+.author-first:hover {
+  box-shadow: 0 2px 6px rgba(123, 39, 216, 0.15);
+}
+
+.author-corresponding {
+  background: linear-gradient(135deg, #e0f2fe 0%, #dbeafe 100%);
+  color: #1e40af;
+  border: 1.5px solid #60a5fa;
+  box-shadow: 0 1px 3px rgba(37, 99, 235, 0.1);
+}
+
+.author-corresponding:hover {
+  box-shadow: 0 2px 6px rgba(37, 99, 235, 0.15);
+}
+
+.research-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.research-content .title {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.research-content .periodical {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.research-content .periodical em {
+  color: #7b27d8;
+  font-style: italic;
+}
+
+/* ==================== Research Projects - Timeline Style ==================== */
+.project-item {
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.project-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.project-period {
+  flex-shrink: 0;
+  width: 140px;
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+  font-weight: 500;
+  padding-top: 0.2rem;
+}
+
+.project-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.project-content h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+  border: none;
+  padding: 0;
+}
+
+.project-meta {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.project-role {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.project-org {
+  color: var(--text-secondary);
+}
+
+/* ==================== Two Column Section (Teaching & Service) ==================== */
+.two-column-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.column-left,
+.column-right {
+  min-width: 0;
+}
+
+.column-left h2,
+.column-right h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.teaching-item,
+.service-item {
+  margin-bottom: 2rem;
+}
+
+.teaching-item:last-child,
+.service-item:last-child {
+  margin-bottom: 0;
+}
+
+.teaching-header,
+.service-header {
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}
+
+.teaching-detail,
+.service-detail {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}
+
+.teaching-detail .year,
+.service-detail .year {
+  color: var(--text-tertiary);
+  flex-shrink: 0;
+  margin-left: 1rem;
+}
+
 /* ==================== Responsive ==================== */
 @media (max-width: 1600px) {
   .about-page {
@@ -520,6 +747,21 @@ h2.bibliography:first-of-type {
     font-size: 1.25rem;
   }
   
+  .sidebar-nav {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .sidebar-nav .nav-item {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+    margin-bottom: 0;
+  }
+  
   .main-content {
     padding: 0;
     margin: 0;
@@ -535,8 +777,65 @@ h2.bibliography:first-of-type {
     font-size: 1.25rem;
   }
   
+  /* Education - 연도 오른쪽 정렬 */
+  .main-content section > div > div[style*="display: flex"] {
+    display: block !important;
+  }
+  
+  .main-content section > div > div[style*="display: flex"] span:last-child {
+    display: block;
+    text-align: right;
+    margin-top: 0.25rem;
+  }
+  
+  /* Teaching & Service - 연도 오른쪽 정렬 */
+  .teaching-detail,
+  .service-detail {
+    display: block !important;
+  }
+  
+  .teaching-detail span:first-child,
+  .service-detail span:first-child {
+    display: inline;
+  }
+  
+  .teaching-detail .year,
+  .service-detail .year {
+    display: block;
+    text-align: right;
+    margin-left: 0 !important;
+    margin-top: 0.25rem;
+    font-size: 0.8rem;
+  }
+  
+  .teaching-detail[style*="display: flex"],
+  .service-detail[style*="display: flex"] {
+    display: block !important;
+  }
+  
+  .teaching-detail[style*="display: flex"] span,
+  .service-detail[style*="display: flex"] span {
+    display: inline;
+  }
+  
+  .teaching-detail[style*="display: flex"] .year,
+  .service-detail[style*="display: flex"] .year {
+    display: block;
+    text-align: right;
+    margin-top: 0.25rem;
+  }
+  
+  /* Papers - 왼쪽 정렬 */
   .bibliography {
     gap: 1.5rem;
+  }
+  
+  h2.bibliography {
+    font-size: 1rem;
+    margin-top: 2rem;
+    padding-left: 0 !important;
+    margin-left: -1rem;
+    padding-left: 1rem;
   }
   
   .pub-row {
@@ -587,11 +886,40 @@ h2.bibliography:first-of-type {
     padding: 2px 6px;
   }
   
-  .links .btn {
+  .links-and-badges .btn {
     padding: 4px 10px;
     font-size: 0.7rem;
   }
   
+  /* Research - 왼쪽 정렬 */
+  .research-item {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 1.25rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .author-co,
+  .author-first,
+  .author-corresponding {
+    min-width: 90px;
+    max-width: 90px;
+    font-size: 0.7rem;
+    padding: 0.3rem 0.65rem;
+  }
+  
+  .research-content .title {
+    font-size: 0.9rem;
+  }
+  
+  .research-content .periodical {
+    font-size: 0.8rem;
+  }
+  
+  /* Conference */
   .conference-header {
     margin-left: -1rem;
     margin-right: -1rem;
@@ -628,37 +956,7 @@ h2.bibliography:first-of-type {
     margin-bottom: 1.5rem;
   }
   
-  h2.bibliography {
-    font-size: 1rem;
-    margin-top: 2rem;
-    padding-left: 1rem;
-  }
-  
-  .copyright-footer {
-    padding: 2rem 1rem;
-    margin-top: 3rem;
-  }
-  
-  .copyright-footer p {
-    font-size: 0.8rem;
-  }
-  
-    .sidebar-nav {
-    margin-top: 1.5rem;
-    padding-top: 1.5rem;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
-  
-  .sidebar-nav .nav-item {
-    padding: 0.5rem 1rem;
-    font-size: 0.85rem;
-    margin-bottom: 0;
-  }
-
-  /* Research Projects */
+  /* Projects */
   .project-item {
     flex-direction: column;
     gap: 0.5rem;
@@ -679,319 +977,13 @@ h2.bibliography:first-of-type {
   .project-meta {
     font-size: 0.85rem;
   }
-
-  .research-item {
-    flex-direction: column;
-    gap: 0.5rem;
-    padding-bottom: 1.25rem;
+  
+  .copyright-footer {
+    padding: 2rem 1rem;
+    margin-top: 3rem;
   }
   
-  .author-co,
-  .author-first,
-  .author-corresponding {
-    min-width: 75px;
-    font-size: 0.7rem;
-    padding: 0.3rem 0.65rem;
-  }
-  
-  .research-content .title {
-    font-size: 0.9rem;
-  }
-  
-  .research-content .periodical {
+  .copyright-footer p {
     font-size: 0.8rem;
   }
-
-  .teaching-item,
-  .service-item {
-    margin-bottom: 1.5rem;
-  }
-  
-  .teaching-header,
-  .service-header {
-    font-size: 0.9rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .teaching-detail,
-  .service-detail {
-    flex-direction: column;
-    gap: 0.25rem;
-    font-size: 0.85rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .teaching-detail .year,
-  .service-detail .year {
-    margin-left: 0;
-    font-size: 0.8rem;
-  }
-}
-
-/* ==================== Sidebar Navigation ==================== */
-.sidebar-nav {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin-top: 2.5rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--border);
-}
-
-.sidebar-nav .nav-item {
-  padding: 0.75rem 1rem;
-  color: var(--text-secondary);
-  text-decoration: none;
-  font-size: 0.95rem;
-  font-weight: 500;
-  border-radius: 6px;
-  transition: all 0.2s;
-  margin-bottom: 0.25rem;
-}
-
-.sidebar-nav .nav-item:hover {
-  background: var(--bg-gray);
-  color: var(--text-primary);
-}
-
-.sidebar-nav .nav-item.active {
-  background: #f0e7f9;
-  color: var(--primary);
-  font-weight: 600;
-}
-
-/* ==================== In-Progress Research ==================== */
-.research-section {
-  margin-bottom: 4rem;
-}
-
-.research-item {
-  display: flex;
-  gap: 1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid var(--border);
-  align-items: flex-start;  /* 상단 정렬 */
-}
-
-.research-item:last-child {
-  border-bottom: none;
-}
-
-/* 공통 스타일 */
-.author-co,
-.author-first,
-.author-corresponding {
-  flex-shrink: 0;
-  padding: 0.35rem 0.75rem;
-  border-radius: 6px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  text-align: left;
-  line-height: 1.4;
-  width: fit-content;
-  min-width: 110px;
-  max-width: 110px;
-  transition: all 0.2s;
-  letter-spacing: 0.3px;
-}
-
-/* Co-author - 회색 (심플) */
-.author-co {
-  background: transparent;
-  color: #888;
-  border: 1.5px solid #d0d0d0;
-}
-
-/* First author - 보라색 (그라데이션) */
-.author-first {
-  background: linear-gradient(135deg, #f0e7f9 0%, #e8d5f7 100%);
-  color: #6b1fb8;
-  border: 1.5px solid #b47dd8;
-  box-shadow: 0 1px 3px rgba(123, 39, 216, 0.1);
-}
-
-.author-first:hover {
-  box-shadow: 0 2px 6px rgba(123, 39, 216, 0.15);
-}
-
-/* Corresponding author - 파란색 (그라데이션) */
-.author-corresponding {
-  background: linear-gradient(135deg, #e0f2fe 0%, #dbeafe 100%);
-  color: #1e40af;
-  border: 1.5px solid #60a5fa;
-  box-shadow: 0 1px 3px rgba(37, 99, 235, 0.1);
-}
-
-.author-corresponding:hover {
-  box-shadow: 0 2px 6px rgba(37, 99, 235, 0.15);
-}
-
-.research-content {
-  flex: 1;
-  min-width: 0;
-}
-
-.research-content .title {
-  font-size: 0.95rem;
-  line-height: 1.5;
-  color: var(--text-primary);
-  margin-bottom: 0.5rem;
-  font-weight: 500;
-}
-
-.research-content .author {
-  font-size: 0.9rem;
-  color: var(--text-secondary);
-  margin-bottom: 0.5rem;
-}
-
-.research-content .periodical {
-  font-size: 0.85rem;
-  color: var(--text-secondary);
-}
-
-.research-content .periodical em {
-  color: #7b27d8;
-  font-style: italic;
-}
-
-/* ==================== Research Projects - Timeline Style ==================== */
-.project-item {
-  display: flex;
-  gap: 2rem;
-  padding-bottom: 1.5rem;
-  margin-bottom: 1.5rem;
-  border-bottom: 1px solid var(--border);
-}
-
-.project-item:last-child {
-  border-bottom: none;
-  margin-bottom: 0;
-}
-
-.project-period {
-  flex-shrink: 0;
-  width: 140px;
-  font-size: 0.85rem;
-  color: var(--text-tertiary);
-  font-weight: 500;
-  padding-top: 0.2rem;
-}
-
-.project-content {
-  flex: 1;
-  min-width: 0;
-}
-
-.project-content h3 {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--text-primary);
-  line-height: 1.4;
-  margin-bottom: 0.5rem;
-  border: none;
-  padding: 0;
-}
-
-.project-meta {
-  font-size: 0.9rem;
-  color: var(--text-secondary);
-}
-
-.project-role {
-  color: var(--primary);
-  font-weight: 600;
-}
-
-.project-org {
-  color: var(--text-secondary);
-}
-
-/* ==================== Two Column Section (Teaching & Service) ==================== */
-.two-column-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
-  margin-bottom: 3rem;
-}
-
-@media (max-width: 768px) {
-  .two-column-section {
-    grid-template-columns: 1fr;
-    gap: 2rem:
-  }
-}
-
-.column-left,
-.column-right {
-  min-width: 0;
-}
-
-.column-left h2,
-.column-right h2 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--text-primary);
-  margin-bottom: 1.25rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--border);
-}
-
-/* Teaching Items */
-.teaching-item {
-  margin-bottom: 2rem;
-}
-
-.teaching-item:last-child {
-  margin-bottom: 0;
-}
-
-.teaching-header {
-  margin-bottom: 0.75rem;
-  font-size: 0.95rem;
-  color: var(--text-secondary);
-}
-
-.teaching-detail {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 0.5rem;
-  font-size: 0.95rem;
-  color: var(--text-secondary);
-}
-
-.teaching-detail .year {
-  color: var(--text-tertiary);
-  flex-shrink: 0;
-  margin-left: 1rem;
-}
-
-/* Service Items */
-.service-item {
-  margin-bottom: 2rem;
-}
-
-.service-item:last-child {
-  margin-bottom: 0;
-}
-
-.service-header {
-  margin-bottom: 0.75rem;
-  font-size: 0.95rem;
-  color: var(--text-secondary);
-}
-
-.service-detail {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 0.5rem;
-  font-size: 0.95rem;
-  color: var(--text-secondary);
-}
-
-.service-detail .year {
-  color: var(--text-tertiary);
-  flex-shrink: 0;
-  margin-left: 1rem;
 }
