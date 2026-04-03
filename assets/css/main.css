@@ -833,7 +833,7 @@ h2.bibliography:first-of-type {
   h2.bibliography {
     font-size: 1rem;
     margin-top: 2rem;
-    padding-left: 0 !important;
+    padding-left: 1rem !important;
     margin-left: -1rem;
     padding-left: 1rem;
   }
