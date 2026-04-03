@@ -39,16 +39,16 @@
             <i class="ai ai-google-scholar"></i>
           </a>
           {% endif %}
+
+          {% if site.oricd %}
+          <a href="{{ site.orcid }}" target="_blank" title="ORCID">
+            <i class="fab ai-orcid"></i>
+          </a>
+          {% endif %}          
           
           {% if site.semantic_scholar %}
           <a href="{{ site.semantic_scholar }}" target="_blank" title="Semantic Scholar">
             <i class="ai ai-semantic-scholar"></i>
-          </a>
-          {% endif %}
-          
-          {% if site.researchgate %}
-          <a href="{{ site.researchgate }}" target="_blank" title="ResearchGate">
-            <i class="ai ai-researchgate"></i>
           </a>
           {% endif %}
           
@@ -61,12 +61,6 @@
           {% if site.linkedin %}
           <a href="{{ site.linkedin }}" target="_blank" title="LinkedIn">
             <i class="fab fa-linkedin"></i>
-          </a>
-          {% endif %}
-          
-          {% if site.github %}
-          <a href="{{ site.github }}" target="_blank" title="GitHub">
-            <i class="fab fa-github"></i>
           </a>
           {% endif %}
           
