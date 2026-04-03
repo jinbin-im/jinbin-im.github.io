@@ -91,6 +91,17 @@ permalink: /research/
 
 <section id="projects" class="research-section">
   <h2>Research Projects</h2>
+
+  <div class="project-item">
+    <div class="project-period">Apr. 2026–Present</div>
+    <div class="project-content">
+      <div class="title"><strong>Development of -</strong></div>
+      <div class="project-meta">
+        <span class="project-role">Research Assistant</span> • 
+        <span class="project-org">Ministry of Land, Infrastructure and Transport</span>
+      </div>
+    </div>
+  </div>
   
   <div class="project-item">
     <div class="project-period">Mar. 2024–Present</div>
