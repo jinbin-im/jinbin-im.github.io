@@ -95,10 +95,12 @@ permalink: /research/
   <h2>Research Projects</h2>
 
   <div class="project-item">
-    <div class="project-period">Apr. 2026–Present</div>
-    <div class="project-affiliation">
-      <div>CB&PM Lab.</div>
-      <div>Hanyang University</div>
+    <div class="project-left">
+      <div class="project-period">Apr. 2026–Present</div>
+      <div class="project-affiliation">
+        <div>• CB&PM Lab.</div>
+        <div>• Hanyang University</div>
+      </div>
     </div>    
     <div class="project-content">
       <div class="title"><strong>Development of -</strong></div>
@@ -110,11 +112,13 @@ permalink: /research/
   </div>
   
   <div class="project-item">
-    <div class="project-period">Mar. 2024–Present</div>
-    <div class="project-affiliation">
-      <div>CB&PM Lab</div>
-      <div>Hanyang University</div>
-    </div>    
+    <div class="project-left">   
+      <div class="project-period">Mar. 2024–Present</div>
+      <div class="project-affiliation">
+        <div>• CB&PM Lab</div>
+        <div>• Hanyang University</div>
+      </div>    
+    </div>
     <div class="project-content">
       <div class="title"><strong>Development of Artificial Intelligence-based Real-Time Construction Quality Management System</strong></div>
       <div class="project-meta">
@@ -125,11 +129,13 @@ permalink: /research/
   </div>
   
   <div class="project-item">
-    <div class="project-period">Oct. 2023–Oct. 2024</div>
-    <div class="project-affiliation">
-      <div>CB&PM Lab</div>
-      <div>Hanyang University</div>
-    </div>    
+    <div class="project-left">       
+      <div class="project-period">Oct. 2023–Oct. 2024</div>
+      <div class="project-affiliation">
+        <div>• CB&PM Lab</div>
+        <div>• Hanyang University</div>
+      </div>    
+    </div>
     <div class="project-content">
       <div class="title"><strong>Study on Quality Control of Educational Facilities using Virtual Environments</strong></div>
       <div class="project-meta">
@@ -140,11 +146,13 @@ permalink: /research/
   </div>
   
   <div class="project-item">
-    <div class="project-period">Sep. 2021–Feb. 2024</div>
-    <div class="project-affiliation">
-      <div>CB&PM Lab</div>
-      <div>Hanyang University</div>
-    </div>    
+    <div class="project-left">       
+      <div class="project-period">Sep. 2021–Feb. 2024</div>
+      <div class="project-affiliation">
+        <div>• CB&PM Lab</div>
+        <div>• Hanyang University</div>
+      </div>    
+    </div>
     <div class="project-content">
       <div class="title"><strong>Development of Decision-making Framework to Support Personalized Spatial Composition based on Temperament, Perception and Bio-markers Applying Digital Twin</strong></div>
       <div class="project-meta">
@@ -155,11 +163,13 @@ permalink: /research/
   </div>
   
   <div class="project-item">
-    <div class="project-period">Apr. 2021–Dec. 2022</div>
-    <div class="project-affiliation">
-      <div>CB&PM Lab</div>
-      <div>Hanyang University</div>
-    </div>    
+    <div class="project-left">       
+      <div class="project-period">Apr. 2021–Dec. 2022</div>
+      <div class="project-affiliation">
+        <div>• CB&PM Lab</div>
+        <div>• Hanyang University</div>
+      </div>    
+    </div>  
     <div class="project-content">
       <div class="title"><strong>Construction Quality Control using Digital Twin Technology</strong></div>
       <div class="project-meta">
@@ -170,11 +180,13 @@ permalink: /research/
   </div>
   
   <div class="project-item">
-    <div class="project-period">Jun.–Sep. 2021</div>
-    <div class="project-affiliation">
-      <div>CB&PM Lab</div>
-      <div>Hanyang University</div>
-    </div>    
+    <div class="project-left">         
+      <div class="project-period">Jun.–Sep. 2021</div>
+      <div class="project-affiliation">
+        <div>• CB&PM Lab</div>
+        <div>• Hanyang University</div>
+      </div>    
+    </div>
     <div class="project-content">
       <div class="title"><strong>Establishment of Standard Guidelines for Daycare Centers in Police Stations</strong></div>
       <div class="project-meta">
@@ -185,10 +197,12 @@ permalink: /research/
   </div>
   
   <div class="project-item">
-    <div class="project-period">May–Jul. 2019</div>
-    <div class="project-affiliation">
-      <div>Dept. of Interior Architectural Design</div>
-      <div>Hanyang University</div>
+    <div class="project-left">       
+      <div class="project-period">May–Jul. 2019</div>
+      <div class="project-affiliation">
+        <div>• Dept. of Interior Architectural Design</div>
+        <div>• Hanyang University</div>
+      </div>
     </div>    
     <div class="project-content">
       <div class="title"><strong>Spatial Preference Modeling based on Immersive Virtual Environment and Choice Modeling Theory</strong></div>
