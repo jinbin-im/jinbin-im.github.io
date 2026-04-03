@@ -750,16 +750,17 @@ h2.bibliography:first-of-type {
   .sidebar-nav {
     margin-top: 1.5rem;
     padding-top: 1.5rem;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
   }
-  
+
   .sidebar-nav .nav-item {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0;
     font-size: 0.85rem;
     margin-bottom: 0;
+    text-align: center;
+    border-radius: 0;
   }
   
   .main-content {
