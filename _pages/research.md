@@ -46,8 +46,7 @@ permalink: /research/
   </div>
   
   <div class="research-item">
-    <div class="author-corresponding">Corresponding
-      author</div>
+    <div class="author-corresponding">Corresponding author</div>
     <div class="research-content">
       <div class="title">Beyond Viewing: How Installation Artwork Design Modality Shapes Visitor Satisfaction Through Affective and Behavioral Pathways</div>
       <div class="periodical">Submitted to <em>Scientific Reports</em></div>
