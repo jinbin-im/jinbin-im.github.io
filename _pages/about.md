@@ -41,7 +41,7 @@ permalink: /
     </div>
     <div style="display: flex; margin-bottom: 0.5rem;">
       <span style="width: 80px; flex-shrink: 0;">M.S./Ph.D.</span>
-      <span style="flex: 1;">in Architectural Engineering, Construction Management</span>
+      <span style="flex: 1;">in Architectural Engineering, Construction Management (advisor: <a href="http://cbpm.hanyang.ac.kr/professor.asp" style="text-decoration: none;"> <span style="color:#7b27d8;">Ju-Hyung Kim</span></a>)</span>   
       <span style="color: #999; margin-left: 1rem; white-space: nowrap;">2026 (Expected)</span>
     </div>
    
