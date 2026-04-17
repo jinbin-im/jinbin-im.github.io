@@ -65,6 +65,16 @@ permalink: /research/
 -->
     </div>
   </div> 
+
+  <div class="research-item">
+    <div class="author-first">First author</div>
+    <div class="research-content">
+      <div class="title">Automated Framework for Minimally Disruptive BIM Design Revision: Reflecting Affective User Requirements through Natural Language Processing and Optimal Transport</div>
+<!--      
+      <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/automation-in-construction" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Automation in Construction</em></a></div> 
+-->
+    </div>
+  </div>
   
   <div class="research-item">
     <div class="author-co">Co-author</div>
@@ -79,14 +89,10 @@ permalink: /research/
   <div class="research-item">
     <div class="author-first">First author</div>
     <div class="research-content">
-      <div class="title">An Automated Framework for Minimally Disruptive Spatial Design Revision: Reflecting Affective User Requirements through Natural Language Processing and Optimal Transport</div>
-    </div>
-  </div>
-  
-  <div class="research-item">
-    <div class="author-first">First author</div>
-    <div class="research-content">
       <div class="title">An Affective Engineering Framework for Modeling Emotional Coherence in Spatial Design</div>
+<!--      
+      <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/advanced-engineering-informatics" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Advanced Engineering Informatics</em></a></div> 
+-->
     </div>
   </div>
 </section>
