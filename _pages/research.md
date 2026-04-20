@@ -7,9 +7,9 @@ permalink: /research/
 <section id="in-progress" class="research-section">
   <h2>In-Progress Research</h2>
   
-  <!-- Under Revision -->
-  <h2 class="bibliography">Under Revision</h2>
-  
+  <!-- Under Review -->
+  <h2 class="bibliography">Under Review</h2>
+
   <div class="research-item">
     <div class="author-co">Co-author</div>
     <div class="research-content">
@@ -25,9 +25,6 @@ permalink: /research/
       <div class="periodical">Submitted to <a href="https://link.springer.com/journal/10055" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Virtual Reality</em></a></div>
     </div>
   </div>
-  
-  <!-- Under Review -->
-  <h2 class="bibliography">Under Review</h2>
   
   <div class="research-item">
     <div class="author-first">First author</div>
