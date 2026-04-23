@@ -115,16 +115,16 @@
     <!-- 숨김 영역: BibTeX (필터링) -->
     {% if entry.bibtex_show %}
       <div id="bibtex-{{entry.key}}" class="bibtex hidden">
-        <pre><code>@article{{"{"}}{{ entry.key }},
-  title={{"{"}}{{ entry.title }}},
-  author={{"{"}}{{ entry.author }}},
-  journal={{"{"}}{{ entry.journal }}},
-  {% if entry.year != "in press" %}{% if entry.volume %}volume={{"{"}}{{ entry.volume }}},
-  {% endif %}{% if entry.number %}number={{"{"}}{{ entry.number }}},
-  {% endif %}{% if entry.pages %}pages={{"{"}}{{ entry.pages }}},
-  {% endif %}{% endif %}year={{"{"}}{{ entry.year }}},
-  {% if entry.publisher %}publisher={{"{"}}{{ entry.publisher }}}
-  {% endif %}}</code></pre>
+    <pre><code>@{{ entry.type | default: "article" }}{{"{"}}{{ entry.key }},
+      title={{"{"}}{{ entry.title }}},
+      author={{"{"}}{{ entry.author }}},
+      journal={{"{"}}{{ entry.journal }}},{% if entry.year != "in press" %}{% if entry.volume %}
+      volume={{"{"}}{{ entry.volume }}},{% endif %}{% if entry.number %}
+      number={{"{"}}{{ entry.number }}},{% endif %}{% if entry.pages %}
+      pages={{"{"}}{{ entry.pages }}},{% endif %}{% endif %}
+      year={{"{"}}{{ entry.year }}}{% if entry.publisher %},
+      publisher={{"{"}}{{ entry.publisher }}}{% endif %}
+    }</code></pre>
       </div>
     {% endif %}
   </div>
