@@ -1,131 +1,131 @@
 ---
 ---
 
-<div class="publication-item pub-row">
-  <!-- 왼쪽: 프리뷰 이미지 -->
-  <div class="pub-preview">
-    {% if entry.preview %}
-      {% if entry.preview contains '://' %}
-        <img src="{{ entry.preview }}" alt="{{ entry.title }}">
-      {% else %}
-        <img src="{{ site.baseurl }}/assets/img/publication_preview/{{ entry.preview }}" alt="{{ entry.title }}">
-      {% endif %}
-    {% endif %}
-  </div>  
-
-  <!-- 오른쪽: 콘텐츠 -->
-  <div class="pub-content">
-    <!-- 제목 -->
-    <div class="title">
-      {% if entry.doi %}
-        <a href="https://doi.org/{{ entry.doi }}" target="_blank">{{entry.title}}</a>
-      {% elsif entry.url %}
-        <a href="{{ entry.url }}" target="_blank">{{entry.title}}</a>
-      {% else %}
-        {{entry.title}}
-      {% endif %}
-    </div>
-
-    <!-- 저자 -->
-    <div class="author">
-      {% assign author_array_size = entry.author_array | size %}
-    
-      {%- for author in entry.author_array -%}
-        {%- assign author_is_self = false -%}
-        {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
-      
-        {%- if author_last_name == "Im" -%}
-          {%- if author.first contains "Jin-Bin" or author.first contains "J.-B." or author.first contains "J. B." or author.first contains "J.B." -%}
-            {%- assign author_is_self = true -%}
-          {%- endif -%}
-        {%- endif -%}
-      
-        {% if author_is_self %}
-          <span class="author-me">{{author.first}} {{author.last}}</span>
+<div class="publication-item">
+  <!-- pub-row: preview + 항상 보이는 콘텐츠만 (이 영역의 높이는 고정됨) -->
+  <div class="pub-row">
+    <!-- 왼쪽: 프리뷰 이미지 -->
+    <div class="pub-preview">
+      {% if entry.preview %}
+        {% if entry.preview contains '://' %}
+          <img src="{{ entry.preview }}" alt="{{ entry.title }}">
         {% else %}
-          {{author.first}} {{author.last}}
+          <img src="{{ site.baseurl }}/assets/img/publication_preview/{{ entry.preview }}" alt="{{ entry.title }}">
         {% endif %}
-      
-        {%- if forloop.last == false -%}
-          {%- if forloop.index == author_array_size | minus: 1 -%}
-            , and&nbsp;
-          {%- else -%}
-            ,&nbsp;
+      {% endif %}
+    </div>
+
+    <!-- 오른쪽: 콘텐츠 -->
+    <div class="pub-content">
+      <!-- 제목 -->
+      <div class="title">
+        {% if entry.doi %}
+          <a href="https://doi.org/{{ entry.doi }}" target="_blank">{{entry.title}}</a>
+        {% elsif entry.url %}
+          <a href="{{ entry.url }}" target="_blank">{{entry.title}}</a>
+        {% else %}
+          {{entry.title}}
+        {% endif %}
+      </div>
+
+      <!-- 저자 -->
+      <div class="author">
+        {% assign author_array_size = entry.author_array | size %}
+
+        {%- for author in entry.author_array -%}
+          {%- assign author_is_self = false -%}
+          {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
+
+          {%- if author_last_name == "Im" -%}
+            {%- if author.first contains "Jin-Bin" or author.first contains "J.-B." or author.first contains "J. B." or author.first contains "J.B." -%}
+              {%- assign author_is_self = true -%}
+            {%- endif -%}
           {%- endif -%}
-        {%- endif -%}
-      {%- endfor -%}
-    </div>
 
-    <!-- 저널 정보 -->
-    <div class="periodical">
-      <em>{{entry.journal}}</em>
-      {% if entry.year != "in press" %}
-        {% if entry.volume or entry.number or entry.pages %}
-          {% if entry.volume %}, <strong>{{entry.volume}}</strong>{% endif %}
-          {% if entry.number %}({{entry.number}}){% endif %}
-          {% if entry.pages %}, {{entry.pages}}{% endif %}
+          {% if author_is_self %}
+            <span class="author-me">{{author.first}} {{author.last}}</span>
+          {% else %}
+            {{author.first}} {{author.last}}
+          {% endif %}
+
+          {%- if forloop.last == false -%}
+            {%- if forloop.index == author_array_size | minus: 1 -%}
+              , and&nbsp;
+            {%- else -%}
+              ,&nbsp;
+            {%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+
+      <!-- 저널 정보 -->
+      <div class="periodical">
+        <em>{{entry.journal}}</em>
+        {% if entry.year != "in press" %}
+          {% if entry.volume or entry.number or entry.pages %}
+            {% if entry.volume %}, <strong>{{entry.volume}}</strong>{% endif %}
+            {% if entry.number %}({{entry.number}}){% endif %}
+            {% if entry.pages %}, {{entry.pages}}{% endif %}
+          {% endif %}
         {% endif %}
-      {% endif %}
-      {% if entry.year == "in press" %}, (in press){% endif %}
-    </div>
-
-    <!-- 버튼들 -->
-    <div class="links-and-badges">
-      {%- if entry.abstract %}
-        <a href="#" class="btn" onclick="toggleAbstract('{{entry.key}}'); return false;">Abs</a>
-      {%- endif %}
-      {%- if entry.bibtex_show %}
-        <a href="#" class="btn" onclick="toggleBibtex('{{entry.key}}'); return false;">Bib</a>
-      {%- endif %}
-
-      {% if entry.note %}
-        {% assign note_text = entry.note %}
-        <span class="journal-metrics">
-          {% if note_text contains "SCI-E" or note_text contains "SCIE" %}
-            <span class="metric-badge metric-scie">SCI-E</span>
-          {% endif %}
-          {% if note_text contains "A&HCI" or note_text contains "AHCI" %}
-            <span class="metric-badge metric-ahci">A&HCI</span>
-          {% endif %}
-          {% if note_text contains "KCI" %}
-            <span class="metric-badge metric-kci">KCI</span>
-          {% endif %}
-          {% if note_text contains "SCOPUS" %}
-            <span class="metric-badge metric-scopus">SCOPUS</span>
-          {% endif %}
-          {% if note_text contains "%" %}
-            {% assign percentage = note_text | split: "(" | last | split: "%" | first %}
-            <span class="metric-badge metric-top">Top {{ percentage }}%</span>
-          {% endif %}
-          {% if note_text contains "IF" %}
-            {% assign if_value = note_text | split: "IF" | last | strip %}
-            <span class="metric-badge metric-if">IF {{ if_value }}</span>
-          {% endif %}
-        </span>
-      {% endif %}
-    </div>
-
-    <!-- 숨김 영역: 초록 -->
-    {% if entry.abstract %}
-      <div id="abstract-{{entry.key}}" class="abstract hidden">
-        <p>{{ entry.abstract }}</p>
+        {% if entry.year == "in press" %}, (in press){% endif %}
       </div>
-    {% endif %}
 
-    <!-- 숨김 영역: BibTeX (필터링) -->
-    {% if entry.bibtex_show %}
-      <div id="bibtex-{{entry.key}}" class="bibtex hidden">
-    <pre><code>@{{ entry.type | default: "article" }}{{"{"}}{{ entry.key }},
-      title={{"{"}}{{ entry.title }}},
-      author={{"{"}}{{ entry.author }}},
-      journal={{"{"}}{{ entry.journal }}},{% if entry.year != "in press" %}{% if entry.volume %}
-      volume={{"{"}}{{ entry.volume }}},{% endif %}{% if entry.number %}
-      number={{"{"}}{{ entry.number }}},{% endif %}{% if entry.pages %}
-      pages={{"{"}}{{ entry.pages }}},{% endif %}{% endif %}
-      year={{"{"}}{{ entry.year }}}{% if entry.publisher %},
-      publisher={{"{"}}{{ entry.publisher }}}{% endif %}
-    }</code></pre>
+      <!-- 버튼들 -->
+      <div class="links-and-badges">
+        {%- if entry.abstract %}
+          <a href="#" class="btn" onclick="toggleAbstract('{{entry.key}}'); return false;">Abs</a>
+        {%- endif %}
+        {%- if entry.bibtex_show %}
+          <a href="#" class="btn" onclick="toggleBibtex('{{entry.key}}'); return false;">Bib</a>
+        {%- endif %}
+
+        {% if entry.note %}
+          {% assign note_text = entry.note %}
+          <span class="journal-metrics">
+            {% if note_text contains "SCI-E" or note_text contains "SCIE" %}
+              <span class="metric-badge metric-scie">SCI-E</span>
+            {% endif %}
+            {% if note_text contains "A&HCI" or note_text contains "AHCI" %}
+              <span class="metric-badge metric-ahci">A&HCI</span>
+            {% endif %}
+            {% if note_text contains "KCI" %}
+              <span class="metric-badge metric-kci">KCI</span>
+            {% endif %}
+            {% if note_text contains "SCOPUS" %}
+              <span class="metric-badge metric-scopus">SCOPUS</span>
+            {% endif %}
+            {% if note_text contains "%" %}
+              {% assign percentage = note_text | split: "(" | last | split: "%" | first %}
+              <span class="metric-badge metric-top">Top {{ percentage }}%</span>
+            {% endif %}
+            {% if note_text contains "IF" %}
+              {% assign if_value = note_text | split: "IF" | last | strip %}
+              <span class="metric-badge metric-if">IF {{ if_value }}</span>
+            {% endif %}
+          </span>
+        {% endif %}
       </div>
-    {% endif %}
+    </div>
   </div>
-</div>
+
+  <!-- 숨김 영역: pub-row 바깥으로 이동 (펼쳐져도 preview 위치에 영향 없음) -->
+  {% if entry.abstract %}
+    <div id="abstract-{{entry.key}}" class="abstract hidden">
+      <p>{{ entry.abstract }}</p>
+    </div>
+  {% endif %}
+
+  {% if entry.bibtex_show %}
+    <div id="bibtex-{{entry.key}}" class="bibtex hidden">
+<pre><code>@{{ entry.type | default: "article" }}{{"{"}}{{ entry.key }},
+  title={{"{"}}{{ entry.title }}},
+  author={{"{"}}{{ entry.author }}},
+  journal={{"{"}}{{ entry.journal }}},{% if entry.year != "in press" %}{% if entry.volume %}
+  volume={{"{"}}{{ entry.volume }}},{% endif %}{% if entry.number %}
+  number={{"{"}}{{ entry.number }}},{% endif %}{% if entry.pages %}
+  pages={{"{"}}{{ entry.pages }}},{% endif %}{% endif %}
+  year={{"{"}}{{ entry.year }}}{% if entry.publisher %},
+  publisher={{"{"}}{{ entry.publisher }}}{% endif %}
+}</code></pre>
+    </div>
