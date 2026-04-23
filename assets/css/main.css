@@ -350,13 +350,55 @@ h2.bibliography:first-of-type {
   display: none;
 }
 
-.abstract,
-.bibtex {
+.abstract {
   margin-top: 1rem;
   padding: 1rem;
   background: #f8f9fa;
   border-left: 3px solid #7b27d8;
   border-radius: 4px;
+}
+
+.bibtex {
+  overflow-x: auto;
+  max-width: 100%;
+  background: #f6f8fa;
+  border-radius: 6px;
+  margin-top: 0.5rem;
+}
+
+.bibtex pre {
+  margin: 0;
+  padding: 1rem;
+  white-space: pre;        /* 줄바꿈 방지 — 이게 핵심 */
+  overflow-x: auto;         /* 스크롤바는 여기에 */
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.bibtex code {
+  background: transparent;
+  padding: 0;
+  font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+  color: #24292e;
+}
+
+/* 스크롤바 스타일링 (선택사항 - 이미지처럼 얇게) */
+.bibtex pre::-webkit-scrollbar {
+  height: 8px;
+}
+
+.bibtex pre::-webkit-scrollbar-track {
+  background: #e1e4e8;
+  border-radius: 4px;
+}
+
+.bibtex pre::-webkit-scrollbar-thumb {
+  background: #959da5;
+  border-radius: 4px;
+}
+
+.bibtex pre::-webkit-scrollbar-thumb:hover {
+  background: #6a737d;
 }
 
 /* ==================== Buttons ==================== */
