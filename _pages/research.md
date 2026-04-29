@@ -100,7 +100,7 @@ permalink: /research/
   <div class="project-item">
     <div class="project-period">Apr. 2026–Present</div>
     <div class="project-content">
-      <div class="title"><strong>	Development of Multi-functional Construction Robots to Enhance Productivity in Apartment Housing Construction
+      <div class="title"><strong>Development of Multi-functional Construction Robots to Enhance Productivity in Apartment Housing Construction
 </strong></div>
       <div class="project-meta">
         <span class="project-role">Research Assistant</span> • 
