@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3"
 gem "jekyll-scholar"
+gem "sass-embedded", "~> 1.83"
 
 group :jekyll_plugins do
   gem "jekyll-feed"
