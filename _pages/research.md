@@ -9,14 +9,6 @@ permalink: /research/
   
   <!-- Under Review -->
   <h2 class="bibliography">Under Review</h2>
-
-  <div class="research-item">
-    <div class="author-co">Co-author</div>
-    <div class="research-content">
-      <div class="title">Prediction of structural frame works safety and health management expenses in apartment construction projects by introducing interpretable machine learning</div>
-      <div class="periodical">Submitted to <a href="https://www.emeraldgrouppublishing.com/journal/ecam" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Engineering, Construction, and Architectural Management</em></a></div>
-    </div>
-  </div>
   
   <div class="research-item">
     <div class="author-co">Co-author</div>
@@ -46,7 +38,7 @@ permalink: /research/
     <div class="author-co">Co-author</div>
     <div class="research-content">
       <div class="title">Weather-adaptive automated pipe counting for open-air construction storage: Leveraging synthetic data augmentation and YOLO-Network Family</div>
-      <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/developments-in-the-built-environment" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Developments in the Built Environment</em></a></div>
+      <div class="periodical">Submitted to <a href="https://ascelibrary.org/journal/jccee5" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Journal of Computing in Civil Engineering</em></a></div>
     </div>
   </div>
   
