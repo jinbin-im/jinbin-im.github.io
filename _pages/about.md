@@ -96,6 +96,10 @@ permalink: /
         <span class="year">2026</span>
       </div>
       <div class="service-detail">
+        <span>Acta Psychologica</span>
+        <span class="year">2026–Present</span>
+      </div>      
+      <div class="service-detail">
         <span>Results in Engineering</span>
         <span class="year">2026–Present</span>
       </div>
