@@ -7,7 +7,7 @@ permalink: /
 <section class="about-section">
   <h2>About</h2>
   
-  <p>Hello! I'm Jinbin Im, a Ph.D. candidate in the 
+  <p>Hello! I'm Jinbin Im, a Ph.D. in the 
 <a href="https://are.hanyang.ac.kr/en/home" style="text-decoration: none;">
   <span style="color:#7b27d8;">Department of Architectural Engineering</span>
 </a> at 
@@ -42,13 +42,13 @@ permalink: /
     <div style="display: flex; margin-bottom: 0.5rem;">
       <span style="width: 80px; flex-shrink: 0;">M.S./Ph.D.</span>
       <span style="flex: 1;">in Architectural Engineering, Construction Management (advisor: <a href="http://cbpm.hanyang.ac.kr/professor.asp" style="text-decoration: none;"> <span style="color:#7b27d8;">Ju-Hyung Kim</span></a>)</span>   
-      <span style="color: #999; margin-left: 1rem; white-space: nowrap;">2026 (Expected)</span>
+      <span style="color: #999; margin-left: 1rem; white-space: nowrap;">2026.08</span>
     </div>
    
     <div style="display: flex; margin-bottom: 0.5rem;">
       <span style="width: 80px; flex-shrink: 0;">B.S.</span>
       <span style="flex: 1;">in Interior Architecture Design</span>
-      <span style="color: #999; margin-left: 1rem; white-space: nowrap;">2020</span>
+      <span style="color: #999; margin-left: 1rem; white-space: nowrap;">2020.02</span>
     </div>    
   </div>
 </section>
