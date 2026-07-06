@@ -64,7 +64,7 @@ permalink: /research/
   <div class="research-item">
     <div class="author-first">First author</div>
     <div class="research-content">
-      <div class="title">Toward affect as a quantifiable design requirement: modelling the multi-dimensional affective response of residential interiors</div>
+      <div class="title">Affect as a quantifiable design requirement: modelling the multi-dimensional affective response of residential interiors</div>
 <!--      
       <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/advanced-engineering-informatics" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Advanced Engineering Informatics</em></a></div> 
 -->
@@ -74,7 +74,7 @@ permalink: /research/
   <div class="research-item">
     <div class="author-first">First author</div>
     <div class="research-content">
-      <div class="title">Application of Two-Level Game Theory to Urban Redevelopment Project Duration: A Mixed-Methods Study of Seoul Cases</div>
+      <div class="title">External bargaining and internal ratification in Seoul urban redevelopment through a two-level game analysis</div>
 <!--      
       <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/advanced-engineering-informatics" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Advanced Engineering Informatics</em></a></div> 
 -->
