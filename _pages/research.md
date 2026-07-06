@@ -42,16 +42,11 @@ permalink: /research/
     </div>
   </div>
   
-  <!-- Manuscript Completed -->
-  <h2 class="bibliography">Manuscript Completed</h2>
-
    <div class="research-item">
     <div class="author-corresponding">Corresponding author</div>
     <div class="research-content">
       <div class="title">Beyond Viewing: How Installation Artwork Design Modality Shapes Visitor Satisfaction Through Affective and Behavioral Pathways</div>
-<!--      
       <div class="periodical">Submitted to <a href="https://www.tandfonline.com/journals/rfdj20" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>the Design Journal</em></a></div> 
--->
     </div>
   </div> 
 
@@ -59,11 +54,12 @@ permalink: /research/
     <div class="author-first">First author</div>
     <div class="research-content">
       <div class="title">End-to-End Distribution-Aware Affective Requirement Realignment in BIM-Native Design Revision through Natural Language</div>
-<!--      
       <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/automation-in-construction" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Automation in Construction</em></a></div> 
--->
     </div>
   </div>
+  
+  <!-- Manuscript Completed -->
+  <h2 class="bibliography">Manuscript Completed</h2>
 
   <div class="research-item">
     <div class="author-first">First author</div>
@@ -74,6 +70,16 @@ permalink: /research/
 -->
     </div>
   </div>  
+
+  <div class="research-item">
+    <div class="author-first">First author</div>
+    <div class="research-content">
+      <div class="title">Application of Two-Level Game Theory to Urban Redevelopment Project Duration: A Mixed-Methods Study of Seoul Cases</div>
+<!--      
+      <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/advanced-engineering-informatics" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Advanced Engineering Informatics</em></a></div> 
+-->
+    </div>
+  </div>
   
   <!-- In Preparation -->
   <h2 class="bibliography">In Preparation</h2>
@@ -85,15 +91,7 @@ permalink: /research/
     </div>
   </div>
   
-  <div class="research-item">
-    <div class="author-first">First author</div>
-    <div class="research-content">
-      <div class="title">Application of Two-Level Game Theory to Urban Redevelopment Project Duration: A Mixed-Methods Study of Seoul Cases</div>
-<!--      
-      <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/advanced-engineering-informatics" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Advanced Engineering Informatics</em></a></div> 
--->
-    </div>
-  </div>
+
 </section>
 
 <section id="projects" class="research-section">
