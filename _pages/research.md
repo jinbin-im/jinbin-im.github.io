@@ -11,14 +11,6 @@ permalink: /research/
   <h2 class="bibliography">Under Review</h2>
   
   <div class="research-item">
-    <div class="author-co">Co-author</div>
-    <div class="research-content">
-      <div class="title">Visual quality features in immersive virtual environments: A systematic review of their impact on user experience</div>
-      <div class="periodical">Submitted to <a href="https://link.springer.com/journal/10055" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Virtual Reality</em></a></div>
-    </div>
-  </div>
-  
-  <div class="research-item">
     <div class="author-first">First author</div>
     <div class="research-content">
       <div class="title">Optimizing Immersive Virtual Environments for Architectural Design Review: The Impact of Visualization Quality on Occupant-Centric Performance Assessment</div>
