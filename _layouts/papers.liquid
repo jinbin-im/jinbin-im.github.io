@@ -62,9 +62,9 @@
       <div class="periodical">
         <em>{{entry.journal}}</em>
         {% if entry.year != "in press" %}
-          {% if entry.volume or entry.number or entry.pages %}
+          {% if entry.volume or entry.issue or entry.pages %}
             {% if entry.volume %}, <strong>{{entry.volume}}</strong>{% endif %}
-            {% if entry.number %}({{entry.number}}){% endif %}
+            {% if entry.issue %}({{entry.issue}}){% endif %}
             {% if entry.pages %}, {{entry.pages}}{% endif %}
           {% endif %}
         {% endif %}
@@ -123,7 +123,7 @@
   author={{"{"}}{{ entry.author }}},
   journal={{"{"}}{{ entry.journal }}},
   {% if entry.year != "in press" %}{% if entry.volume %}volume={{"{"}}{{ entry.volume }}},
-  {% endif %}{% if entry.number %}number={{"{"}}{{ entry.number }}},
+  {% endif %}{% if entry.issue %}issue={{"{"}}{{ entry.issue }}},
   {% endif %}{% if entry.pages %}pages={{"{"}}{{ entry.pages }}},
   {% endif %}{% endif %}year={{"{"}}{{ entry.year }}}{% if entry.publisher %},
   publisher={{"{"}}{{ entry.publisher }}}{% endif %}
