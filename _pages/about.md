@@ -7,18 +7,18 @@ permalink: /
 <section class="about-section">
   <h2>About</h2>
   
-  <p>Hello! I'm Jinbin Im, a research fellow in the 
-<a href="https://are.hanyang.ac.kr/en/home" style="text-decoration: none;">
-  <span style="color:#7b27d8;">Department of Architectural Engineering</span>
+  <p>Hello! I'm Jinbin Im, a postdoctoral researcher in the 
+<a href="https://www.chalmers.se/en/departments/ace/" style="text-decoration: none;">
+  <span style="color:#7b27d8;">Department of Architectural and Civil Engineering</span>
 </a> at 
-<a href="https://hanyang.ac.kr/web/eng" style="text-decoration: none;">
-  <span style="color:#7b27d8;">Hanyang University.</span>
-</a> I am working with my advisor 
-<a href="https://scholar.google.com/citations?user=SlzGoi0AAAAJ&hl=ko&oi=ao" style="text-decoration: none;">
-  <span style="color:#7b27d8;">Ju-Hyung Kim</span>
+<a href="https://www.chalmers.se/en/ style="text-decoration: none;">
+  <span style="color:#7b27d8;">Chalmers University of Technology</span>
+</a> I am working with Professor
+<a href="https://scholar.google.com/citations?user=PZQCgKgAAAAJ&hl=en&oi=ao" style="text-decoration: none;">
+  <span style="color:#7b27d8;">Mattias Roupé</span>
 </a> at 
-<a href="http://cbpm.hanyang.ac.kr/" style="text-decoration: none;">
-  <span style="color:#7b27d8;">CB & PM Lab.</span>
+<a href="https://www.chalmers.se/en/departments/ace/organisation/construction-management-and-engineering/" style="text-decoration: none;">
+  <span style="color:#7b27d8;">Construction Management and Engineering.</span>
 </a></p>
   
   <p>My academic work focuses on three key areas: <strong>1) optimizing spatial design based on human-centered requirements</strong>, <strong>2) design simulation using eXtended Reality (XR)</strong>, and <strong>3) Natural Language Processing (NLP) and Larage Language Model (LLLM)-based intelligent systems for design automation.</strong></p>
@@ -41,7 +41,7 @@ permalink: /
     </div>
     <div style="display: flex; margin-bottom: 0.5rem;">
       <span style="width: 80px; flex-shrink: 0;">M.S./Ph.D.</span>
-      <span style="flex: 1;">in Architectural Engineering, Construction Management (advisor: <a href="http://cbpm.hanyang.ac.kr/professor.asp" style="text-decoration: none;"> <span style="color:#7b27d8;">Ju-Hyung Kim</span></a>)</span>   
+      <span style="flex: 1;">in Architectural Engineering, Construction Management (advisor: <a href="https://scholar.google.com/citations?user=SlzGoi0AAAAJ&hl=ko&oi=ao" style="text-decoration: none;"> <span style="color:#7b27d8;">Ju-Hyung Kim</span></a>)</span>   
       <span style="color: #999; margin-left: 1rem; white-space: nowrap;">2026.08</span>
     </div>
    
