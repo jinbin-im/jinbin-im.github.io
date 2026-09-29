@@ -12,8 +12,8 @@ permalink: /
   <span style="color:#7b27d8;">Department of Architectural and Civil Engineering</span>
 </a> at 
 <a href="https://www.chalmers.se/en/" style="text-decoration: none;">
-  <span style="color:#7b27d8;">Chalmers University of Technology</span>
-</a>. I am working with Professor
+  <span style="color:#7b27d8;">Chalmers University of Technology.</span>
+</a> I am working with Professor
 <a href="https://scholar.google.com/citations?user=PZQCgKgAAAAJ&hl=en&oi=ao" style="text-decoration: none;">
   <span style="color:#7b27d8;">Mattias Roupé</span>
 </a> at 
