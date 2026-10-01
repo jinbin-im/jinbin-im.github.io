@@ -14,7 +14,6 @@ permalink: /research/
     <div class="author-first">Co-First author</div>
     <div class="research-content">
       <div class="title">Strategic Pathways for e-Methanol Deployment in the Low-Carbon Transition: Policy Modeling of Cost Competitiveness and Flexibility Requirements in Korea</div>
-      <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/energy-strategy-reviews" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Energy Strategy Reviews</em></a></div>
     </div>
   </div>
 
@@ -22,7 +21,6 @@ permalink: /research/
     <div class="author-corresponding">Corresponding author</div>
     <div class="research-content">
       <div class="title">Beyond Viewing: How Installation Artwork Design Modality Shapes Visitor Satisfaction Through Affective and Behavioral Pathways</div>
-      <div class="periodical">Submitted to <a href="https://www.tandfonline.com/journals/rfdj20" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>the Design Journal</em></a></div> 
     </div>
   </div> 
   
@@ -30,7 +28,6 @@ permalink: /research/
     <div class="author-co">Co-author</div>
     <div class="research-content">
       <div class="title">Weather-adaptive automated pipe counting for open-air construction storage: Leveraging synthetic data augmentation and YOLO-Network Family</div>
-      <div class="periodical">Submitted to <a href="https://ascelibrary.org/journal/jccee5" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Scientific Reports</em></a></div>
     </div>
   </div>
   
@@ -38,15 +35,13 @@ permalink: /research/
     <div class="author-first">First author</div>
     <div class="research-content">
       <div class="title">Optimizing Immersive Virtual Environments for Architectural Design Review: The Impact of Visualization Quality on Occupant-Centric Performance Assessment</div>
-      <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/journal-of-building-engineering" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Journal of Building Engineering</em></a></div>
     </div>
   </div>
   
   <div class="research-item">
     <div class="author-first">First author</div>
     <div class="research-content">
-      <div class="title">End-to-End Distribution-Aware Affective Requirement Realignment in BIM-Native Design Revision through Natural Language</div>
-      <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/automation-in-construction" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Automation in Construction</em></a></div> 
+      <div class="title">Automated BIM design revision from residents' natural-language emotional feedback</div>
     </div>
   </div>
   
@@ -56,7 +51,7 @@ permalink: /research/
   <div class="research-item">
     <div class="author-first">First author</div>
     <div class="research-content">
-      <div class="title">Affect as a quantifiable design requirement: modelling the multi-dimensional affective response of residential interiors</div>
+      <div class="title">Quantifying affect as a design requirement: An affective engineering Approach to modelling multi-dimensional emotional response of residential interiors</div>
 <!--      
       <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/advanced-engineering-informatics" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Architectural Science Review</em></a></div> 
 -->
@@ -74,14 +69,14 @@ permalink: /research/
   </div>
   
   <!-- In Preparation -->
-  <h2 class="bibliography">In Preparation</h2>
+   <!--  <h2 class="bibliography">In Preparation</h2>
   
   <div class="research-item">
     <div class="author-co">Co-author</div>
     <div class="research-content">
       <div class="title">Effect of Changing Sequence in Semi-Top-Down Construction Works to Optimize Time and Cost: A Case Study on Korean Apartment Projects</div>
     </div>
-  </div>
+  </div> -->
   
 
 </section>
