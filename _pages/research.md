@@ -44,9 +44,6 @@ permalink: /research/
       <div class="title">Automated BIM design revision from residents' natural-language emotional feedback</div>
     </div>
   </div>
-  
-  <!-- Manuscript Completed -->
-  <h2 class="bibliography">Manuscript Completed</h2>
 
   <div class="research-item">
     <div class="author-first">First author</div>
@@ -57,6 +54,9 @@ permalink: /research/
 -->
     </div>
   </div>  
+  
+  <!-- Manuscript Completed -->
+  <h2 class="bibliography">Manuscript Completed</h2>
 
   <div class="research-item">
     <div class="author-first">First author</div>
