@@ -68,7 +68,7 @@ permalink: /research/
   <div class="research-item">
     <div class="author-first">First author</div>
     <div class="research-content">
-      <div class="title">External bargaining and internal ratification in Seoul urban redevelopment through a two-level game analysis</div>
+      <div class="title">Two-Level Game Theory Framework for Construction Cost Renegotiation in Owner-Led Urban Redevelopment</div>
 <!--      
       <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/advanced-engineering-informatics" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Advanced Engineering Informatics</em></a></div> 
 -->
