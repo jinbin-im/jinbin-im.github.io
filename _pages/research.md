@@ -17,13 +17,6 @@ permalink: /research/
     </div>
   </div>
 
-   <div class="research-item">
-    <div class="author-corresponding">Corresponding author</div>
-    <div class="research-content">
-      <div class="title">Beyond Viewing: How Installation Artwork Design Modality Shapes Visitor Satisfaction Through Affective and Behavioral Pathways</div>
-    </div>
-  </div> 
-  
   <div class="research-item">
     <div class="author-co">Co-author</div>
     <div class="research-content">
@@ -31,17 +24,17 @@ permalink: /research/
     </div>
   </div>
   
+   <div class="research-item">
+    <div class="author-corresponding">Corresponding author</div>
+    <div class="research-content">
+      <div class="title">Beyond Viewing: How Installation Artwork Design Modality Shapes Visitor Satisfaction Through Affective and Behavioral Pathways</div>
+    </div>
+  </div> 
+
   <div class="research-item">
     <div class="author-first">First author</div>
     <div class="research-content">
       <div class="title">Optimizing Immersive Virtual Environments for Architectural Design Review: The Impact of Visualization Quality on Occupant-Centric Performance Assessment</div>
-    </div>
-  </div>
-  
-  <div class="research-item">
-    <div class="author-first">First author</div>
-    <div class="research-content">
-      <div class="title">Automated BIM design revision from residents' natural-language emotional feedback</div>
     </div>
   </div>
 
@@ -54,6 +47,20 @@ permalink: /research/
 -->
     </div>
   </div>  
+
+  <div class="research-item">
+    <div class="author-first">Co-author</div>
+    <div class="research-content">
+      <div class="title">AFrom 2D Drawings to Structured Inspection Data: A Scale-aware Framework for Rebar Information Parsing via SAHI-based YOLO, OCR, and LLM</div>
+    </div>
+  </div>
+
+  <div class="research-item">
+    <div class="author-first">First author</div>
+    <div class="research-content">
+      <div class="title">Automated BIM design revision from residents' natural-language emotional feedback</div>
+    </div>
+  </div>
   
   <!-- Manuscript Completed -->
   <h2 class="bibliography">Manuscript Completed</h2>
