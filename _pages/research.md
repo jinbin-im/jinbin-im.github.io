@@ -49,7 +49,7 @@ permalink: /research/
   </div>  
 
   <div class="research-item">
-    <div class="author-first">Co-author</div>
+    <div class="author-co">Co-author</div>
     <div class="research-content">
       <div class="title">From 2D Drawings to Structured Inspection Data: A Scale-aware Framework for Rebar Information Parsing via SAHI-based YOLO, OCR, and LLM</div>
     </div>
