@@ -88,7 +88,7 @@ procurement</div>
     <div class="research-content">
       <div class="title">Design intent in generative AI for architectural design: Actors, requirements, input representation, and intent
 fulfilment.</div>
-      <div class="authors"><span class="author-me">Jin-Bin Im<sup>*</sup></span></div>      
+      <div class="authors"><span class="author-me">Jin-Bin Im<sup>*</sup></span>, Mikael Johansson, Mattias Roupé</div>      
     </div>
   </div>
   
