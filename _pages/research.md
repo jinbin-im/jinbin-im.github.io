@@ -33,16 +33,18 @@ permalink: /research/
   </div> 
 
   <div class="research-item">
-    <div class="author-first">First author</div>
+    <div class="author-corresponding">Under Review</div>
     <div class="research-content">
-      <div class="title">Optimizing Immersive Virtual Environments for Architectural Design Review: The Impact of Visualization Quality on Occupant-Centric Performance Assessment</div>
+      <div class="title">How Much Realism Is Enough? Mixed and Virtual Reality Interiors Versus the Real Room</div>
+      <div class="authors">Jin-Bin Im, Kyung-Tae Lee, Ju-Hyung Kim*</div>
     </div>
   </div>
 
   <div class="research-item">
-    <div class="author-first">First author</div>
+    <div class="author-co">Manuscript Completed</div>
     <div class="research-content">
       <div class="title">Quantifying affect as a design requirement: An affective engineering Approach to modelling multi-dimensional emotional response of residential interiors</div>
+      <div class="authors">Jin-Bin Im, JoonOh Seo, Kyung-Tae Lee, Ju-Hyung Kim*</div>
 <!--      
       <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/advanced-engineering-informatics" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Architectural Science Review</em></a></div> 
 -->
@@ -50,42 +52,56 @@ permalink: /research/
   </div>  
 
   <div class="research-item">
-    <div class="author-co">Co-author</div>
-    <div class="research-content">
-      <div class="title">From 2D Drawings to Structured Inspection Data: A Scale-aware Framework for Rebar Information Parsing via SAHI-based YOLO, OCR, and LLM</div>
-    </div>
-  </div>
-
-  <div class="research-item">
-    <div class="author-first">First author</div>
+    <div class="author-co">Manuscript Completed</div>
     <div class="research-content">
       <div class="title">Automated BIM design revision from residents' natural-language emotional feedback</div>
+      <div class="authors">Jin-Bin Im, JoonOh Seo, Kyung-Tae Lee, Namhyuk Ham, Ju-Hyung Kim*</div>
     </div>
   </div>
-  
-  <!-- Manuscript Completed -->
-  <h2 class="bibliography">Manuscript Completed</h2>
 
   <div class="research-item">
-    <div class="author-first">First author</div>
+    <div class="author-co">Manuscript Completed</div>
     <div class="research-content">
-      <div class="title">Two-Level Game Theory Framework for Construction Cost Renegotiation in Owner-Led Urban Redevelopment</div>
+      <div class="title">External bargaining and internal ratification in Seoul urban redevelopment through two-level game theory</div>
+      <div class="authors">Jin-Bin Im, Kyung-Tae Lee, Ju-Hyung Kim*</div>      
 <!--      
       <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/advanced-engineering-informatics" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Advanced Engineering Informatics</em></a></div> 
 -->
     </div>
   </div>
-  
-  <!-- In Preparation -->
-   <!--  <h2 class="bibliography">In Preparation</h2>
-  
+
   <div class="research-item">
-    <div class="author-co">Co-author</div>
+    <div class="author-co">In Preparation</div>
     <div class="research-content">
-      <div class="title">Effect of Changing Sequence in Semi-Top-Down Construction Works to Optimize Time and Cost: A Case Study on Korean Apartment Projects</div>
-    </div>
+      <div class="title">Management backing and the perceived benefits of a mandatory supplier-management system in EPC
+procurement</div>
+      <div class="authors">Jin-Bin Im, Kyung-Tae Lee*</div>      
+</div>
   </div> -->
   
+  <div class="research-item">
+    <div class="author-co">In Preparation</div>
+    <div class="research-content">
+      <div class="title">Data-Driven Contingency for Schedule Extension in Overseas Infrastructure</div>
+      <div class="authors">Jin-Bin Im, Kyung-Tae Lee*</div>      
+</div>
+  </div> -->
+  
+  <div class="research-item">
+    <div class="author-co">In Preparation</div>
+    <div class="research-content">
+      <div class="title">Design intent in generative AI for architectural design: Actors, requirements, input representation, and intent
+fulfilment.</div>
+      <div class="authors">Jin-Bin Im*</div>      
+</div>
+  </div> -->
+  
+  <div class="research-item">
+    <div class="author-co">In Preparation</div>
+    <div class="research-content">
+      <div class="title">From 2D Drawings to Structured Inspection Data: A Scale-aware Framework for Rebar Information Parsing via SAHI-based YOLO, OCR, and LLM</div>
+    </div>
+  </div>
 
 </section>
 
