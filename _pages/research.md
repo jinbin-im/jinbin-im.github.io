@@ -41,7 +41,8 @@ permalink: /research/
       <div class="authors"><span class="author-me">Jin-Bin Im</span>, Kyung-Tae Lee, Ju-Hyung Kim<sup>*</sup></div>
     </div>
   </div>
-
+  
+  <!-- not submitted yet
   <div class="research-item">
     <div class="author-co">Manuscript Completed</div>
     <div class="research-content">
@@ -106,7 +107,7 @@ procurement</div>
       <div class="authors">Rong-Lu Hong, <span class="author-me">Jin-Bin Im</span>, Kyung-Tae Lee, Seunghyeon Wang, Ju-Hyung Kim<sup>*</sup></div>
     </div>
   </div>
-
+ -->
 </section>
 
 <section id="projects" class="research-section">
