@@ -621,6 +621,13 @@ h2.bibliography:first-of-type {
   font-style: italic;
 }
 
+.badge-spacer {
+  flex-shrink: 0;
+  min-width: 110px;
+  max-width: 110px;
+}
+
+
 /* ==================== Research Projects - Timeline Style ==================== */
 .project-item {
   display: flex;
@@ -738,6 +745,10 @@ h2.bibliography:first-of-type {
   .about-page {
     padding: 0 4rem;
   }
+}
+
+@media (max-width: 768px) {
+  .badge-spacer { display: none; }
 }
 
 @media (max-width: 1400px) {
