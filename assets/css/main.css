@@ -534,6 +534,14 @@ h2.bibliography:first-of-type {
   border-bottom: none;
 }
 
+.authors {
+  font-weight: 400;
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 4px;
+  line-height: 1.4;
+}
+
 .author-co,
 .author-first,
 .author-corresponding {
