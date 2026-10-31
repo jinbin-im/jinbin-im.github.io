@@ -8,8 +8,6 @@ permalink: /research/
   <h2>In-Progress Research</h2>
   
   <!-- Under Review -->
-  <h2 class="bibliography">Under Review</h2>
-
   <div class="research-item">
     <div class="author-first">Under Revision</div>
     <div class="research-content">
