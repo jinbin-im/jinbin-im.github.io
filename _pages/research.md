@@ -96,7 +96,7 @@ fulfilment.</div>
     <div class="author-co">In Preparation</div>
     <div class="research-content">
       <div class="title">From 2D Drawings to Structured Inspection Data: A Scale-aware Framework for Rebar Information Parsing via SAHI-based YOLO, OCR, and LLM</div>
-      <div class="authors">Rong-Lu Hong, <span class="author-me">Jin-Bin Im</span>, Kyung-Tae Lee, Seunghyeon Wang, Ju-Hyung Kim<sup>*</sup>></div>
+      <div class="authors">Rong-Lu Hong, <span class="author-me">Jin-Bin Im</span>, Kyung-Tae Lee, Seunghyeon Wang, Ju-Hyung Kim<sup>*</sup></div>
     </div>
   </div>
 
