@@ -8,24 +8,22 @@ permalink: /research/
   <h2>In-Progress Research</h2>
   
   <!-- Under Review -->
-  <h2 class="bibliography">Under Review</h2>
-   
   <div class="research-item">
-    <div class="author-first">Co-First author</div>
+    <div class="author-first">Under Revision</div>
     <div class="research-content">
       <div class="title">Strategic Pathways for e-Methanol Deployment in the Low-Carbon Transition: Policy Modeling of Cost Competitiveness and Flexibility Requirements in Korea</div>
     </div>
   </div>
 
   <div class="research-item">
-    <div class="author-co">Co-author</div>
+    <div class="author-first">Under Revision</div>
     <div class="research-content">
       <div class="title">Weather-adaptive automated pipe counting for open-air construction storage: Leveraging synthetic data augmentation and YOLO-Network Family</div>
     </div>
   </div>
   
    <div class="research-item">
-    <div class="author-corresponding">Corresponding author</div>
+    <div class="author-first">Under Revision</div>
     <div class="research-content">
       <div class="title">Beyond Viewing: How Installation Artwork Design Modality Shapes Visitor Satisfaction Through Affective and Behavioral Pathways</div>
     </div>
