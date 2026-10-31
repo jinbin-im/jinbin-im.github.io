@@ -134,7 +134,7 @@ fulfilment.</div>
     <div class="project-content">
       <div class="title"><strong>Study on Quality Control of Educational Facilities using Virtual Environments</strong></div>
       <div class="project-meta">
-        <span class="project-role">Principal Contributor</span> • 
+        <span class="project-role">Lead Researcher</span> • 
         <span class="project-affiliation"> CB&PM Lab. (Hanyang University)</span> •         
         <span class="project-org">Poongjak Co., Ltd.</span>
       </div>
@@ -146,7 +146,7 @@ fulfilment.</div>
     <div class="project-content">
       <div class="title"><strong>Development of Decision-making Framework to Support Personalized Spatial Composition based on Temperament, Perception and Bio-markers Applying Digital Twin</strong></div>
       <div class="project-meta">
-        <span class="project-role">Principal Contributor</span> • 
+        <span class="project-role">Lead Researcher</span> • 
         <span class="project-affiliation"> CB&PM Lab. (Hanyang University)</span> •         
         <span class="project-org">National Research Foundation of Korea</span>
       </div>
