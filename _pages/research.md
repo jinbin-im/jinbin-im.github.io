@@ -86,11 +86,18 @@ procurement</div>
   <div class="research-item">
     <div class="author-co">In Preparation</div>
     <div class="research-content">
-      <div class="title">Design intent in generative AI for architectural design: Actors, requirements, input representation, and intent
-fulfilment.</div>
+      <div class="title">Design intent in generative AI for architectural design: Actors, requirements, input representation, and intent fulfilment.</div>
       <div class="authors"><span class="author-me">Jin-Bin Im<sup>*</sup></span>, Mikael Johansson, Mattias Roupé</div>      
     </div>
   </div>
+
+  <div class="research-item">
+    <div class="author-co">In Preparation</div>
+    <div class="research-content">
+      <div class="title">Afforded activities in virtual reality shape architectural design decisions</div>
+      <div class="authors"><span class="author-me">Jin-Bin Im</span>, JoonOh Seo<sup>*</sup>, JongOh Kim, Mikael Johansson, Mattias Roupé</div>      
+    </div>
+  </div>  
   
   <div class="research-item">
     <div class="author-co">In Preparation</div>
