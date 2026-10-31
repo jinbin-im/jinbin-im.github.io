@@ -45,7 +45,7 @@ permalink: /research/
   <div class="research-item">
     <div class="author-co">Manuscript Completed</div>
     <div class="research-content">
-      <div class="title">Quantifying affect as a design requirement: An affective engineering Approach to modelling multi-dimensional emotional response of residential interiors</div>
+      <div class="title">Quantifying how interior design variables shape occupants' affective responses for use in residential design decisions</div>
       <div class="authors"><span class="author-me">Jin-Bin Im</span>, JoonOh Seo, Kyung-Tae Lee, Ju-Hyung Kim<sup>*</sup></div>
     </div>
   </div>  
