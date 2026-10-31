@@ -77,7 +77,6 @@ permalink: /research/
 procurement</div>
       <div class="authors">Jin-Bin Im, Kyung-Tae Lee*</div>      
 </div>
-  </div> -->
   
   <div class="research-item">
     <div class="author-co">In Preparation</div>
@@ -85,7 +84,6 @@ procurement</div>
       <div class="title">Data-Driven Contingency for Schedule Extension in Overseas Infrastructure</div>
       <div class="authors">Jin-Bin Im, Kyung-Tae Lee*</div>      
 </div>
-  </div> -->
   
   <div class="research-item">
     <div class="author-co">In Preparation</div>
@@ -94,7 +92,6 @@ procurement</div>
 fulfilment.</div>
       <div class="authors">Jin-Bin Im*</div>      
 </div>
-  </div> -->
   
   <div class="research-item">
     <div class="author-co">In Preparation</div>
