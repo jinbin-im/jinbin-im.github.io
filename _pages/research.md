@@ -105,7 +105,7 @@ fulfilment.</div>
   <h2>Research Project</h2>
 
   <div class="project-item">
-    <div class="project-period">Apr. 2026–Present</div>
+    <div class="project-period">Apr. 2026–Aug. 2026</div>
     <div class="project-content">
       <div class="title"><strong>Development of Multi-functional Construction Robots to Enhance Productivity in Apartment Housing Construction
 </strong></div>
@@ -118,7 +118,7 @@ fulfilment.</div>
   </div>
   
   <div class="project-item">
-    <div class="project-period">Mar. 2024–Present</div>
+    <div class="project-period">Mar. 2024–Aug. 2026</div>
     <div class="project-content">
       <div class="title"><strong>Development of Artificial Intelligence-based Real-Time Construction Quality Management System</strong></div>
       <div class="project-meta">
