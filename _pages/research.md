@@ -19,7 +19,7 @@ permalink: /research/
   </div>
 
   <div class="research-item">
-    <div class="author-first">Under Revision</div>
+   <div class="badge-spacer"></div>
     <div class="research-content">
       <div class="title">Weather-adaptive automated pipe counting for open-air construction storage: Leveraging synthetic data augmentation and YOLO-Network Family</div>
       <div class="authors">Rong-Lu Hong, <span class="author-me">Jin-Bin Im</span>, Kyung-Tae Lee, Seunghyeon Wang, Ju-Hyung Kim<sup>*</sup>, KiWon Lee<sup>*</sup></div>
@@ -27,7 +27,7 @@ permalink: /research/
   </div>
   
    <div class="research-item">
-    <div class="author-first">Under Revision</div>
+    <div class="badge-spacer"></div>
     <div class="research-content">
       <div class="title">Beyond Viewing: How Installation Artwork Design Modality Shapes Visitor Satisfaction Through Affective and Behavioral Pathways</div>
       <div class="authors">Youngchurl Shim, Ju-Hyung Kim, Joongho Chang, <span class="author-me">Jin-Bin Im<sup>*</sup></span></div>
@@ -51,7 +51,7 @@ permalink: /research/
   </div>  
 
   <div class="research-item">
-    <div class="author-co">Manuscript Completed</div>
+   <div class="badge-spacer"></div>
     <div class="research-content">
       <div class="title">Automated BIM design revision from residents' natural-language emotional feedback</div>
       <div class="authors"><span class="author-me">Jin-Bin Im</span>, JoonOh Seo, Kyung-Tae Lee, Namhyuk Ham, Ju-Hyung Kim<sup>*</sup></div>
@@ -59,7 +59,7 @@ permalink: /research/
   </div>
 
   <div class="research-item">
-    <div class="author-co">Manuscript Completed</div>
+   <div class="badge-spacer"></div>
     <div class="research-content">
       <div class="title">External bargaining and internal ratification in Seoul urban redevelopment through two-level game theory</div>
       <div class="authors"><span class="author-me">Jin-Bin Im</span>, Kyung-Tae Lee, Ju-Hyung Kim<sup>*</sup></div>      
@@ -76,7 +76,7 @@ procurement</div>
   </div>
   
   <div class="research-item">
-    <div class="author-co">In Preparation</div>
+   <div class="badge-spacer"></div>
     <div class="research-content">
       <div class="title">Data-Driven Contingency for Schedule Extension in Overseas Infrastructure</div>
       <div class="authors"><span class="author-me">Jin-Bin Im</span>, Kyung-Tae Lee<sup>*</sup></div>      
@@ -84,7 +84,7 @@ procurement</div>
   </div>
   
   <div class="research-item">
-    <div class="author-co">In Preparation</div>
+   <div class="badge-spacer"></div>
     <div class="research-content">
       <div class="title">Design intent in generative AI for architectural design: Actors, requirements, input representation, and intent fulfilment.</div>
       <div class="authors"><span class="author-me">Jin-Bin Im<sup>*</sup></span>, Mikael Johansson, Mattias Roupé</div>      
@@ -92,7 +92,7 @@ procurement</div>
   </div>
 
   <div class="research-item">
-    <div class="author-co">In Preparation</div>
+   <div class="badge-spacer"></div>
     <div class="research-content">
       <div class="title">Afforded activities in virtual reality shape architectural design decisions</div>
       <div class="authors"><span class="author-me">Jin-Bin Im</span>, JoonOh Seo<sup>*</sup>, JongOh Kim, Mikael Johansson, Mattias Roupé</div>      
@@ -100,7 +100,7 @@ procurement</div>
   </div>  
   
   <div class="research-item">
-    <div class="author-co">In Preparation</div>
+   <div class="badge-spacer"></div>
     <div class="research-content">
       <div class="title">From 2D Drawings to Structured Inspection Data: A Scale-aware Framework for Rebar Information Parsing via SAHI-based YOLO, OCR, and LLM</div>
       <div class="authors">Rong-Lu Hong, <span class="author-me">Jin-Bin Im</span>, Kyung-Tae Lee, Seunghyeon Wang, Ju-Hyung Kim<sup>*</sup></div>
