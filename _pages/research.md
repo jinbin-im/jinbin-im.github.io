@@ -45,9 +45,6 @@ permalink: /research/
     <div class="research-content">
       <div class="title">Quantifying affect as a design requirement: An affective engineering Approach to modelling multi-dimensional emotional response of residential interiors</div>
       <div class="authors">Jin-Bin Im, JoonOh Seo, Kyung-Tae Lee, Ju-Hyung Kim*</div>
-<!--      
-      <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/advanced-engineering-informatics" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Architectural Science Review</em></a></div> 
--->
     </div>
   </div>  
 
@@ -64,9 +61,6 @@ permalink: /research/
     <div class="research-content">
       <div class="title">External bargaining and internal ratification in Seoul urban redevelopment through two-level game theory</div>
       <div class="authors">Jin-Bin Im, Kyung-Tae Lee, Ju-Hyung Kim*</div>      
-<!--      
-      <div class="periodical">Submitted to <a href="https://www.sciencedirect.com/journal/advanced-engineering-informatics" target="_blank" style="color: #7b27d8; text-decoration: none;"><em>Advanced Engineering Informatics</em></a></div> 
--->
     </div>
   </div>
 
@@ -76,14 +70,16 @@ permalink: /research/
       <div class="title">Management backing and the perceived benefits of a mandatory supplier-management system in EPC
 procurement</div>
       <div class="authors">Jin-Bin Im, Kyung-Tae Lee*</div>      
-</div>
+    </div>
+  </div>
   
   <div class="research-item">
     <div class="author-co">In Preparation</div>
     <div class="research-content">
       <div class="title">Data-Driven Contingency for Schedule Extension in Overseas Infrastructure</div>
       <div class="authors">Jin-Bin Im, Kyung-Tae Lee*</div>      
-</div>
+    </div>
+  </div>
   
   <div class="research-item">
     <div class="author-co">In Preparation</div>
@@ -91,7 +87,8 @@ procurement</div>
       <div class="title">Design intent in generative AI for architectural design: Actors, requirements, input representation, and intent
 fulfilment.</div>
       <div class="authors">Jin-Bin Im*</div>      
-</div>
+    </div>
+  </div>
   
   <div class="research-item">
     <div class="author-co">In Preparation</div>
