@@ -12,6 +12,7 @@ permalink: /research/
     <div class="author-first">Under Revision</div>
     <div class="research-content">
       <div class="title">Strategic Pathways for e-Methanol Deployment in the Low-Carbon Transition: Policy Modeling of Cost Competitiveness and Flexibility Requirements in Korea</div>
+      <div class="authors">Jin-Bin Im†, Chihoon Ahn†, Seo-Young Park†, Seo-Yeon Lee, Sunki Chung, Ju-Hyung Kim*</div>
     </div>
   </div>
 
@@ -19,6 +20,7 @@ permalink: /research/
     <div class="author-first">Under Revision</div>
     <div class="research-content">
       <div class="title">Weather-adaptive automated pipe counting for open-air construction storage: Leveraging synthetic data augmentation and YOLO-Network Family</div>
+      <div class="authors">Rong-Lu Hong, Jin-Bin Im, Kyung-Tae Lee, Seunghyeon Wang, Ju-Hyung Kim*, KiWon Lee*</div>
     </div>
   </div>
   
@@ -26,6 +28,7 @@ permalink: /research/
     <div class="author-first">Under Revision</div>
     <div class="research-content">
       <div class="title">Beyond Viewing: How Installation Artwork Design Modality Shapes Visitor Satisfaction Through Affective and Behavioral Pathways</div>
+      <div class="authors">Youngchurl Shim, Ju-Hyung Kim, Joongho Chang, Jin-Bin Im*</div>
     </div>
   </div> 
 
