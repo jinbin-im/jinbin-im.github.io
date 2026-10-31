@@ -12,7 +12,9 @@ permalink: /research/
     <div class="author-first">Under Revision</div>
     <div class="research-content">
       <div class="title">Strategic Pathways for e-Methanol Deployment in the Low-Carbon Transition: Policy Modeling of Cost Competitiveness and Flexibility Requirements in Korea</div>
-      <div class="authors">Jin-Bin Im†, Chihoon Ahn†, Seo-Young Park†, Seo-Yeon Lee, Sunki Chung, Ju-Hyung Kim*</div>
+      <div class="authors">
+        <span class="author-me">Jin-Bin Im<sup>†</sup></span>, Chihoon Ahn<sup>†</sup>, Seo-Young Park<sup>†</sup>, Seo-Yeon Lee, Sunki Chung, Ju-Hyung Kim<sup>*</sup>
+      </div>
     </div>
   </div>
 
