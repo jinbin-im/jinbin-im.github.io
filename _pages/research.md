@@ -46,7 +46,7 @@ permalink: /research/
   <div class="research-item">
     <div class="author-co">Manuscript Completed</div>
     <div class="research-content">
-      <div class="title">Quantifying how interior design variables shape occupants' affective responses for use in residential design decisions</div>
+      <div class="title">Quantifying the joint effects of indoor design variables on occupants’ affective responses in residential buildings</div>
       <div class="authors"><span class="author-me">Jin-Bin Im</span>, JoonOh Seo, Kyung-Tae Lee, Ju-Hyung Kim<sup>*</sup></div>
     </div>
   </div>  
